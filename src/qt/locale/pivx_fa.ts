@@ -1539,14 +1539,14 @@ Please wait few more minutes (masternode collaterals require %1 confirmations).<
 on a remote server to your clipboard.
 
 
-You will only have to paste the data in the pivx.conf file
+You will only have to paste the data in the lynx.conf file
 of your remote server and start it, then start the Masternode using
 this controller wallet (select the Masternode in the list and press "start").
 </source>
         <translation>شما قرار است داده‌های لازم برای اجرای یک مسترنود روی سرویر راه دور را در کلیپبورد خود صادر کنید.
 
 
-تنها باید داده‌ها را در فایل پیکربندی pivx.conf سرویر راه دور تان پِست کرده آن را راه اندازی کنید، بعد با استفاده از این کیف پول کنترل‌کننده، مسترنود را شروع کنید( مسترنود را در لیست انتخاب کرده و "شروع" را فشار دهید).
+تنها باید داده‌ها را در فایل پیکربندی lynx.conf سرویر راه دور تان پِست کرده آن را راه اندازی کنید، بعد با استفاده از این کیف پول کنترل‌کننده، مسترنود را شروع کنید( مسترنود را در لیست انتخاب کرده و "شروع" را فشار دهید).
 </translation>
     </message>
     <message>
@@ -1840,8 +1840,8 @@ Address: %4
         <translation>آدرس پرداختی %1 نامعتبر</translation>
     </message>
     <message>
-        <source>Cannot start pivx: click-to-pay handler</source>
-        <translation>امکان راه اندازی pivx نیست، کنترول کننده کلیک-برای-پرداخت</translation>
+        <source>Cannot start lynx: click-to-pay handler</source>
+        <translation>امکان راه اندازی lynx نیست، کنترول کننده کلیک-برای-پرداخت</translation>
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid PIVX address or malformed URI parameters.</source>
@@ -3814,8 +3814,8 @@ There was an error trying to save the address list to %1. Please try again.</sou
         <translation>پوشه پشتیبان باز نمی شود</translation>
     </message>
     <message>
-        <source>Unable to open pivx.conf with default application</source>
-        <translation>امکان باز کردن pivx.conf توسط برنامه پیش فرض نیست</translation>
+        <source>Unable to open lynx.conf with default application</source>
+        <translation>امکان باز کردن lynx.conf توسط برنامه پیش فرض نیست</translation>
     </message>
     <message>
         <source>In:</source>
@@ -5017,7 +5017,7 @@ Select fewer inputs with coin control.</source>
     </message>
 </context>
 <context>
-    <name>pivx-core</name>
+    <name>lynx-core</name>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
         <translation>توزیع شده تحت مجوز نرم افزار MIT،  فایل همراه COPYING یا &lt;http://www.opensource.org/licenses/mit-license.php&gt; را ببینید.</translation>

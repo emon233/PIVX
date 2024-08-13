@@ -5,14 +5,14 @@
 #ifndef COLDSTAKINGWIDGET_H
 #define COLDSTAKINGWIDGET_H
 
-#include "qt/pivx/pwidget.h"
-#include "qt/pivx/furabstractlistitemdelegate.h"
-#include "qt/pivx/txviewholder.h"
-#include "qt/pivx/tooltipmenu.h"
-#include "qt/pivx/sendmultirow.h"
-#include "qt/pivx/coldstakingmodel.h"
-#include "qt/pivx/contactsdropdown.h"
-#include "qt/pivx/addressholder.h"
+#include "qt/lynx/pwidget.h"
+#include "qt/lynx/furabstractlistitemdelegate.h"
+#include "qt/lynx/txviewholder.h"
+#include "qt/lynx/tooltipmenu.h"
+#include "qt/lynx/sendmultirow.h"
+#include "qt/lynx/coldstakingmodel.h"
+#include "qt/lynx/contactsdropdown.h"
+#include "qt/lynx/addressholder.h"
 #include "transactiontablemodel.h"
 #include "addresstablemodel.h"
 #include "addressfilterproxymodel.h"

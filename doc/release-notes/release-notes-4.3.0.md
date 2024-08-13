@@ -1,8 +1,8 @@
-PIVX Core version *4.3.0* is now available from:  <https://github.com/pivx-project/pivx/releases>
+PIVX Core version *4.3.0* is now available from:  <https://github.com/lynx-project/lynx/releases>
 
 This is a new major version release, including various bug fixes and performance improvements, as well as updated translations.
 
-Please report bugs using the issue tracker at github: <https://github.com/pivx-project/pivx/issues>
+Please report bugs using the issue tracker at github: <https://github.com/lynx-project/lynx/issues>
 
 
 Recommended Update
@@ -13,7 +13,7 @@ This version is an optional, but recommended, update for all users and services.
 How to Upgrade
 ==============
 
-If you are running an older version, shut it down. Wait until it has completely shut down (which might take a few minutes for older versions), then run the installer (on Windows) or just copy over /Applications/PIVX-Qt (on Mac) or pivxd/pivx-qt (on Linux).
+If you are running an older version, shut it down. Wait until it has completely shut down (which might take a few minutes for older versions), then run the installer (on Windows) or just copy over /Applications/PIVX-Qt (on Mac) or lynxd/lynx-qt (on Linux).
 
 Downgrading warning
 -------------------
@@ -222,4 +222,4 @@ Thanks to everyone who directly contributed to this release:
 - random-zebra
 
 
-As well as everyone that helped translating on [Transifex](https://www.transifex.com/projects/p/pivx-project-translations/), the QA team during Testing and the Node hosts supporting our Testnet.
+As well as everyone that helped translating on [Transifex](https://www.transifex.com/projects/p/lynx-project-translations/), the QA team during Testing and the Node hosts supporting our Testnet.

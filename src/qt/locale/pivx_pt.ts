@@ -1578,7 +1578,7 @@ Erro: %1</translation>
 on a remote server to your clipboard.
 
 
-You will only have to paste the data in the pivx.conf file
+You will only have to paste the data in the lynx.conf file
 of your remote server and start it, then start the Masternode using
 this controller wallet (select the Masternode in the list and press "start").
 </source>
@@ -1586,7 +1586,7 @@ this controller wallet (select the Masternode in the list and press "start").
 em um servidor remoto para a área de transferência.
 
 
-Você só precisará transferir os dados no arquivo pivx.conf
+Você só precisará transferir os dados no arquivo lynx.conf
 do servidor remoto e inicie-o, reinicie o Masternode usando
 esta carteira do controlador (selecione o Masternode na lista e pressione "Iniciar").
 
@@ -1866,7 +1866,7 @@ Endereço: %4
         <translation>Carteira de pagamento inválida %1</translation>
     </message>
     <message>
-        <source>Cannot start pivx: click-to-pay handler</source>
+        <source>Cannot start lynx: click-to-pay handler</source>
         <translation>PIVX não pode ser iniciado: gestor click-to-pay</translation>
     </message>
     <message>
@@ -3786,8 +3786,8 @@ Ocorreu um erro ao guardar a lista de endereços em %1. Por favor tente novament
         <translation>Não foi possível abrir a pasta de backups</translation>
     </message>
     <message>
-        <source>Unable to open pivx.conf with default application</source>
-        <translation>Não foi possível abrir o ficheiro pivx.conf com a aplicação padrão</translation>
+        <source>Unable to open lynx.conf with default application</source>
+        <translation>Não foi possível abrir o ficheiro lynx.conf com a aplicação padrão</translation>
     </message>
     <message>
         <source>Network activity disabled</source>
@@ -4982,7 +4982,7 @@ Carteira %1</translation>
     </message>
 </context>
 <context>
-    <name>pivx-core</name>
+    <name>lynx-core</name>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
         <translation>Distribuido sob a licença MIT, ler o indicado no ficheiro COPYING junto ou consultar &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>

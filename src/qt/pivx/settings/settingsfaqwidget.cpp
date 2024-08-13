@@ -3,13 +3,13 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/pivx-config.h"
+#include "config/lynx-config.h"
 #endif
 
-#include "qt/pivx/settings/settingsfaqwidget.h"
-#include "qt/pivx/settings/forms/ui_settingsfaqwidget.h"
-#include "qt/pivx/mnmodel.h"
-#include "qt/pivx/qtutils.h"
+#include "qt/lynx/settings/settingsfaqwidget.h"
+#include "qt/lynx/settings/forms/ui_settingsfaqwidget.h"
+#include "qt/lynx/mnmodel.h"
+#include "qt/lynx/qtutils.h"
 
 #include <QScrollBar>
 #include <QMetaObject>
@@ -107,7 +107,7 @@ SettingsFaqWidget::SettingsFaqWidget(PIVXGUI* parent, MNModel* mnModel) :
                "package will be lit up and will state \"Staking Enabled\" to indicate "
                "it is staking. Using the command line interface (%1); the command %2 "
                "will confirm that staking is active.")
-                .arg("pivx-cli", "<span style=\"font-style:italic\">getstakingstatus</span>")));
+                .arg("lynx-cli", "<span style=\"font-style:italic\">getstakingstatus</span>")));
     ui->labelContent_Stake->setText(stakeContent);
 
     QString supportContent = formatFAQContent(

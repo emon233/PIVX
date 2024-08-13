@@ -2,8 +2,8 @@ PIVX Core integration/staging repository
 =====================================
 
 [![master Actions Status](https://github.com/PIVX-Project/PIVX/workflows/CI%20Actions%20for%20PIVX/badge.svg)](https://github.com/PIVX-Project/PIVX/actions)
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/PIVX-Project/pivx?color=%235c4b7d&cacheSeconds=3600)](https://github.com/PIVX-Project/PIVX/releases)
-[![GitHub Release Date](https://img.shields.io/github/release-date/PIVX-Project/pivx?color=%235c4b7d&cacheSeconds=3600)](https://github.com/PIVX-Project/PIVX/releases)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/PIVX-Project/lynx?color=%235c4b7d&cacheSeconds=3600)](https://github.com/PIVX-Project/PIVX/releases)
+[![GitHub Release Date](https://img.shields.io/github/release-date/PIVX-Project/lynx?color=%235c4b7d&cacheSeconds=3600)](https://github.com/PIVX-Project/PIVX/releases)
 
 ## What is PIVX?
 
@@ -19,7 +19,7 @@ PIVX is an open source community-driven cryptocurrency, focused on five main asp
 
 (5) Ease of Use: PIVX is determined to offer the best possible graphical interface for a core node/wallet. A full featured graphical product for new and advanced users.
 
-A lot more information and specs at [PIVX.org](https://www.pivx.org/). Join the community at [PIVX Discord](https://discordapp.com/invite/jzqVsJd).
+A lot more information and specs at [PIVX.org](https://www.lynx.org/). Join the community at [PIVX Discord](https://discordapp.com/invite/jzqVsJd).
 
 ## License
 PIVX Core is released under the terms of the MIT license. See [COPYING](https://github.com/PIVX-Project/PIVX/blob/master/COPYING) for more information or see https://opensource.org/licenses/MIT.

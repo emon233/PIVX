@@ -2,12 +2,12 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/pivx/proposalinfodialog.h"
-#include "qt/pivx/forms/ui_proposalinfodialog.h"
+#include "qt/lynx/proposalinfodialog.h"
+#include "qt/lynx/forms/ui_proposalinfodialog.h"
 
 #include "guiutil.h"
-#include "qt/pivx/snackbar.h"
-#include "qt/pivx/qtutils.h"
+#include "qt/lynx/snackbar.h"
+#include "qt/lynx/qtutils.h"
 
 #include <QDateTime>
 

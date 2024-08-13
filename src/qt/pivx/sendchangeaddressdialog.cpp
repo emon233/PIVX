@@ -2,9 +2,9 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/pivx/sendchangeaddressdialog.h"
-#include "qt/pivx/forms/ui_sendchangeaddressdialog.h"
-#include "qt/pivx/qtutils.h"
+#include "qt/lynx/sendchangeaddressdialog.h"
+#include "qt/lynx/forms/ui_sendchangeaddressdialog.h"
+#include "qt/lynx/qtutils.h"
 
 SendChangeAddressDialog::SendChangeAddressDialog(QWidget* parent, WalletModel* model, bool isTransparent) : FocusedDialog(parent),
                                                                                                             walletModel(model),

@@ -2,14 +2,14 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or https://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/pivx/createproposaldialog.h"
-#include "qt/pivx/forms/ui_createproposaldialog.h"
+#include "qt/lynx/createproposaldialog.h"
+#include "qt/lynx/forms/ui_createproposaldialog.h"
 
-#include "qt/pivx/contactsdropdown.h"
-#include "qt/pivx/governancemodel.h"
-#include "qt/pivx/pwidget.h"
-#include "qt/pivx/qtutils.h"
-#include "qt/pivx/snackbar.h"
+#include "qt/lynx/contactsdropdown.h"
+#include "qt/lynx/governancemodel.h"
+#include "qt/lynx/pwidget.h"
+#include "qt/lynx/qtutils.h"
+#include "qt/lynx/snackbar.h"
 
 void initPageIndexBtn(QPushButton* btn)
 {
@@ -85,7 +85,7 @@ void CreateProposalDialog::setupPageOne()
     setCssProperty(ui->labelTitle1, "text-title-dialog");
     setCssProperty(ui->labelMessage1b, "dialog-proposal-message");
     setEditBoxStyle(ui->labelName, ui->lineEditPropName, "e.g Best proposal ever!");
-    setEditBoxStyle(ui->labelURL, ui->lineEditURL, "e.g https://forum.pivx/proposals/best_proposal_ever");
+    setEditBoxStyle(ui->labelURL, ui->lineEditURL, "e.g https://forum.lynx/proposals/best_proposal_ever");
 
     connect(ui->lineEditPropName, &QLineEdit::textChanged, this, &CreateProposalDialog::propNameChanged);
     connect(ui->lineEditURL, &QLineEdit::textChanged, this, &CreateProposalDialog::propUrlChanged);

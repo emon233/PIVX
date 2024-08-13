@@ -5,8 +5,8 @@
 #ifndef GOVERNANCEWIDGET_H
 #define GOVERNANCEWIDGET_H
 
-#include "qt/pivx/pwidget.h"
-#include "qt/pivx/proposalcard.h"
+#include "qt/lynx/pwidget.h"
+#include "qt/lynx/proposalcard.h"
 
 #include <QGridLayout>
 #include <QStandardItemModel>

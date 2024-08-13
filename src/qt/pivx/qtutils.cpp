@@ -2,11 +2,11 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/pivx/qtutils.h"
+#include "qt/lynx/qtutils.h"
 
 #include "guiconstants.h"
 #include "qrencode.h"
-#include "qt/pivx/snackbar.h"
+#include "qt/lynx/snackbar.h"
 
 #include <QFile>
 #include <QGraphicsDropShadowEffect>

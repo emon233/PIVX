@@ -1601,14 +1601,14 @@ plånboken låst</translation>
 on a remote server to your clipboard.
 
 
-You will only have to paste the data in the pivx.conf file
+You will only have to paste the data in the lynx.conf file
 of your remote server and start it, then start the Masternode using
 this controller wallet (select the Masternode in the list and press "start").
 </source>
         <translation>Du är precis på väg att exportera nödvändig data för att köra en Masternode
 på en server.
 
-Du behöver bara infoga data i filen pivx.conf
+Du behöver bara infoga data i filen lynx.conf
 på din server och starta den och starta sedan Masternode med
 denna plånbok (välj Masternode i listan och tryck på "start").
 </translation>
@@ -1879,8 +1879,8 @@ Adress: %4
         <translation>Ogiltig betalningsadress %1</translation>
     </message>
     <message>
-        <source>Cannot start pivx: click-to-pay handler</source>
-        <translation>Kan ej starta pivx: klicka-för-att-betala hanterare</translation>
+        <source>Cannot start lynx: click-to-pay handler</source>
+        <translation>Kan ej starta lynx: klicka-för-att-betala hanterare</translation>
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid PIVX address or malformed URI parameters.</source>
@@ -3756,8 +3756,8 @@ Det uppstod ett fel när adresslistan skulle sparas till %1. Försök igen.</tra
         <translation>Det går inte att öppna mappen för säkerhetskopior</translation>
     </message>
     <message>
-        <source>Unable to open pivx.conf with default application</source>
-        <translation>Det går inte att öppna pivx.conf med standardprogrammet</translation>
+        <source>Unable to open lynx.conf with default application</source>
+        <translation>Det går inte att öppna lynx.conf med standardprogrammet</translation>
     </message>
     <message>
         <source>Network activity disabled</source>
@@ -4885,7 +4885,7 @@ Välj färre inmatningar med myntkontroll.</translation>
     </message>
 </context>
 <context>
-    <name>pivx-core</name>
+    <name>lynx-core</name>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
         <translation>Distribuerad under MIT mjukvarulicensen, se medföljande fil COPYING eller &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>

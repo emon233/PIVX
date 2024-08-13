@@ -5,7 +5,7 @@
 #ifndef ADDRESSESWIDGET_H
 #define ADDRESSESWIDGET_H
 
-#include "qt/pivx/pwidget.h"
+#include "qt/lynx/pwidget.h"
 #include "addresstablemodel.h"
 #include "furabstractlistitemdelegate.h"
 

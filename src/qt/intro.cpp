@@ -5,7 +5,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/pivx-config.h"
+#include "config/lynx-config.h"
 #endif
 
 #include "intro.h"
@@ -15,7 +15,7 @@
 #include "guiutil.h"
 
 #include "util/system.h"
-#include "qt/pivx/qtutils.h"
+#include "qt/lynx/qtutils.h"
 
 #include <QFileDialog>
 #include <QMessageBox>
@@ -226,8 +226,8 @@ bool Intro::pickDataDirectory()
     }
 
     /* Only override -datadir if different from the default, to make it possible to
-     * override -datadir in the pivx.conf file in the default data directory
-     * (to be consistent with pivxd behavior)
+     * override -datadir in the lynx.conf file in the default data directory
+     * (to be consistent with lynxd behavior)
      */
 
     if (dataDir != getDefaultDataDirectory())

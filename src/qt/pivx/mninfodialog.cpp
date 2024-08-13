@@ -2,11 +2,11 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/pivx/mninfodialog.h"
-#include "qt/pivx/forms/ui_mninfodialog.h"
+#include "qt/lynx/mninfodialog.h"
+#include "qt/lynx/forms/ui_mninfodialog.h"
 
 #include "guiutil.h"
-#include "qt/pivx/qtutils.h"
+#include "qt/lynx/qtutils.h"
 
 MnInfoDialog::MnInfoDialog(QWidget *parent) :
     FocusedDialog(parent),

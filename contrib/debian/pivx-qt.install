@@ -1,6 +1,6 @@
-usr/local/bin/pivx-qt usr/bin
-share/pixmaps/pivx32.xpm usr/share/pixmaps
-share/pixmaps/pivx16.xpm usr/share/pixmaps
-share/pixmaps/pivx128.png usr/share/pixmaps
-debian/pivx-qt.desktop usr/share/applications
-debian/pivx-qt.protocol usr/share/kde4/services/
+usr/local/bin/lynx-qt usr/bin
+share/pixmaps/lynx32.xpm usr/share/pixmaps
+share/pixmaps/lynx16.xpm usr/share/pixmaps
+share/pixmaps/lynx128.png usr/share/pixmaps
+debian/lynx-qt.desktop usr/share/applications
+debian/lynx-qt.protocol usr/share/kde4/services/

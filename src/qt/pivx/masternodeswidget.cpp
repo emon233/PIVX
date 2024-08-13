@@ -2,19 +2,19 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/pivx/masternodeswidget.h"
+#include "qt/lynx/masternodeswidget.h"
 #include "coincontrol.h"
-#include "qt/pivx/forms/ui_masternodeswidget.h"
+#include "qt/lynx/forms/ui_masternodeswidget.h"
 
-#include "qt/pivx/qtutils.h"
-#include "qt/pivx/mnrow.h"
-#include "qt/pivx/mninfodialog.h"
-#include "qt/pivx/masternodewizarddialog.h"
+#include "qt/lynx/qtutils.h"
+#include "qt/lynx/mnrow.h"
+#include "qt/lynx/mninfodialog.h"
+#include "qt/lynx/masternodewizarddialog.h"
 
 #include "clientmodel.h"
 #include "guiutil.h"
-#include "qt/pivx/mnmodel.h"
-#include "qt/pivx/optionbutton.h"
+#include "qt/lynx/mnmodel.h"
+#include "qt/lynx/optionbutton.h"
 #include "qt/walletmodel.h"
 
 #define DECORATION_SIZE 65
@@ -315,7 +315,7 @@ void MasterNodesWidget::onInfoMNClicked()
     if (dialog->exportMN) {
         if (ask(tr("Remote Masternode Data"),
                 tr("You are just about to export the required data to run a Masternode\non a remote server to your clipboard.\n\n\n"
-                   "You will only have to paste the data in the pivx.conf file\nof your remote server and start it, "
+                   "You will only have to paste the data in the lynx.conf file\nof your remote server and start it, "
                    "then start the Masternode using\nthis controller wallet (select the Masternode in the list and press \"start\").\n"
                 ))) {
             // export data

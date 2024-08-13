@@ -6,17 +6,17 @@
 #define SETTINGSWIDGET_H
 
 #include <QWidget>
-#include "qt/pivx/pwidget.h"
-#include "qt/pivx/settings/settingsbackupwallet.h"
-#include "qt/pivx/settings/settingsexportcsv.h"
-#include "qt/pivx/settings/settingsbittoolwidget.h"
-#include "qt/pivx/settings/settingssignmessagewidgets.h"
-#include "qt/pivx/settings/settingswalletrepairwidget.h"
-#include "qt/pivx/settings/settingswalletoptionswidget.h"
-#include "qt/pivx/settings/settingsmainoptionswidget.h"
-#include "qt/pivx/settings/settingsdisplayoptionswidget.h"
-#include "qt/pivx/settings/settingsinformationwidget.h"
-#include "qt/pivx/settings/settingsconsolewidget.h"
+#include "qt/lynx/pwidget.h"
+#include "qt/lynx/settings/settingsbackupwallet.h"
+#include "qt/lynx/settings/settingsexportcsv.h"
+#include "qt/lynx/settings/settingsbittoolwidget.h"
+#include "qt/lynx/settings/settingssignmessagewidgets.h"
+#include "qt/lynx/settings/settingswalletrepairwidget.h"
+#include "qt/lynx/settings/settingswalletoptionswidget.h"
+#include "qt/lynx/settings/settingsmainoptionswidget.h"
+#include "qt/lynx/settings/settingsdisplayoptionswidget.h"
+#include "qt/lynx/settings/settingsinformationwidget.h"
+#include "qt/lynx/settings/settingsconsolewidget.h"
 
 class PIVXGUI;
 

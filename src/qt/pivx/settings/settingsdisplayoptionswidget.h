@@ -7,7 +7,7 @@
 
 #include <QWidget>
 #include <QDataWidgetMapper>
-#include "qt/pivx/pwidget.h"
+#include "qt/lynx/pwidget.h"
 
 namespace Ui {
 class SettingsDisplayOptionsWidget;

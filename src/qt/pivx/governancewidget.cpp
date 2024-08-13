@@ -2,15 +2,15 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/pivx/governancewidget.h"
-#include "qt/pivx/forms/ui_governancewidget.h"
+#include "qt/lynx/governancewidget.h"
+#include "qt/lynx/forms/ui_governancewidget.h"
 
-#include "qt/pivx/createproposaldialog.h"
-#include "qt/pivx/governancemodel.h"
-#include "qt/pivx/mnmodel.h"
-#include "qt/pivx/proposalinfodialog.h"
-#include "qt/pivx/qtutils.h"
-#include "qt/pivx/votedialog.h"
+#include "qt/lynx/createproposaldialog.h"
+#include "qt/lynx/governancemodel.h"
+#include "qt/lynx/mnmodel.h"
+#include "qt/lynx/proposalinfodialog.h"
+#include "qt/lynx/qtutils.h"
+#include "qt/lynx/votedialog.h"
 
 #include <QDesktopServices>
 #include <QGraphicsDropShadowEffect>

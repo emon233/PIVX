@@ -1,15 +1,15 @@
 QT_TS = \
-  qt/locale/pivx_bn.ts \
-  qt/locale/pivx_de.ts \
-  qt/locale/pivx_en.ts \
-  qt/locale/pivx_es.ts \
-  qt/locale/pivx_es_ES.ts \
-  qt/locale/pivx_fa.ts \
-  qt/locale/pivx_fr_FR.ts \
-  qt/locale/pivx_hr_HR.ts \
-  qt/locale/pivx_ko_KR.ts \
-  qt/locale/pivx_nl.ts \
-  qt/locale/pivx_pl.ts \
-  qt/locale/pivx_pt.ts \
-  qt/locale/pivx_pt_BR.ts \
-  qt/locale/pivx_sv.ts
+  qt/locale/lynx_bn.ts \
+  qt/locale/lynx_de.ts \
+  qt/locale/lynx_en.ts \
+  qt/locale/lynx_es.ts \
+  qt/locale/lynx_es_ES.ts \
+  qt/locale/lynx_fa.ts \
+  qt/locale/lynx_fr_FR.ts \
+  qt/locale/lynx_hr_HR.ts \
+  qt/locale/lynx_ko_KR.ts \
+  qt/locale/lynx_nl.ts \
+  qt/locale/lynx_pl.ts \
+  qt/locale/lynx_pt.ts \
+  qt/locale/lynx_pt_BR.ts \
+  qt/locale/lynx_sv.ts

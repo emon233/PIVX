@@ -1,8 +1,8 @@
-PIVX Core version *5.6.0* is now available from:  <https://github.com/pivx-project/pivx/releases>
+PIVX Core version *5.6.0* is now available from:  <https://github.com/lynx-project/lynx/releases>
 
 This is a new major version release, including various bug fixes and performance improvements, as well as updated translations.
 
-Please report bugs using the issue tracker at github: <https://github.com/pivx-project/pivx/issues>
+Please report bugs using the issue tracker at github: <https://github.com/lynx-project/lynx/issues>
 
 Mandatory Update
 ==============
@@ -21,7 +21,7 @@ Note: In preparation for the new address type activation, upgraded peers will st
 How to Upgrade
 ==============
 
-If you are running an older version, shut it down. Wait until it has completely shut down (which might take a few minutes for older versions), then run the installer (on Windows) or just copy over /Applications/PIVX-Qt (on Mac) or pivxd/pivx-qt (on Linux).
+If you are running an older version, shut it down. Wait until it has completely shut down (which might take a few minutes for older versions), then run the installer (on Windows) or just copy over /Applications/PIVX-Qt (on Mac) or lynxd/lynx-qt (on Linux).
 
 Notable Changes
 ==============
@@ -149,7 +149,7 @@ Detailed release notes follow. For convenience in locating the code changes and 
 
 ### Documentation
 - #2788 `d3acaa09f5fd9d5ef4a95ca7cd2b1a674e7851ce` [Doc] Don't include dependency paths in Doxygen or Coverage (Fuzzbawls)
-- #2846 `28c9eaba5d89b7dd77d128bd88d2465b4d883e3c` [Doc] Remove bitness from pivx-qt help message and manpage (Fuzzbawls)
+- #2846 `28c9eaba5d89b7dd77d128bd88d2465b4d883e3c` [Doc] Remove bitness from lynx-qt help message and manpage (Fuzzbawls)
 - #2894 `3c1f32fb1258aa80f9683e0a84f466a8535fea98` [Doc] Update Ubuntu ppa source for db4.8 (Fuzzbawls)
 - #2898 `a949c658b815bc2e817c238aab00ed4711844939` [Doc] Update gpg keyserver URL (Fuzzbawls)
 
@@ -172,4 +172,4 @@ Thanks to everyone who directly contributed to this release:
 - andi448
 - panleone
 
-As well as everyone that helped translating on [Transifex](https://www.transifex.com/projects/p/pivx-project-translations/), the QA team during Testing and the Node hosts supporting our Testnet.
+As well as everyone that helped translating on [Transifex](https://www.transifex.com/projects/p/lynx-project-translations/), the QA team during Testing and the Node hosts supporting our Testnet.

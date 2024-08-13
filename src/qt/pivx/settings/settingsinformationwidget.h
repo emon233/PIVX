@@ -6,7 +6,7 @@
 #define SETTINGSINFORMATIONWIDGET_H
 
 #include <QWidget>
-#include "qt/pivx/pwidget.h"
+#include "qt/lynx/pwidget.h"
 #include "rpcconsole.h"
 
 namespace Ui {

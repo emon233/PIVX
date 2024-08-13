@@ -2,9 +2,9 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/pivx/expandablebutton.h"
-#include "qt/pivx/forms/ui_expandablebutton.h"
-#include "qt/pivx/qtutils.h"
+#include "qt/lynx/expandablebutton.h"
+#include "qt/lynx/forms/ui_expandablebutton.h"
+#include "qt/lynx/qtutils.h"
 #include <QParallelAnimationGroup>
 #include <QPropertyAnimation>
 #include <QStyle>

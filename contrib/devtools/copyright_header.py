@@ -17,7 +17,7 @@ import os
 
 EXCLUDE = [
     # auto generated:
-    'src/qt/pivxstrings.cpp',
+    'src/qt/lynxstrings.cpp',
     'src/chainparamsseeds.h',
     # other external copyrights:
     'src/ctpl_stl.h',
@@ -455,7 +455,7 @@ Usage:
     $ ./copyright_header.py update <base_directory>
 
 Arguments:
-    <base_directory> - The base directory of a pivx source code repository.
+    <base_directory> - The base directory of a lynx source code repository.
 """
 
 def print_file_action_message(filename, action):

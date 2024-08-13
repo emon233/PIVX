@@ -6,7 +6,7 @@
 #define PIVX_CORE_NEW_GUI_PIVXGUI_H
 
 #if defined(HAVE_CONFIG_H)
-#include "config/pivx-config.h"
+#include "config/lynx-config.h"
 #endif
 
 #include <QMainWindow>
@@ -14,18 +14,18 @@
 #include <QSystemTrayIcon>
 #include <QLabel>
 
-#include "qt/pivx/navmenuwidget.h"
-#include "qt/pivx/topbar.h"
-#include "qt/pivx/dashboardwidget.h"
-#include "qt/pivx/send.h"
-#include "qt/pivx/receivewidget.h"
-#include "qt/pivx/addresseswidget.h"
-#include "qt/pivx/coldstakingwidget.h"
-#include "qt/pivx/governancewidget.h"
-#include "qt/pivx/masternodeswidget.h"
-#include "qt/pivx/snackbar.h"
-#include "qt/pivx/settings/settingswidget.h"
-#include "qt/pivx/settings/settingsfaqwidget.h"
+#include "qt/lynx/navmenuwidget.h"
+#include "qt/lynx/topbar.h"
+#include "qt/lynx/dashboardwidget.h"
+#include "qt/lynx/send.h"
+#include "qt/lynx/receivewidget.h"
+#include "qt/lynx/addresseswidget.h"
+#include "qt/lynx/coldstakingwidget.h"
+#include "qt/lynx/governancewidget.h"
+#include "qt/lynx/masternodeswidget.h"
+#include "qt/lynx/snackbar.h"
+#include "qt/lynx/settings/settingswidget.h"
+#include "qt/lynx/settings/settingsfaqwidget.h"
 #include "qt/rpcconsole.h"
 
 namespace interfaces {

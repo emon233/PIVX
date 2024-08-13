@@ -5,7 +5,7 @@
 #ifndef ADDNEWCONTACTDIALOG_H
 #define ADDNEWCONTACTDIALOG_H
 
-#include "qt/pivx/focuseddialog.h"
+#include "qt/lynx/focuseddialog.h"
 
 namespace Ui {
 class AddNewContactDialog;

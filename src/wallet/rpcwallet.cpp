@@ -520,7 +520,7 @@ UniValue getnewaddress(const JSONRPCRequest& request)
             "1. \"label\"        (string, optional) The label name for the address to be linked to. if not provided, the default label \"\" is used. It can also be set to the empty string \"\" to represent the default label. The label does not need to exist, it will be created if there is no label by the given name.\n"
 
             "\nResult:\n"
-            "\"pivxaddress\"    (string) The new pivx address\n"
+            "\"lynxaddress\"    (string) The new lynx address\n"
 
             "\nExamples:\n" +
             HelpExampleCli("getnewaddress", "") + HelpExampleRpc("getnewaddress", ""));
@@ -546,7 +546,7 @@ UniValue getnewexchangeaddress(const JSONRPCRequest& request)
 
 
             "\nResult:\n"
-            "\"pivxaddress\"    (string) The new pivx exchange address\n"
+            "\"lynxaddress\"    (string) The new lynx exchange address\n"
 
             "\nExamples:\n" +
             HelpExampleCli("getnewexchangeaddress", "") + HelpExampleRpc("getnewexchangeaddress", ""));
@@ -573,7 +573,7 @@ UniValue getnewstakingaddress(const JSONRPCRequest& request)
 
 
             "\nResult:\n"
-            "\"pivxaddress\"    (string) The new pivx address\n"
+            "\"lynxaddress\"    (string) The new lynx address\n"
 
             "\nExamples:\n" +
             HelpExampleCli("getnewstakingaddress", "") + HelpExampleRpc("getnewstakingaddress", ""));
@@ -1029,7 +1029,7 @@ UniValue setlabel(const JSONRPCRequest& request)
             "\nSets the label associated with the given address.\n"
 
             "\nArguments:\n"
-            "1. \"address\"       (string, required) The pivx address to be associated with a label.\n"
+            "1. \"address\"       (string, required) The lynx address to be associated with a label.\n"
             "2. \"label\"         (string, required) The label to assign to the address.\n"
 
             "\nExamples:\n" +
@@ -1156,7 +1156,7 @@ UniValue sendtoaddress(const JSONRPCRequest& request)
             HelpRequiringPassphrase(pwallet) + "\n"
 
             "\nArguments:\n"
-            "1. \"address\"     (string, required) The pivx address to send to.\n"
+            "1. \"address\"     (string, required) The lynx address to send to.\n"
             "2. \"amount\"      (numeric, required) The amount in PIV to send. eg 0.1\n"
             "3. \"comment\"     (string, optional) A comment used to store what the transaction is for. \n"
             "                             This is not part of the transaction, just kept in your wallet.\n"
@@ -1346,9 +1346,9 @@ UniValue delegatestake(const JSONRPCRequest& request)
             HelpRequiringPassphrase(pwallet) + "\n"
 
             "\nArguments:\n"
-            "1. \"staking_addr\"      (string, required) The pivx staking address to delegate.\n"
+            "1. \"staking_addr\"      (string, required) The lynx staking address to delegate.\n"
             "2. \"amount\"            (numeric, required) The amount in PIV to delegate for staking. eg 100\n"
-            "3. \"owner_addr\"        (string, optional) The pivx address corresponding to the key that will be able to spend the stake.\n"
+            "3. \"owner_addr\"        (string, optional) The lynx address corresponding to the key that will be able to spend the stake.\n"
             "                               If not provided, or empty string, a new wallet address is generated.\n"
             "4. \"ext_owner\"         (boolean, optional, default = false) use the provided 'owneraddress' anyway, even if not present in this wallet.\n"
             "                               WARNING: The owner of the keys to 'owneraddress' will be the only one allowed to spend these coins.\n"
@@ -1403,9 +1403,9 @@ UniValue rawdelegatestake(const JSONRPCRequest& request)
             HelpRequiringPassphrase(pwallet) + "\n"
 
             "\nArguments:\n"
-            "1. \"staking_addr\"      (string, required) The pivx staking address to delegate.\n"
+            "1. \"staking_addr\"      (string, required) The lynx staking address to delegate.\n"
             "2. \"amount\"            (numeric, required) The amount in PIV to delegate for staking. eg 100\n"
-            "3. \"owner_addr\"        (string, optional) The pivx address corresponding to the key that will be able to spend the stake.\n"
+            "3. \"owner_addr\"        (string, optional) The lynx address corresponding to the key that will be able to spend the stake.\n"
             "                               If not provided, or empty string, a new wallet address is generated.\n"
             "4. \"ext_owner\"         (boolean, optional, default = false) use the provided 'owneraddress' anyway, even if not present in this wallet.\n"
             "                               WARNING: The owner of the keys to 'owneraddress' will be the only one allowed to spend these coins.\n"
@@ -1529,7 +1529,7 @@ UniValue viewshieldtransaction(const JSONRPCRequest& request)
                 "      \"spend\" : n,                    (numeric, sapling) the index of the spend within vShieldedSpend\n"
                 "      \"txidPrev\" : \"transactionid\",   (string) The id for the transaction this note was created in\n"
                 "      \"outputPrev\" : n,               (numeric, sapling) the index of the output within the vShieldedOutput\n"
-                "      \"address\" : \"pivxaddress\",     (string) The PIVX address involved in the transaction\n"
+                "      \"address\" : \"lynxaddress\",     (string) The PIVX address involved in the transaction\n"
                 "      \"value\" : x.xxx                 (numeric) The amount in " + CURRENCY_UNIT + "\n"
                 "      \"valueSat\" : xxxx               (numeric) The amount in satoshis\n"
                 "    }\n"
@@ -1538,7 +1538,7 @@ UniValue viewshieldtransaction(const JSONRPCRequest& request)
                 "  \"outputs\" : [\n"
                 "    {\n"
                 "      \"output\" : n,                   (numeric, sapling) the index of the output within the vShieldedOutput\n"
-                "      \"address\" : \"pivxaddress\",     (string) The PIVX address involved in the transaction\n"
+                "      \"address\" : \"lynxaddress\",     (string) The PIVX address involved in the transaction\n"
                 "      \"outgoing\" : true|false         (boolean, sapling) True if the output is not for an address in the wallet\n"
                 "      \"value\" : x.xxx                 (numeric) The amount in " + CURRENCY_UNIT + "\n"
                 "      \"valueSat\" : xxxx               (numeric) The amount in satoshis\n"
@@ -1985,7 +1985,7 @@ UniValue listaddressgroupings(const JSONRPCRequest& request)
             "[\n"
             "  [\n"
             "    [\n"
-            "      \"pivxaddress\",     (string) The pivx address\n"
+            "      \"lynxaddress\",     (string) The lynx address\n"
             "      amount,                 (numeric) The amount in PIV\n"
             "      \"label\"             (string, optional) The label\n"
             "    ]\n"
@@ -2036,7 +2036,7 @@ UniValue signmessage(const JSONRPCRequest& request)
             HelpRequiringPassphrase(pwallet) + "\n"
 
             "\nArguments:\n"
-            "1. \"address\"     (string, required) The pivx address to use for the private key.\n"
+            "1. \"address\"     (string, required) The lynx address to use for the private key.\n"
             "2. \"message\"     (string, required) The message to create a signature of.\n"
 
             "\nResult:\n"
@@ -2089,10 +2089,10 @@ UniValue getreceivedbyaddress(const JSONRPCRequest& request)
     if (request.fHelp || request.params.size() < 1 || request.params.size() > 2)
         throw std::runtime_error(
             "getreceivedbyaddress \"address\" ( minconf )\n"
-            "\nReturns the total amount received by the given pivxaddress in transactions with at least minconf confirmations.\n"
+            "\nReturns the total amount received by the given lynxaddress in transactions with at least minconf confirmations.\n"
 
             "\nArguments:\n"
-            "1. \"address\"    (string, required) The pivx address for transactions.\n"
+            "1. \"address\"    (string, required) The lynx address for transactions.\n"
             "2. minconf        (numeric, optional, default=1) Only include transactions confirmed at least this many times.\n"
 
             "\nResult:\n"
@@ -2115,7 +2115,7 @@ UniValue getreceivedbyaddress(const JSONRPCRequest& request)
     LOCK2(cs_main, pwallet->cs_wallet);
     int nBlockHeight = chainActive.Height();
 
-    // pivx address
+    // lynx address
     CTxDestination address = DecodeDestination(request.params[0].get_str());
     if (!IsValidDestination(address))
         throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid PIVX address");
@@ -2440,7 +2440,7 @@ UniValue sendmany(const JSONRPCRequest& request)
             "1. \"dummy\"               (string, required) Must be set to \"\" for backwards compatibility.\n"
             "2. \"amounts\"             (string, required) A json object with addresses and amounts\n"
             "    {\n"
-            "      \"address\":amount   (numeric) The pivx address (either transparent or shield) is the key,\n"
+            "      \"address\":amount   (numeric) The lynx address (either transparent or shield) is the key,\n"
             "                                     the numeric amount in PIV is the value\n"
             "      ,...\n"
             "    }\n"
@@ -2529,15 +2529,15 @@ UniValue addmultisigaddress(const JSONRPCRequest& request)
 
             "\nArguments:\n"
             "1. nrequired        (numeric, required) The number of required signatures out of the n keys or addresses.\n"
-            "2. \"keys\"         (string, required) A json array of pivx addresses or hex-encoded public keys\n"
+            "2. \"keys\"         (string, required) A json array of lynx addresses or hex-encoded public keys\n"
             "     [\n"
-            "       \"address\"  (string) pivx address or hex-encoded public key\n"
+            "       \"address\"  (string) lynx address or hex-encoded public key\n"
             "       ...,\n"
             "     ]\n"
             "3. \"label\"        (string, optional) A label to assign the addresses to.\n"
 
             "\nResult:\n"
-            "\"pivxaddress\"  (string) A pivx address associated with the keys.\n"
+            "\"lynxaddress\"  (string) A lynx address associated with the keys.\n"
 
             "\nExamples:\n"
             "\nAdd a multisig address from 2 addresses\n" +
@@ -3083,7 +3083,7 @@ UniValue listtransactions(const JSONRPCRequest& request)
             "\nResult:\n"
             "[\n"
             "  {\n"
-            "    \"address\":\"pivxaddress\",    (string) The pivx address of the transaction.\n"
+            "    \"address\":\"lynxaddress\",    (string) The lynx address of the transaction.\n"
             "    \"category\":\"category\",      (string) The transaction category (send|receive|orphan|immature|generate).\n"
             "    \"amount\": x.xxx,          (numeric) The amount in PIV. This is negative for the 'send' category, and positive\n"
             "                                         for the 'receive' category,\n"
@@ -3201,7 +3201,7 @@ UniValue listsinceblock(const JSONRPCRequest& request)
             "\nResult:\n"
             "{\n"
             "  \"transactions\": [\n"
-            "    \"address\":\"pivxaddress\",    (string) The pivx address of the transaction. Not present for move transactions (category = move).\n"
+            "    \"address\":\"lynxaddress\",    (string) The lynx address of the transaction. Not present for move transactions (category = move).\n"
             "    \"category\":\"send|receive\",     (string) The transaction category. 'send' has negative amounts, 'receive' has positive amounts.\n"
             "    \"amount\": x.xxx,          (numeric) The amount in PIV. This is negative for the 'send' category, and for the 'move' category for moves \n"
             "                                          outbound. It is positive for the 'receive' category, and for the 'move' category for inbound funds.\n"
@@ -3303,7 +3303,7 @@ UniValue gettransaction(const JSONRPCRequest& request)
             "  \"timereceived\" : ttt,    (numeric) The time received in seconds since epoch (1 Jan 1970 GMT)\n"
             "  \"details\" : [\n"
             "    {\n"
-            "      \"address\" : \"pivxaddress\",   (string) The pivx address involved in the transaction\n"
+            "      \"address\" : \"lynxaddress\",   (string) The lynx address involved in the transaction\n"
             "      \"category\" : \"send|receive\",    (string) The category, either 'send' or 'receive'\n"
             "      \"amount\" : x.xxx                  (numeric) The amount in PIV\n"
             "      \"label\" : \"label\",              (string) A comment for the address/transaction, if any\n"
@@ -3678,7 +3678,7 @@ UniValue encryptwallet(const JSONRPCRequest& request)
             "\nNow set the passphrase to use the wallet, such as for signing or sending PIVs\n" +
             HelpExampleCli("walletpassphrase", "\"my pass phrase\"") +
             "\nNow we can so something like sign\n" +
-            HelpExampleCli("signmessage", "\"pivxaddress\" \"test message\"") +
+            HelpExampleCli("signmessage", "\"lynxaddress\" \"test message\"") +
             "\nNow lock the wallet again by removing the passphrase\n" +
             HelpExampleCli("walletlock", "") +
             "\nAs a json rpc call\n" +
@@ -3728,9 +3728,9 @@ UniValue listunspent(const JSONRPCRequest& request)
                 "\nArguments:\n"
                 "1. minconf          (numeric, optional, default=1) The minimum confirmations to filter\n"
                 "2. maxconf          (numeric, optional, default=9999999) The maximum confirmations to filter\n"
-                "3. \"addresses\"    (string) A json array of pivx addresses to filter\n"
+                "3. \"addresses\"    (string) A json array of lynx addresses to filter\n"
                 "    [\n"
-                "      \"address\"   (string) pivx address\n"
+                "      \"address\"   (string) lynx address\n"
                 "      ,...\n"
                 "    ]\n"
                 "4. watchonly_config (numeric, optional, default=1) 1 = list regular unspent transactions,  2 = list all unspent transactions (including watchonly)\n"
@@ -3750,7 +3750,7 @@ UniValue listunspent(const JSONRPCRequest& request)
                 "    \"txid\" : \"txid\",        (string) the transaction id\n"
                 "    \"generated\" : true|false  (boolean) true if txout is a coinstake transaction output\n"
                 "    \"vout\" : n,               (numeric) the vout value\n"
-                "    \"address\" : \"address\",  (string) the pivx address\n"
+                "    \"address\" : \"address\",  (string) the lynx address\n"
                 "    \"label\" : \"label\",      (string) The associated label, or \"\" for the default label\n"
                 "    \"scriptPubKey\" : \"key\", (string) the script key\n"
                 "    \"redeemScript\" : \"key\", (string) the redeemscript key\n"
@@ -4416,8 +4416,8 @@ UniValue getstakingstatus(const JSONRPCRequest& request)
             "\nResult:\n"
             "{\n"
             "  \"staking_status\": true|false,      (boolean) whether the wallet is staking or not\n"
-            "  \"staking_enabled\": true|false,     (boolean) whether staking is enabled/disabled in pivx.conf\n"
-            "  \"coldstaking_enabled\": true|false, (boolean) whether cold-staking is enabled/disabled in pivx.conf\n"
+            "  \"staking_enabled\": true|false,     (boolean) whether staking is enabled/disabled in lynx.conf\n"
+            "  \"coldstaking_enabled\": true|false, (boolean) whether cold-staking is enabled/disabled in lynx.conf\n"
             "  \"haveconnections\": true|false,     (boolean) whether network connections are present\n"
             "  \"mnsync\": true|false,              (boolean) whether the required masternode/spork data is synced\n"
             "  \"walletunlocked\": true|false,      (boolean) whether the wallet is unlocked\n"

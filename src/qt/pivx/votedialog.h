@@ -9,7 +9,7 @@
 #include <QCheckBox>
 #include <QProgressBar>
 
-#include "qt/pivx/governancemodel.h"
+#include "qt/lynx/governancemodel.h"
 #include <memory>
 
 namespace Ui {

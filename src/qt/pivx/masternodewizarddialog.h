@@ -5,10 +5,10 @@
 #ifndef MASTERNODEWIZARDDIALOG_H
 #define MASTERNODEWIZARDDIALOG_H
 
-#include "qt/pivx/focuseddialog.h"
-#include "qt/pivx/snackbar.h"
+#include "qt/lynx/focuseddialog.h"
+#include "qt/lynx/snackbar.h"
 #include "masternodeconfig.h"
-#include "qt/pivx/pwidget.h"
+#include "qt/lynx/pwidget.h"
 
 class MNModel;
 class WalletModel;

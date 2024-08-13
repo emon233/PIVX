@@ -2,10 +2,10 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or https://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/pivx/proposalcard.h"
-#include "qt/pivx/forms/ui_proposalcard.h"
+#include "qt/lynx/proposalcard.h"
+#include "qt/lynx/forms/ui_proposalcard.h"
 
-#include "qt/pivx/qtutils.h"
+#include "qt/lynx/qtutils.h"
 
 ProposalCard::ProposalCard(QWidget *parent) :
     QWidget(parent),

@@ -5,7 +5,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/pivx-config.h"
+#include "config/lynx-config.h"
 #endif
 
 #include "askpassphrasedialog.h"
@@ -15,9 +15,9 @@
 #include "guiconstants.h"
 #include "guiutil.h"
 #include "walletmodel.h"
-#include "qt/pivx/qtutils.h"
-#include "qt/pivx/loadingdialog.h"
-#include "qt/pivx/defaultdialog.h"
+#include "qt/lynx/qtutils.h"
+#include "qt/lynx/loadingdialog.h"
+#include "qt/lynx/defaultdialog.h"
 
 #include <QKeyEvent>
 #include <QMessageBox>

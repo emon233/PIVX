@@ -11,7 +11,7 @@
 #include <vector>
 
 /**
- * CBaseChainParams defines the base parameters (shared between pivx-cli and pivxd)
+ * CBaseChainParams defines the base parameters (shared between lynx-cli and lynxd)
  * of a given instance of the Pivx system.
  */
 class CBaseChainParams

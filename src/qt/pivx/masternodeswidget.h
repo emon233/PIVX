@@ -6,9 +6,9 @@
 #define MASTERNODESWIDGET_H
 
 #include "coincontroldialog.h"
-#include "qt/pivx/furabstractlistitemdelegate.h"
-#include "qt/pivx/pwidget.h"
-#include "qt/pivx/tooltipmenu.h"
+#include "qt/lynx/furabstractlistitemdelegate.h"
+#include "qt/lynx/pwidget.h"
+#include "qt/lynx/tooltipmenu.h"
 
 #include <atomic>
 

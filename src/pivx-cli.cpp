@@ -6,7 +6,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/pivx-config.h"
+#include "config/lynx-config.h"
 #endif
 
 #include "chainparamsbase.h"
@@ -48,7 +48,7 @@ std::string HelpMessageCli()
     strUsage += HelpMessageOpt("-rpcuser=<user>", "Username for JSON-RPC connections");
     strUsage += HelpMessageOpt("-rpcpassword=<pw>", "Password for JSON-RPC connections");
     strUsage += HelpMessageOpt("-rpcclienttimeout=<n>", strprintf("Timeout in seconds during HTTP requests, or 0 for no timeout. (default: %d)", DEFAULT_HTTP_CLIENT_TIMEOUT));
-    strUsage += HelpMessageOpt("-rpcwallet=<walletname>", "Send RPC for non-default wallet on RPC server (needs to exactly match corresponding -wallet option passed to pivxd)");
+    strUsage += HelpMessageOpt("-rpcwallet=<walletname>", "Send RPC for non-default wallet on RPC server (needs to exactly match corresponding -wallet option passed to lynxd)");
 
     return strUsage;
 }
@@ -96,10 +96,10 @@ static int AppInitRPC(int argc, char* argv[])
         std::string strUsage = PACKAGE_NAME " RPC client version " + FormatFullVersion() + "\n";
         if (!gArgs.IsArgSet("-version")) {
             strUsage += "\n"
-                        "Usage:  pivx-cli [options] <command> [params]  Send command to " PACKAGE_NAME "\n"
-                        "or:     pivx-cli [options] -named <command> [name=value]... Send command to " PACKAGE_NAME " (with named arguments)\n"
-                        "or:     pivx-cli [options] help                List commands\n"
-                        "or:     pivx-cli [options] help <command>      Get help for a command\n";
+                        "Usage:  lynx-cli [options] <command> [params]  Send command to " PACKAGE_NAME "\n"
+                        "or:     lynx-cli [options] -named <command> [name=value]... Send command to " PACKAGE_NAME " (with named arguments)\n"
+                        "or:     lynx-cli [options] help                List commands\n"
+                        "or:     lynx-cli [options] help <command>      Get help for a command\n";
             strUsage += "\n" + HelpMessageCli();
         }
 
@@ -338,7 +338,7 @@ int CommandLineRPC(int argc, char* argv[])
                             strPrint += "error message:\n"+errMsg.get_str();
 
                         if (errCode.isNum() && errCode.get_int() == RPC_WALLET_NOT_SPECIFIED) {
-                            strPrint += "\nTry adding \"-rpcwallet=<filename>\" option to pivx-cli command line.";
+                            strPrint += "\nTry adding \"-rpcwallet=<filename>\" option to lynx-cli command line.";
                         }
                     }
                 } else {

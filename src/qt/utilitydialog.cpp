@@ -5,7 +5,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/pivx-config.h"
+#include "config/lynx-config.h"
 #endif
 
 #include "utilitydialog.h"
@@ -18,7 +18,7 @@
 #include "init.h"
 #include "intro.h"
 #include "guiutil.h"
-#include "qt/pivx/qtutils.h"
+#include "qt/lynx/qtutils.h"
 #include "util/system.h"
 
 #include <stdio.h>
@@ -64,7 +64,7 @@ HelpMessageDialog::HelpMessageDialog(QWidget* parent, bool about) : QDialog(pare
         ui->helpMessage->setVisible(false);
     } else {
         setWindowTitle(tr("Command-line options"));
-        QString header = "Usage:  pivx-qt [command-line options]                     \n";
+        QString header = "Usage:  lynx-qt [command-line options]                     \n";
         QTextCursor cursor(ui->helpMessage->document());
         cursor.insertText(version);
         cursor.insertBlock();

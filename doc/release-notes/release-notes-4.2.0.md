@@ -1,8 +1,8 @@
-PIVX Core version *4.2.0* is now available from:  <https://github.com/pivx-project/pivx/releases>
+PIVX Core version *4.2.0* is now available from:  <https://github.com/lynx-project/lynx/releases>
 
 This is a new major version release, including various bug fixes and performance improvements, as well as updated translations.
 
-Please report bugs using the issue tracker at github: <https://github.com/pivx-project/pivx/issues>
+Please report bugs using the issue tracker at github: <https://github.com/lynx-project/lynx/issues>
 
 
 Recommended Update
@@ -13,7 +13,7 @@ This version is an optional, but recommended, update for all users and services.
 How to Upgrade
 ==============
 
-If you are running an older version, shut it down. Wait until it has completely shut down (which might take a few minutes for older versions), then run the installer (on Windows) or just copy over /Applications/PIVX-Qt (on Mac) or pivxd/pivx-qt (on Linux).
+If you are running an older version, shut it down. Wait until it has completely shut down (which might take a few minutes for older versions), then run the installer (on Windows) or just copy over /Applications/PIVX-Qt (on Mac) or lynxd/lynx-qt (on Linux).
 
 
 Compatibility
@@ -48,10 +48,10 @@ PIVX Core 4.2.0 also introduces new default policy limits on the length and size
 
 PIVX Core 4.2.0 backports  the internal benchmarking framework from Bitcoin Core, which can be used to benchmark cryptographic algorithms (e.g. SHA1, SHA256, SHA512, RIPEMD160, Poly1305, ChaCha20), Base58 encoding and decoding and thread queue. More tests are needed for script validation, coin selection and coins database, cuckoo cache, p2p throughtput ([#1650](https://github.com/PIVX-Project/PIVX/pull/1650)).
 
-The binary file is compiled with pivx-core, unless configured with `--disable-bench`.<br>
-After compiling pivx-core, the benchmarks can be run with:
+The binary file is compiled with lynx-core, unless configured with `--disable-bench`.<br>
+After compiling lynx-core, the benchmarks can be run with:
 ```
-src/bench/bench_pivx
+src/bench/bench_lynx
 ```
 The output will be similar to:
 ```
@@ -64,7 +64,7 @@ Base58CheckEncode,131072,7697,8065,7785,20015,20971,20242
 
 A new 'label' API has been introduced for the wallet. This is intended as a
 replacement for the deprecated 'account' API. The 'account' can continue to
-be used in v4.2 by starting pivxd with the '-deprecatedrpc=accounts'
+be used in v4.2 by starting lynxd with the '-deprecatedrpc=accounts'
 argument, and will be fully removed in v5.0.
 
 The label RPC methods mirror the account functionality, with the following functional differences:
@@ -132,7 +132,7 @@ In addition to the afore mentioned 'label' and 'account' API changes, other RPC 
 
 - The `asm` property of each scriptSig now contains the decoded signature hash type for each signature that provides a valid defined hash type ([#1633](https://github.com/PIVX-Project/PIVX/pull/1633)).<br>
 The following items contain assembly representations of scriptSig signatures
-and are affected by this change: RPC `getrawtransaction`, RPC `decoderawtransaction`, REST `/rest/tx/` (JSON format), REST `/rest/block/` (JSON format when including extended tx details), `pivx-tx -json`
+and are affected by this change: RPC `getrawtransaction`, RPC `decoderawtransaction`, REST `/rest/tx/` (JSON format), REST `/rest/block/` (JSON format when including extended tx details), `lynx-tx -json`
 
 ### Modified input/output for existing commands
 
@@ -189,7 +189,7 @@ Detailed release notes follow. This overview includes changes that affect behavi
  - #1747 `6f90e8be13` NU custom activation height startup arg. (furszy)
 
 ### Build System
- - #1681 `131ec069fd` [Build] Set complete cpp/cxx flags for bench_pivx binary (Fuzzbawls)
+ - #1681 `131ec069fd` [Build] Set complete cpp/cxx flags for bench_lynx binary (Fuzzbawls)
  - #1684 `69fa8dce5e` [Travis] Bump macOS CMake target image (Fuzzbawls)
  - #1710 `ed63a331a3` [Depends] Update dependency fallback URL (Fuzzbawls)
 
@@ -308,4 +308,4 @@ Thanks to everyone who directly contributed to this release:
 - random-zebra
 
 
-As well as everyone that helped translating on [Transifex](https://www.transifex.com/projects/p/pivx-project-translations/), the QA team during Testing and the Node hosts supporting our Testnet.
+As well as everyone that helped translating on [Transifex](https://www.transifex.com/projects/p/lynx-project-translations/), the QA team during Testing and the Node hosts supporting our Testnet.

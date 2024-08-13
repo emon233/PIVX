@@ -1534,7 +1534,7 @@ Please wait few more minutes (masternode collaterals require %1 confirmations).<
 on a remote server to your clipboard.
 
 
-You will only have to paste the data in the pivx.conf file
+You will only have to paste the data in the lynx.conf file
 of your remote server and start it, then start the Masternode using
 this controller wallet (select the Masternode in the list and press "start").
 </source>
@@ -1542,7 +1542,7 @@ this controller wallet (select the Masternode in the list and press "start").
 আপনার একটি দূরবর্তী সার্ভারে রপ্তানী করতে চলেছেন।
 
 
-আপনাকে আপনার রিমোট সার্ভারের pivx.conf ফাইলে এই ডেটা পেস্ট করতে হবে
+আপনাকে আপনার রিমোট সার্ভারের lynx.conf ফাইলে এই ডেটা পেস্ট করতে হবে
 এবং PIVX নোডটি শুরু করতে হবে।
 তারপরে এই নিয়ন্ত্রক ওয়ালেট ব্যবহার করে মাস্টারনোড শুরু করতে হবে (তালিকার
 মাস্টারনোড নির্বাচন করুন এবং "শুরু" টিপুন)।
@@ -1831,7 +1831,7 @@ Address: %4
         <translation>ভুল অর্থ প্রদানের ঠিকানা %1</translation>
     </message>
     <message>
-        <source>Cannot start pivx: click-to-pay handler</source>
+        <source>Cannot start lynx: click-to-pay handler</source>
         <translation>PIVX অ্যাপ্লিকেশন শুরু করা যাবে না: ক্লিক-টু-পে হ্যান্ডলার</translation>
     </message>
     <message>
@@ -3821,8 +3821,8 @@ There was an error trying to save the address list to %1. Please try again.</sou
         <translation>ব্যাকআপ ফোল্ডার খুলতে অক্ষম৷</translation>
     </message>
     <message>
-        <source>Unable to open pivx.conf with default application</source>
-        <translation>ডিফল্ট অ্যাপ্লিকেশন সহ pivx.conf খুলতে অক্ষম৷</translation>
+        <source>Unable to open lynx.conf with default application</source>
+        <translation>ডিফল্ট অ্যাপ্লিকেশন সহ lynx.conf খুলতে অক্ষম৷</translation>
     </message>
     <message>
         <source>In:</source>
@@ -5032,7 +5032,7 @@ Select fewer inputs with coin control.</source>
     </message>
 </context>
 <context>
-    <name>pivx-core</name>
+    <name>lynx-core</name>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
         <translation>এমআইটি সফ্টওয়্যার লাইসেন্সের অধীনে বিতরণ করা হয়েছে, সহগামী ফাইল অনুলিপি বা দেখুন &lt;http://www.opensource.org/licenses/mit-license.php</translation>

@@ -5,7 +5,7 @@
 #ifndef PROPOSALCARD_H
 #define PROPOSALCARD_H
 
-#include "qt/pivx/governancemodel.h"
+#include "qt/lynx/governancemodel.h"
 
 #include <QGridLayout>
 #include <QWidget>
