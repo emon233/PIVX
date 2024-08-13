@@ -1,21 +1,21 @@
-# TOR SUPPORT IN PIVX
+# TOR SUPPORT IN LYNX
 
-It is possible to run PIVX Core as a Tor onion service, and connect to such services.
+It is possible to run LYNX Core as a Tor onion service, and connect to such services.
 
 The following directions assume you have a Tor proxy running on port 9050. Many distributions default to having a SOCKS proxy listening on port 9050, but others may not. In particular, the Tor Browser Bundle defaults to listening on port 9150. See [Tor Project FAQ:TBBSocksPort](https://www.torproject.org/docs/faq.html.en#TBBSocksPort) for how to properly
 configure Tor.
 
 ## Compatibility
 
-- Starting with version 5.3.0, PIVX Core only supports Tor version 3 hidden
-  services (Tor v3). Tor v2 addresses are ignored by PIVX Core and neither
+- Starting with version 5.3.0, LYNX Core only supports Tor version 3 hidden
+  services (Tor v3). Tor v2 addresses are ignored by LYNX Core and neither
   relayed nor stored.
 
 - Tor removed v2 support beginning with version 0.4.6.
 
-## How to see information about your Tor configuration via PIVX Core
+## How to see information about your Tor configuration via LYNX Core
 
-There are several ways to see your local onion address in PIVX Core:
+There are several ways to see your local onion address in LYNX Core:
 - in the debug log (grep for "tor:" or "AddLocal")
 - in the output of RPC `getnetworkinfo` in the "localaddresses" section
 - in the output of the CLI `-netinfo` peer connections dashboard
@@ -26,11 +26,11 @@ information in the debug log about your Tor configuration.
 CLI `-addrinfo` returns the number of addresses known to your node per network
 type, including Tor v2 and v3. This is useful to see how many onion addresses
 are known to your node for `-onlynet=onion` and how many Tor v3 addresses it
-knows when upgrading to PIVX Core v5.3.0 and up that supports Tor v3 only.
+knows when upgrading to LYNX Core v5.3.0 and up that supports Tor v3 only.
 
-## 1. Run PIVX Core behind a Tor proxy
+## 1. Run LYNX Core behind a Tor proxy
 
-The first step is running PIVX Core behind a Tor proxy. This will already anonymize all
+The first step is running LYNX Core behind a Tor proxy. This will already anonymize all
 outgoing connections, but more is possible.
 
     -proxy=ip:port  Set the proxy server. If SOCKS5 is selected (default), this proxy
@@ -67,15 +67,15 @@ In a typical situation, this suffices to run behind a Tor proxy:
 
     ./lynxd -proxy=127.0.0.1:9050
 
-## 2. Automatically create a PIVX Core onion service
+## 2. Automatically create a LYNX Core onion service
 
-PIVX Core makes use of Tor's control socket API to create and destroy
+LYNX Core makes use of Tor's control socket API to create and destroy
 ephemeral onion services programmatically. This means that if Tor is running and
-proper authentication has been configured, PIVX Core automatically creates an
+proper authentication has been configured, LYNX Core automatically creates an
 onion service to listen on. The goal is to increase the number of available
 onion nodes.
 
-This feature is enabled by default if PIVX Core is listening (`-listen`) and
+This feature is enabled by default if LYNX Core is listening (`-listen`) and
 it requires a Tor connection to work. It can be explicitly disabled with
 `-listenonion=0`. If it is not disabled, it can be configured using the
 `-torcontrol` and `-torpassword` settings.
@@ -159,7 +159,7 @@ Manual](https://2019.www.torproject.org/docs/tor-manual.html.en) for more
 details).
 
 
-## 3. Manually create a PIVX Core onion service
+## 3. Manually create a LYNX Core onion service
 
 You can also manually configure your node to be reachable from the Tor network.
 Add these lines to your `/etc/tor/torrc` (or equivalent config file):
@@ -218,7 +218,7 @@ for normal IPv4/IPv6 communication, use:
 
 ## 4. Privacy recommendations
 
-- Do not add anything but PIVX Core ports to the onion service created in section 3.
+- Do not add anything but LYNX Core ports to the onion service created in section 3.
   If you run a web service too, create a new onion service for that.
   Otherwise it is trivial to link them, which may reduce privacy. Onion
   services created automatically (as in section 2) always have only one port

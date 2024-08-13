@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # Copyright (c) 2015-2021 The Bitcoin Core developers
-# Copyright (c) 2020-2022 The PIVX Core developers
+# Copyright (c) 2020-2022 The LYNX Core developers
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 """Test block processing."""
@@ -44,7 +44,7 @@ from test_framework.script import (
     SignatureHash,
     hash160,
 )
-from test_framework.test_framework import PivxTestFramework
+from test_framework.test_framework import LynxTestFramework
 from test_framework.util import assert_equal
 
 MAX_BLOCK_SIGOPS = MAX_BLOCK_BASE_SIZE // 50
@@ -75,7 +75,7 @@ class CBrokenBlock(CBlock):
     def normal_serialize(self):
         return super().serialize()
 
-class FullBlockTest(PivxTestFramework):
+class FullBlockTest(LynxTestFramework):
     def set_test_params(self):
         self.num_nodes = 1
         self.setup_clean_chain = True
@@ -622,7 +622,7 @@ class FullBlockTest(PivxTestFramework):
         self.send_blocks([b53], False)
         self.save_spendable_output()
 
-        # PIVX: timestamp checks disabled for regtest
+        # LYNX: timestamp checks disabled for regtest
 
         # valid timestamp
         self.move_tip(53)
@@ -1220,7 +1220,7 @@ class FullBlockTest(PivxTestFramework):
         if reconnect:
             self.reconnect_p2p()
 
-    # PIVX
+    # LYNX
     # create a block with a tx spending a given out, and lots of txes spending the outputs created
     # in the first one. Keep the tx size under 150 kB limit.
     def create_sized_block(self, block, spend, block_size):

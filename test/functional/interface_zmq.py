@@ -11,7 +11,7 @@ import struct
 import time
 
 from test_framework.messages import CTransaction
-from test_framework.test_framework import PivxTestFramework, SkipTest
+from test_framework.test_framework import LynxTestFramework, SkipTest
 from test_framework.util import (
     assert_equal,
     hash256
@@ -37,7 +37,7 @@ class ZMQSubscriber:
         return body
 
 
-class ZMQTest (PivxTestFramework):
+class ZMQTest (LynxTestFramework):
     def set_test_params(self):
         self.num_nodes = 2
 

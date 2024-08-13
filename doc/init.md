@@ -84,9 +84,9 @@ OpenRC).
 ### macOS
 
 Binary:              `/usr/local/bin/lynxd`
-Configuration file:  `~/Library/Application Support/PIVX/lynx.conf`
-Data directory:      `~/Library/Application Support/PIVX`
-Lock file:           `~/Library/Application Support/PIVX/.lock`
+Configuration file:  `~/Library/Application Support/LYNX/lynx.conf`
+Data directory:      `~/Library/Application Support/LYNX`
+Lock file:           `~/Library/Application Support/LYNX/.lock`
 
 Installing Service Configuration
 -----------------------------------
@@ -124,7 +124,7 @@ use old versions of Upstart and do not supply the start-stop-daemon utility.
 Copy lynxd.init to /etc/init.d/lynxd. Test by running `service lynxd start`.
 
 Using this script, you can adjust the path and flags to the lynxd program by
-setting the PIVXD and FLAGS environment variables in the file
+setting the LYNXD and FLAGS environment variables in the file
 /etc/sysconfig/lynxd. You can also use the DAEMONOPTS environment variable here.
 
 ### macOS

@@ -91,12 +91,12 @@
         <translation>받을 주소</translation>
     </message>
     <message>
-        <source>These are your PIVX addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>이 주소들은 송금할 PIVX 주소입니다. 송금하기 전 항상 금액과 주소를 확인해주세요.</translation>
+        <source>These are your LYNX addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>이 주소들은 송금할 LYNX 주소입니다. 송금하기 전 항상 금액과 주소를 확인해주세요.</translation>
     </message>
     <message>
-        <source>These are your PIVX addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>이 주소들은 입금 받을 PIVX 주소입니다. 매 거래마다 새로운 입금 주소를 사용하는 것이 좋습니다.</translation>
+        <source>These are your LYNX addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>이 주소들은 입금 받을 LYNX 주소입니다. 매 거래마다 새로운 입금 주소를 사용하는 것이 좋습니다.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -1031,8 +1031,8 @@ It will start automatically as soon as the wallet has enough confirmations on an
         <translation>보내는 주소 수정</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid PIVX address.</source>
-        <translation>입력된 주소 "%1"는 올바른 PIVX 주소가 아닙니다.</translation>
+        <source>The entered address "%1" is not a valid LYNX address.</source>
+        <translation>입력된 주소 "%1"는 올바른 LYNX 주소가 아닙니다.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1228,8 +1228,8 @@ Be part of the DAO.</source>
         <translation>프로그램을 처음 실행하는 것이므로, %1이 데이터를 저장할 곳을 선택할 수 있습니다.</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the PIVX block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>%1은 PIVX 블록 체인의 복사본을 다운로드하고 저장한다. 적어도 %2GB 의 데이터가 이 경로에 저장될 것이고, 이는 시간이 지날 수록 커질 것이다. 지갑 또한 해당 경로에 저장될 것입니다.</translation>
+        <source>%1 will download and store a copy of the LYNX block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>%1은 LYNX 블록 체인의 복사본을 다운로드하고 저장한다. 적어도 %2GB 의 데이터가 이 경로에 저장될 것이고, 이는 시간이 지날 수록 커질 것이다. 지갑 또한 해당 경로에 저장될 것입니다.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1356,8 +1356,8 @@ Be part of the DAO.</source>
         <translation>유효하지 않은 IP 주소 임</translation>
     </message>
     <message>
-        <source>To create a PIVX Masternode you must dedicate %1 (the unit of PIVX) to the network (however, these coins are still yours and will never leave your possession).</source>
-        <translation>PIVX 마스터노드를 생성하기 위해  당신은 네트워크에 %1(PIVX의 단위)를 할당해야만 합니다.(하지만, 이 코인들은 여전히 당신의 것이며 당신의 소유에서 떠나지 않을 것입니다.)</translation>
+        <source>To create a LYNX Masternode you must dedicate %1 (the unit of LYNX) to the network (however, these coins are still yours and will never leave your possession).</source>
+        <translation>LYNX 마스터노드를 생성하기 위해  당신은 네트워크에 %1(LYNX의 단위)를 할당해야만 합니다.(하지만, 이 코인들은 여전히 당신의 것이며 당신의 소유에서 떠나지 않을 것입니다.)</translation>
     </message>
     <message>
         <source>You can deactivate the node and unlock the coins at any time.</source>
@@ -1681,8 +1681,8 @@ STAKING</source>
         <translation>URI 열기</translation>
     </message>
     <message>
-        <source>Open PIVX URI</source>
-        <translation>PIVX URI 열기</translation>
+        <source>Open LYNX URI</source>
+        <translation>LYNX URI 열기</translation>
     </message>
     <message>
         <source>CANCEL</source>
@@ -1694,7 +1694,7 @@ STAKING</source>
     </message>
 </context>
 <context>
-    <name>PIVXGUI</name>
+    <name>LYNXGUI</name>
     <message>
         <source>Wallet</source>
         <translation>지갑</translation>
@@ -1780,11 +1780,11 @@ Address: %4
     </message>
     <message>
         <source>Cannot start lynx: click-to-pay handler</source>
-        <translation>PIVX을 시작할 수 없습니다: 결제하기 위한 클릭 처리</translation>
+        <translation>LYNX을 시작할 수 없습니다: 결제하기 위한 클릭 처리</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid PIVX address or malformed URI parameters.</source>
-        <translation>URI를 분석할 수 없습니다! 이는 잘못된 PIVX 주소 또는 URI 매개변수 손상으로 인해 발생할 수 있습니다.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid LYNX address or malformed URI parameters.</source>
+        <translation>URI를 분석할 수 없습니다! 이는 잘못된 LYNX 주소 또는 URI 매개변수 손상으로 인해 발생할 수 있습니다.</translation>
     </message>
 </context>
 <context>
@@ -1891,8 +1891,8 @@ Address: %4
         <translation>금액</translation>
     </message>
     <message>
-        <source>Enter PIVX address (e.g. %1)</source>
-        <translation>PIVX 주소 입력(예 : %1)</translation>
+        <source>Enter LYNX address (e.g. %1)</source>
+        <translation>LYNX 주소 입력(예 : %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1915,8 +1915,8 @@ Address: %4
         <translation>네트워크</translation>
     </message>
     <message>
-        <source>A fatal error occurred. PIVX can no longer continue safely and will quit.</source>
-        <translation>치명적인 오류가 발생하였습니다. PIVX는 더 이상 안전하게 계속될 수 없으며, 곧 종료됩니다.</translation>
+        <source>A fatal error occurred. LYNX can no longer continue safely and will quit.</source>
+        <translation>치명적인 오류가 발생하였습니다. LYNX는 더 이상 안전하게 계속될 수 없으며, 곧 종료됩니다.</translation>
     </message>
     <message>
         <source>Error: Cannot parse configuration file: %1. Only use key=value syntax.</source>
@@ -2166,8 +2166,8 @@ Address: %4
         <translation>블록체인</translation>
     </message>
     <message>
-        <source>Open the PIVX debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>현재 데이터 디렉토리에서 PIVX 디버그 로그 파일을 엽니다. 로그 파일이 클 경우, 약간의 시간이 걸릴 수 있습니다.</translation>
+        <source>Open the LYNX debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>현재 데이터 디렉토리에서 LYNX 디버그 로그 파일을 엽니다. 로그 파일이 클 경우, 약간의 시간이 걸릴 수 있습니다.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -2374,8 +2374,8 @@ Address: %4
         <translation>출력:</translation>
     </message>
     <message>
-        <source>Welcome to the PIVX RPC console.</source>
-        <translation>PIVX RPC 콘솔에 오신 것을 환영합니다.</translation>
+        <source>Welcome to the LYNX RPC console.</source>
+        <translation>LYNX RPC 콘솔에 오신 것을 환영합니다.</translation>
     </message>
     <message>
         <source>&amp;Disconnect Node</source>
@@ -2573,8 +2573,8 @@ try unlocking the wallet</source>
         <translation>금액</translation>
     </message>
     <message>
-        <source>Instead of sharing only a PIVX address, you can create a payment request, bundling up more information</source>
-        <translation>오직 PIVX 주소를 공유하는 대신에, 추가 정보를 묶어서 결제 요청을 생성할 수 있다.</translation>
+        <source>Instead of sharing only a LYNX address, you can create a payment request, bundling up more information</source>
+        <translation>오직 LYNX 주소를 공유하는 대신에, 추가 정보를 묶어서 결제 요청을 생성할 수 있다.</translation>
     </message>
     <message>
         <source>COPY ADDRESS</source>
@@ -2656,8 +2656,8 @@ try unlocking the wallet</source>
         <translation>커스텀 잔돈 주소</translation>
     </message>
     <message>
-        <source>The remainder of the value resultant from the inputs minus the outputs value goes to the "change" PIVX address</source>
-        <translation>입력값에서 출력값을 빼고 난 나머지 값은 '변경된' PIVX 주소로 이동합니다.</translation>
+        <source>The remainder of the value resultant from the inputs minus the outputs value goes to the "change" LYNX address</source>
+        <translation>입력값에서 출력값을 빼고 난 나머지 값은 '변경된' LYNX 주소로 이동합니다.</translation>
     </message>
     <message>
         <source>SAVE</source>
@@ -2803,8 +2803,8 @@ Do you want to continue?</source>
         <translation>최대 한도의 output 갯수에 도달함</translation>
     </message>
     <message>
-        <source>Parse a PIVX URI</source>
-        <translation>PIVX URI 쪼개기</translation>
+        <source>Parse a LYNX URI</source>
+        <translation>LYNX URI 쪼개기</translation>
     </message>
     <message>
         <source>Invalid entry, previous entries must be valid before add a new one</source>
@@ -3063,8 +3063,8 @@ This option creates a wallet.dat file that can be used to recover your whole bal
         <translation>키 암호 해재</translation>
     </message>
     <message>
-        <source>PIVX address</source>
-        <translation>PIVX 주소</translation>
+        <source>LYNX address</source>
+        <translation>LYNX 주소</translation>
     </message>
     <message>
         <source>Enter address</source>
@@ -3196,8 +3196,8 @@ Verify that you have installed a predetermined text editor.</source>
 미리 결정된 텍스트 에디터를 인스톨했는지 확인하세요.</translation>
     </message>
     <message>
-        <source>Welcome to the PIVX RPC console.</source>
-        <translation>PIVX RPC 콘솔에 오신 것을 환영합니다.</translation>
+        <source>Welcome to the LYNX RPC console.</source>
+        <translation>LYNX RPC 콘솔에 오신 것을 환영합니다.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and %1 to clear screen.</source>
@@ -3357,16 +3357,16 @@ There was an error trying to save the address list to %1. Please try again.</sou
 <context>
     <name>SettingsFaqWidget</name>
     <message>
-        <source>1) What is PIVX?</source>
-        <translation>1) PIVX가 무엇입니까?</translation>
+        <source>1) What is LYNX?</source>
+        <translation>1) LYNX가 무엇입니까?</translation>
     </message>
     <message>
         <source>2) Why are my PIV unspendable?</source>
         <translation>2) 왜 내 PIV는 사용할 수 없는 건가요?</translation>
     </message>
     <message>
-        <source>What is PIVX?</source>
-        <translation>PIVX 가 무엇입니까?</translation>
+        <source>What is LYNX?</source>
+        <translation>LYNX 가 무엇입니까?</translation>
     </message>
     <message>
         <source>Why are my PIV unspendable?</source>
@@ -3398,7 +3398,7 @@ There was an error trying to save the address list to %1. Please try again.</sou
     </message>
     <message>
         <source>3) How do I stake PIV?</source>
-        <translation>3) PIVX 스테이킹은 어떻게 하나요?</translation>
+        <translation>3) LYNX 스테이킹은 어떻게 하나요?</translation>
     </message>
     <message>
         <source>4) Where I should go if I need support?</source>
@@ -3417,28 +3417,28 @@ There was an error trying to save the address list to %1. Please try again.</sou
         <translation>여기에서 더 알아볼 수 있습니다</translation>
     </message>
     <message>
-        <source>PIVX is a form of digital online money using blockchain technology that can be easily transferred globally, instantly, and with near zero fees. PIVX incorporates market leading security &amp; privacy and is also the first PoS (Proof of Stake) Cryptocurrency to implement Sapling(SHIELD), a zk-SNARKs based privacy protocol.</source>
-        <translation>PIVX는 블록체인 기술을 사용하는 디지털 온라인 화폐의 한 형태로 전 세계적으로 즉시 송금이 가능하며 수수료가 거의 없습니다. PIVX는 시장을 이끄는 보안&amp;프라이버시를 통합하고, zk-SNARK 기반 개인 정보 보호 프로토콜인 새플링(쉴드)를 구현하는 최초의 PoS(지분 증명) 암호화폐이기도 합니다.</translation>
+        <source>LYNX is a form of digital online money using blockchain technology that can be easily transferred globally, instantly, and with near zero fees. LYNX incorporates market leading security &amp; privacy and is also the first PoS (Proof of Stake) Cryptocurrency to implement Sapling(SHIELD), a zk-SNARKs based privacy protocol.</source>
+        <translation>LYNX는 블록체인 기술을 사용하는 디지털 온라인 화폐의 한 형태로 전 세계적으로 즉시 송금이 가능하며 수수료가 거의 없습니다. LYNX는 시장을 이끄는 보안&amp;프라이버시를 통합하고, zk-SNARK 기반 개인 정보 보호 프로토콜인 새플링(쉴드)를 구현하는 최초의 PoS(지분 증명) 암호화폐이기도 합니다.</translation>
     </message>
     <message>
-        <source>PIVX utilizes a Proof of Stake (PoS) consensus system algorithm, allowing all owners of PIVX to participate in earning block rewards while securing the network with full node wallets, as well as to run Masternodes to create and vote on proposals.</source>
-        <translation>PIVX는 지분 증명(Pos)합의 시스템 알고리즘을 활용하여 PIVX의 모든 소유자가 블록을 보상받는 동시에 전체 노드 지갑으로 네트워크를 보호하고 마스터노드를 실행하여 제안을 생성하고 투표할 수 있도록 합니다.</translation>
+        <source>LYNX utilizes a Proof of Stake (PoS) consensus system algorithm, allowing all owners of LYNX to participate in earning block rewards while securing the network with full node wallets, as well as to run Masternodes to create and vote on proposals.</source>
+        <translation>LYNX는 지분 증명(Pos)합의 시스템 알고리즘을 활용하여 LYNX의 모든 소유자가 블록을 보상받는 동시에 전체 노드 지갑으로 네트워크를 보호하고 마스터노드를 실행하여 제안을 생성하고 투표할 수 있도록 합니다.</translation>
     </message>
     <message>
-        <source>Newly received PIVX requires 6 confirmations on the network to become eligible for spending which can take ~6 minutes.</source>
-        <translation>새로 받은 PIVX는 지불에 ~6분이 걸리는 자격을 가지기 위하여 네트워크에서 6개의 확인을 필요로 한다</translation>
+        <source>Newly received LYNX requires 6 confirmations on the network to become eligible for spending which can take ~6 minutes.</source>
+        <translation>새로 받은 LYNX는 지불에 ~6분이 걸리는 자격을 가지기 위하여 네트워크에서 6개의 확인을 필요로 한다</translation>
     </message>
     <message>
-        <source>Your PIVX wallet also needs to be completely synchronized to see and spend balances on the network.</source>
-        <translation>당신의 PIVX 지갑은 네트워크 상에서 잔액을 보거나 지불하기 위해 완벽하게 동기화 되어야한다.</translation>
+        <source>Your LYNX wallet also needs to be completely synchronized to see and spend balances on the network.</source>
+        <translation>당신의 LYNX 지갑은 네트워크 상에서 잔액을 보거나 지불하기 위해 완벽하게 동기화 되어야한다.</translation>
     </message>
     <message>
         <source>Make sure your wallet is completely synchronized and you are using the latest release.</source>
         <translation>당신의 지갑이 확실하게 동기화 되었는지, 최신 릴리즈를 사용하고 있는지를 확실히 확인하십시오</translation>
     </message>
     <message>
-        <source>You must have a balance of PIVX with a minimum of 600 confirmations.</source>
-        <translation>최소 600번의 확인을 통해 PIVX의 잔액을 가지게 됩니다.</translation>
+        <source>You must have a balance of LYNX with a minimum of 600 confirmations.</source>
+        <translation>최소 600번의 확인을 통해 LYNX의 잔액을 가지게 됩니다.</translation>
     </message>
     <message>
         <source>Your wallet must stay online and be unlocked for staking purposes.</source>
@@ -3497,8 +3497,8 @@ There was an error trying to save the address list to %1. Please try again.</sou
         <translation>마스터노드 특전:</translation>
     </message>
     <message>
-        <source>Participate in PIVX Governance</source>
-        <translation>PIVX 통치에 참여</translation>
+        <source>Participate in LYNX Governance</source>
+        <translation>LYNX 통치에 참여</translation>
     </message>
     <message>
         <source>Earn Masternode Rewards</source>
@@ -3509,8 +3509,8 @@ There was an error trying to save the address list to %1. Please try again.</sou
         <translation>미래의 할인을 위한 상품 선택</translation>
     </message>
     <message>
-        <source>Help secure the PIVX network</source>
-        <translation>PIVX 네트워크를 안전하게 하는데 도움을 준다.</translation>
+        <source>Help secure the LYNX network</source>
+        <translation>LYNX 네트워크를 안전하게 하는데 도움을 준다.</translation>
     </message>
     <message>
         <source>Requirements:</source>
@@ -3728,8 +3728,8 @@ Are you sure?
         <translation>메세지</translation>
     </message>
     <message>
-        <source>PIVX address or contact label</source>
-        <translation>PIVX 주소 / 연락처 라벨</translation>
+        <source>LYNX address or contact label</source>
+        <translation>LYNX 주소 / 연락처 라벨</translation>
     </message>
     <message>
         <source>Enter address</source>
@@ -3839,8 +3839,8 @@ Are you sure?
         <translation>네트워크 노드 설정 옵션</translation>
     </message>
     <message>
-        <source>Automatically open the PIVX client port on the router. This only works when your router supports NAT-PMP and it is enabled. The external port could be random.</source>
-        <translation>라우터에서 PIVX 클라이언트 포트를 자동으로 엽니다. 이 기능은 오직 라우터가 NAT-PMP를 지원하고 활성화 된 경우에만 작동합니다. 외부 포트는 무작위로 설정될 수 있습니다.</translation>
+        <source>Automatically open the LYNX client port on the router. This only works when your router supports NAT-PMP and it is enabled. The external port could be random.</source>
+        <translation>라우터에서 LYNX 클라이언트 포트를 자동으로 엽니다. 이 기능은 오직 라우터가 NAT-PMP를 지원하고 활성화 된 경우에만 작동합니다. 외부 포트는 무작위로 설정될 수 있습니다.</translation>
     </message>
     <message>
         <source>Map port using NAT-PMP</source>
@@ -4025,8 +4025,8 @@ Are you sure?
         <translation>도움말</translation>
     </message>
     <message>
-        <source>About PIVX</source>
-        <translation>PIVX 정보</translation>
+        <source>About LYNX</source>
+        <translation>LYNX 정보</translation>
     </message>
     <message>
         <source>Settings</source>
@@ -4681,20 +4681,20 @@ Select fewer inputs with coin control.</source>
         <translation>원하시는 언어를 선택하세요.</translation>
     </message>
     <message>
-        <source>PIVX is the world’s most innovative Proof of Stake blockchain based technology. Developed by a team of highly experienced developers and cryptographers.</source>
-        <translation>PIVX 는 많은 경험과 뛰어난 실력을 겸비한 개발자와 암호학자로 구성된 팀이 개발하고 있으며, 혁신적인 지분증명 (Proof of Stake) 블록체인 기반의 오픈소스 프로젝트입니다.</translation>
+        <source>LYNX is the world’s most innovative Proof of Stake blockchain based technology. Developed by a team of highly experienced developers and cryptographers.</source>
+        <translation>LYNX 는 많은 경험과 뛰어난 실력을 겸비한 개발자와 암호학자로 구성된 팀이 개발하고 있으며, 혁신적인 지분증명 (Proof of Stake) 블록체인 기반의 오픈소스 프로젝트입니다.</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;As our manifesto says: Privacy is a non-negotiable basic human right; it grants users the freedom to share their data whenever and with whomever they want - PIVX believes in self sovereignty.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;PIVX 선언서(manifesto) 내용: 프라이버시는 타협할 수 없는 인간의 기본적인 인권입니다. 사용자가 원한다면 언제든 누구에게든 정보를 공유할 수 있는 자유를 보장합니다. PIVX는 자기 주권(self sovereignty)을 추구합니다.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;As our manifesto says: Privacy is a non-negotiable basic human right; it grants users the freedom to share their data whenever and with whomever they want - LYNX believes in self sovereignty.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;LYNX 선언서(manifesto) 내용: 프라이버시는 타협할 수 없는 인간의 기본적인 인권입니다. 사용자가 원한다면 언제든 누구에게든 정보를 공유할 수 있는 자유를 보장합니다. LYNX는 자기 주권(self sovereignty)을 추구합니다.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <source>The masternode network is PIVX's second layer network on top of the blockchain that enables our DAO to provide decentralized governance and a treasury.</source>
-        <translation>마스터노드 네트워크는 PIVX 블록체인의 상위의 2nd 레이어 네트워크입니다. 이를 통해 탈중앙화 거버넌스 및 예산 관리가 가능한 DAO를 구현합니다.</translation>
+        <source>The masternode network is LYNX's second layer network on top of the blockchain that enables our DAO to provide decentralized governance and a treasury.</source>
+        <translation>마스터노드 네트워크는 LYNX 블록체인의 상위의 2nd 레이어 네트워크입니다. 이를 통해 탈중앙화 거버넌스 및 예산 관리가 가능한 DAO를 구현합니다.</translation>
     </message>
     <message>
-        <source>How PIVX respects your privacy?</source>
-        <translation>PIVX는 프라이버시를 얼마나 중요하게 생각하나요?</translation>
+        <source>How LYNX respects your privacy?</source>
+        <translation>LYNX는 프라이버시를 얼마나 중요하게 생각하나요?</translation>
     </message>
     <message>
         <source>Welcome to

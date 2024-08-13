@@ -2,9 +2,9 @@
 
 [Desktop Entry]
 Encoding=UTF-8
-Name=PIVX Core Daemon SNAP
+Name=LYNX Core Daemon SNAP
 Comment=testnet
-GenericName=PIVX Digital Currency Daemon Client testnet network
+GenericName=LYNX Digital Currency Daemon Client testnet network
 Exec=pivx-core.daemon-testnet %u
 Terminal=true
 Type=Application

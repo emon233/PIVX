@@ -1,9 +1,9 @@
 // Copyright (c) 2011-2013 The Bitcoin Core developers
-// Copyright (c) 2017-2022 The PIVX Core developers
+// Copyright (c) 2017-2022 The LYNX Core developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#define BOOST_TEST_MODULE Pivx Test Suite
+#define BOOST_TEST_MODULE Lynx Test Suite
 
 #include "test/test_lynx.h"
 

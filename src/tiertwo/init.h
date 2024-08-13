@@ -1,9 +1,9 @@
-// Copyright (c) 2021-2022 The PIVX Core developers
+// Copyright (c) 2021-2022 The LYNX Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or https://www.opensource.org/licenses/mit-license.php.
 
-#ifndef PIVX_TIERTWO_INIT_H
-#define PIVX_TIERTWO_INIT_H
+#ifndef LYNX_TIERTWO_INIT_H
+#define LYNX_TIERTWO_INIT_H
 
 #include <string>
 #include "fs.h"
@@ -57,4 +57,4 @@ void StopTierTwoThreads();
 void DeleteTierTwo();
 
 
-#endif //PIVX_TIERTWO_INIT_H
+#endif //LYNX_TIERTWO_INIT_H

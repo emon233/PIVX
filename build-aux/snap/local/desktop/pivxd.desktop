@@ -2,9 +2,9 @@
 
 [Desktop Entry]
 Encoding=UTF-8
-Name=PIVX Core Daemon SNAP
+Name=LYNX Core Daemon SNAP
 Comment=main
-GenericName=PIVX Digital Currency Daemon Client main network
+GenericName=LYNX Digital Currency Daemon Client main network
 Exec=pivx-core.daemon %u
 Terminal=true
 Type=Application

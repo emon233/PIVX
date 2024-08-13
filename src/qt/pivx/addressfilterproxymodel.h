@@ -1,9 +1,9 @@
-// Copyright (c) 2019-2021 The PIVX Core developers
+// Copyright (c) 2019-2021 The LYNX Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef PIVX_CORE_NEW_GUI_ADDRESSFILTERPROXYMODEL_H
-#define PIVX_CORE_NEW_GUI_ADDRESSFILTERPROXYMODEL_H
+#ifndef LYNX_CORE_NEW_GUI_ADDRESSFILTERPROXYMODEL_H
+#define LYNX_CORE_NEW_GUI_ADDRESSFILTERPROXYMODEL_H
 
 #include <QSortFilterProxyModel>
 
@@ -42,4 +42,4 @@ private:
 };
 
 
-#endif //PIVX_CORE_NEW_GUI_ADDRESSFILTERPROXYMODEL_H
+#endif //LYNX_CORE_NEW_GUI_ADDRESSFILTERPROXYMODEL_H

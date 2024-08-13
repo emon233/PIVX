@@ -91,12 +91,12 @@
         <translation>গ্রহন ঠিকানা</translation>
     </message>
     <message>
-        <source>These are your PIVX addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>পেমেন্ট প্রেরণের জন্য এগুলি আপনার PIVX ঠিকানা। সর্বদা কয়েন প্রেরণের আগে পরিমাণ এবং প্রাপ্তির ঠিকানা পরীক্ষা করে দেখুন।</translation>
+        <source>These are your LYNX addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>পেমেন্ট প্রেরণের জন্য এগুলি আপনার LYNX ঠিকানা। সর্বদা কয়েন প্রেরণের আগে পরিমাণ এবং প্রাপ্তির ঠিকানা পরীক্ষা করে দেখুন।</translation>
     </message>
     <message>
-        <source>These are your PIVX addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>পেমেন্ট পাওয়ার জন্য এগুলি আপনার PIVX প্রাপ্তির ঠিকানা। প্রতিটি ট্রান্সাকশন জন্য একটি নতুন প্রাপ্তির ঠিকানা ব্যবহার করার পরামর্শ দেওয়া হলো।</translation>
+        <source>These are your LYNX addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>পেমেন্ট পাওয়ার জন্য এগুলি আপনার LYNX প্রাপ্তির ঠিকানা। প্রতিটি ট্রান্সাকশন জন্য একটি নতুন প্রাপ্তির ঠিকানা ব্যবহার করার পরামর্শ দেওয়া হলো।</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -1056,8 +1056,8 @@ It will start automatically as soon as the wallet has enough confirmations on an
         <translation>প্রেরণের ঠিকানা এডিট করুন</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid PIVX address.</source>
-        <translation> প্রবেশক্রিত ঠিকানা "%1" একটি সঠিক PIVX ঠিকানা নয়।</translation>
+        <source>The entered address "%1" is not a valid LYNX address.</source>
+        <translation> প্রবেশক্রিত ঠিকানা "%1" একটি সঠিক LYNX ঠিকানা নয়।</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1257,8 +1257,8 @@ Be part of the DAO.</source>
         <translation>যেহেতু এই প্রথমবার প্রোগ্রামটি চালু হয়েছে, আপনি বেছে নিতে পারেন যে %1 এর ডেটা কোথায় সংরক্ষণ করবে।</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the PIVX block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>%1 PIVX ব্লক চেইনের একটি অনুলিপি ডাউনলোড ও সংরক্ষণ করবে। কমপক্ষে %2GB তথ্য এই ডিরেক্টরিতে সঞ্চিত হবে এবং এটি সময়ের সাথে সাথে বৃদ্ধি পাবে। ওয়ালেটটিও এই ডিরেক্টরিতে সংরক্ষণ করা হবে।</translation>
+        <source>%1 will download and store a copy of the LYNX block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>%1 LYNX ব্লক চেইনের একটি অনুলিপি ডাউনলোড ও সংরক্ষণ করবে। কমপক্ষে %2GB তথ্য এই ডিরেক্টরিতে সঞ্চিত হবে এবং এটি সময়ের সাথে সাথে বৃদ্ধি পাবে। ওয়ালেটটিও এই ডিরেক্টরিতে সংরক্ষণ করা হবে।</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1389,8 +1389,8 @@ Be part of the DAO.</source>
         <translation>ভুল IP ঠিকানা</translation>
     </message>
     <message>
-        <source>To create a PIVX Masternode you must dedicate %1 (the unit of PIVX) to the network (however, these coins are still yours and will never leave your possession).</source>
-        <translation>একটি PIVX মাস্টারনোড তৈরি করতে আপনাকে অবশ্যই %1 (PIVX-এর ইউনিট) নেটওয়ার্কে বরাদ্দ করতে হবে (তবে, এই কয়েনগুলি সর্বদা আপনার এবং কখনই আপনার দখল ছাড়বে না)।</translation>
+        <source>To create a LYNX Masternode you must dedicate %1 (the unit of LYNX) to the network (however, these coins are still yours and will never leave your possession).</source>
+        <translation>একটি LYNX মাস্টারনোড তৈরি করতে আপনাকে অবশ্যই %1 (LYNX-এর ইউনিট) নেটওয়ার্কে বরাদ্দ করতে হবে (তবে, এই কয়েনগুলি সর্বদা আপনার এবং কখনই আপনার দখল ছাড়বে না)।</translation>
     </message>
     <message>
         <source>You can deactivate the node and unlock the coins at any time.</source>
@@ -1543,7 +1543,7 @@ this controller wallet (select the Masternode in the list and press "start").
 
 
 আপনাকে আপনার রিমোট সার্ভারের lynx.conf ফাইলে এই ডেটা পেস্ট করতে হবে
-এবং PIVX নোডটি শুরু করতে হবে।
+এবং LYNX নোডটি শুরু করতে হবে।
 তারপরে এই নিয়ন্ত্রক ওয়ালেট ব্যবহার করে মাস্টারনোড শুরু করতে হবে (তালিকার
 মাস্টারনোড নির্বাচন করুন এবং "শুরু" টিপুন)।
 </translation>
@@ -1733,8 +1733,8 @@ STAKING</source>
         <translation>URI খুলুন</translation>
     </message>
     <message>
-        <source>Open PIVX URI</source>
-        <translation>PIVX URI খুলুন</translation>
+        <source>Open LYNX URI</source>
+        <translation>LYNX URI খুলুন</translation>
     </message>
     <message>
         <source>CANCEL</source>
@@ -1746,7 +1746,7 @@ STAKING</source>
     </message>
 </context>
 <context>
-    <name>PIVXGUI</name>
+    <name>LYNXGUI</name>
     <message>
         <source>Wallet</source>
         <translation>ওয়ালেট</translation>
@@ -1832,11 +1832,11 @@ Address: %4
     </message>
     <message>
         <source>Cannot start lynx: click-to-pay handler</source>
-        <translation>PIVX অ্যাপ্লিকেশন শুরু করা যাবে না: ক্লিক-টু-পে হ্যান্ডলার</translation>
+        <translation>LYNX অ্যাপ্লিকেশন শুরু করা যাবে না: ক্লিক-টু-পে হ্যান্ডলার</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid PIVX address or malformed URI parameters.</source>
-        <translation>URI পার্স করা যাচ্ছেনা! এটি একটি ভুল PIVX ঠিকানা বা বিকৃত URI।</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid LYNX address or malformed URI parameters.</source>
+        <translation>URI পার্স করা যাচ্ছেনা! এটি একটি ভুল LYNX ঠিকানা বা বিকৃত URI।</translation>
     </message>
 </context>
 <context>
@@ -1959,8 +1959,8 @@ Address: %4
         <translation>পরিমাণ</translation>
     </message>
     <message>
-        <source>Enter PIVX address (e.g. %1)</source>
-        <translation>PIVX ঠিকানা লিখুন (উদাঃ %1)</translation>
+        <source>Enter LYNX address (e.g. %1)</source>
+        <translation>LYNX ঠিকানা লিখুন (উদাঃ %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2003,8 +2003,8 @@ Address: %4
         <translation>%1 মিলিসেকেন্ড</translation>
     </message>
     <message>
-        <source>A fatal error occurred. PIVX can no longer continue safely and will quit.</source>
-        <translation>একটি মারাত্মক ত্রুটি ঘটেছে৷ PIVX আর নিরাপদে চালিয়ে যেতে পারবে না এবং প্রস্থান করবে।</translation>
+        <source>A fatal error occurred. LYNX can no longer continue safely and will quit.</source>
+        <translation>একটি মারাত্মক ত্রুটি ঘটেছে৷ LYNX আর নিরাপদে চালিয়ে যেতে পারবে না এবং প্রস্থান করবে।</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" does not exist.</source>
@@ -2270,8 +2270,8 @@ Address: %4
         <translation>ব্লক চেইন</translation>
     </message>
     <message>
-        <source>Open the PIVX debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>বর্তমান ডেটা ডিরেক্টরি থেকে PIVX ডিবাগ লগ ফাইল খুলুন। বড় লগ ফাইলের জন্য এটি কয়েক সেকেন্ড সময় নিতে পারে।</translation>
+        <source>Open the LYNX debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>বর্তমান ডেটা ডিরেক্টরি থেকে LYNX ডিবাগ লগ ফাইল খুলুন। বড় লগ ফাইলের জন্য এটি কয়েক সেকেন্ড সময় নিতে পারে।</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -2478,8 +2478,8 @@ Address: %4
         <translation>বাইরে:</translation>
     </message>
     <message>
-        <source>Welcome to the PIVX RPC console.</source>
-        <translation>PIVX RPC কনসোলে স্বাগতম।</translation>
+        <source>Welcome to the LYNX RPC console.</source>
+        <translation>LYNX RPC কনসোলে স্বাগতম।</translation>
     </message>
     <message>
         <source>&amp;Disconnect Node</source>
@@ -2705,8 +2705,8 @@ try unlocking the wallet</source>
         <translation>পরিমাণ</translation>
     </message>
     <message>
-        <source>Instead of sharing only a PIVX address, you can create a payment request, bundling up more information</source>
-        <translation>শুধুমাত্র একটি PIVX ঠিকানা শেয়ার করার পরিবর্তে, আপনি আরও তথ্য যুক্ত একটি পূর্ণ অর্থ প্রদানের অনুরোধ তৈরি করতে পারেন</translation>
+        <source>Instead of sharing only a LYNX address, you can create a payment request, bundling up more information</source>
+        <translation>শুধুমাত্র একটি LYNX ঠিকানা শেয়ার করার পরিবর্তে, আপনি আরও তথ্য যুক্ত একটি পূর্ণ অর্থ প্রদানের অনুরোধ তৈরি করতে পারেন</translation>
     </message>
     <message>
         <source>COPY ADDRESS</source>
@@ -2788,8 +2788,8 @@ try unlocking the wallet</source>
         <translation>অবশিষ্টাংশ বা খুচরা রাখার ঠিকানা</translation>
     </message>
     <message>
-        <source>The remainder of the value resultant from the inputs minus the outputs value goes to the "change" PIVX address</source>
-        <translation>আউটপুট এবং ইনপুটের পার্থক্য "অবশিষ্টাংশ বা খুচরা" রাখার PIVX ঠিকানায় যায়</translation>
+        <source>The remainder of the value resultant from the inputs minus the outputs value goes to the "change" LYNX address</source>
+        <translation>আউটপুট এবং ইনপুটের পার্থক্য "অবশিষ্টাংশ বা খুচরা" রাখার LYNX ঠিকানায় যায়</translation>
     </message>
     <message>
         <source>SAVE</source>
@@ -3194,9 +3194,9 @@ Remember to write it down and store it safely, otherwise you might lose access t
         <translation>BIP38 টুল</translation>
     </message>
     <message>
-        <source>Encrypt your PIVX addresses (key pair actually) using BIP38 encryption.
+        <source>Encrypt your LYNX addresses (key pair actually) using BIP38 encryption.
 Using this mechanism you can share your keys without middle-man risk, only need to store your passphrase safely</source>
-        <translation>BIP38 এনক্রিপশন ব্যবহার করে আপনার PIVX ঠিকানাগুলি (আসল public and private কী জোড়া) এনক্রিপ্ট করুন।
+        <translation>BIP38 এনক্রিপশন ব্যবহার করে আপনার LYNX ঠিকানাগুলি (আসল public and private কী জোড়া) এনক্রিপ্ট করুন।
 এই প্রক্রিয়াটি ব্যবহার করে আপনি ঝুঁকি ছাড়াই আপনার কীগুলি অন্যদের সাথে শেয়ার করতে পারেন, শুধুমাত্র আপনার পাসফ্রেজ নিরাপদে সংরক্ষণ করতে হবে।</translation>
     </message>
     <message>
@@ -3232,8 +3232,8 @@ Using this mechanism you can share your keys without middle-man risk, only need 
         <translation>ডিক্রিপ্ট কী</translation>
     </message>
     <message>
-        <source>PIVX address</source>
-        <translation>PIVX ঠিকানা</translation>
+        <source>LYNX address</source>
+        <translation>LYNX ঠিকানা</translation>
     </message>
     <message>
         <source>Enter address</source>
@@ -3365,8 +3365,8 @@ Verify that you have installed a predetermined text editor.</source>
 যাচাই করুন যে আপনি একটি এডিটর ইনস্টল করেছেন।</translation>
     </message>
     <message>
-        <source>Welcome to the PIVX RPC console.</source>
-        <translation>PIVX RPC কনসোলে স্বাগতম।</translation>
+        <source>Welcome to the LYNX RPC console.</source>
+        <translation>LYNX RPC কনসোলে স্বাগতম।</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and %1 to clear screen.</source>
@@ -3530,8 +3530,8 @@ There was an error trying to save the address list to %1. Please try again.</sou
 <context>
     <name>SettingsFaqWidget</name>
     <message>
-        <source>1) What is PIVX?</source>
-        <translation>১) PIVX কি?</translation>
+        <source>1) What is LYNX?</source>
+        <translation>১) LYNX কি?</translation>
     </message>
     <message>
         <source>2) Why are my PIV unspendable?</source>
@@ -3542,8 +3542,8 @@ There was an error trying to save the address list to %1. Please try again.</sou
         <translation>১</translation>
     </message>
     <message>
-        <source>What is PIVX?</source>
-        <translation>PIVX কি?</translation>
+        <source>What is LYNX?</source>
+        <translation>LYNX কি?</translation>
     </message>
     <message>
         <source>2</source>
@@ -3614,28 +3614,28 @@ There was an error trying to save the address list to %1. Please try again.</sou
         <translation>আপনি এখানে আরো পড়তে পারেন</translation>
     </message>
     <message>
-        <source>PIVX is a form of digital online money using blockchain technology that can be easily transferred globally, instantly, and with near zero fees. PIVX incorporates market leading security &amp; privacy and is also the first PoS (Proof of Stake) Cryptocurrency to implement Sapling(SHIELD), a zk-SNARKs based privacy protocol.</source>
-        <translation>PIVX হল ব্লকচেইন প্রযুক্তি ব্যবহারকারী ডিজিটাল অনলাইন অর্থের একটি রূপ বা ক্রিপ্টোকারেন্সি যা বিশ্বব্যাপী, তাত্ক্ষণিকভাবে এবং প্রায় শূন্য ফি সহ সহজেই স্থানান্তর করা যেতে পারে। PIVX বাজারের শীর্ষস্থানীয় নিরাপত্তা ও গোপনীয়তা অন্তর্ভুক্তকারী ক্রিপ্টোকারেন্সি, যেটি Sapling(SHIELD) বা zk-SNARKs ভিত্তিক গোপনীয়তা প্রোটোকল বাস্তবায়নকারী প্রথম PoS (প্রুফ অফ স্টেক) ক্রিপ্টোকারেন্সি।</translation>
+        <source>LYNX is a form of digital online money using blockchain technology that can be easily transferred globally, instantly, and with near zero fees. LYNX incorporates market leading security &amp; privacy and is also the first PoS (Proof of Stake) Cryptocurrency to implement Sapling(SHIELD), a zk-SNARKs based privacy protocol.</source>
+        <translation>LYNX হল ব্লকচেইন প্রযুক্তি ব্যবহারকারী ডিজিটাল অনলাইন অর্থের একটি রূপ বা ক্রিপ্টোকারেন্সি যা বিশ্বব্যাপী, তাত্ক্ষণিকভাবে এবং প্রায় শূন্য ফি সহ সহজেই স্থানান্তর করা যেতে পারে। LYNX বাজারের শীর্ষস্থানীয় নিরাপত্তা ও গোপনীয়তা অন্তর্ভুক্তকারী ক্রিপ্টোকারেন্সি, যেটি Sapling(SHIELD) বা zk-SNARKs ভিত্তিক গোপনীয়তা প্রোটোকল বাস্তবায়নকারী প্রথম PoS (প্রুফ অফ স্টেক) ক্রিপ্টোকারেন্সি।</translation>
     </message>
     <message>
-        <source>PIVX utilizes a Proof of Stake (PoS) consensus system algorithm, allowing all owners of PIVX to participate in earning block rewards while securing the network with full node wallets, as well as to run Masternodes to create and vote on proposals.</source>
-        <translation>PIVX একটি প্রুফ অফ স্টেক (PoS) কনসেনসাস সিস্টেম অ্যালগরিদম ব্যবহার করে, PIVX-এর সমস্ত মালিককে সম্পূর্ণ নোড ওয়ালেট সহ নেটওয়ার্ক সুরক্ষিত করার সময় ব্লক পুরষ্কার উপার্জনে অংশগ্রহণ করার অনুমতি দেয়, সেইসাথে প্রস্তাবগুলি তৈরি করতে এবং ভোট দেওয়ার জন্য মাস্টারনোড চালানোর অনুমতি দেয়৷</translation>
+        <source>LYNX utilizes a Proof of Stake (PoS) consensus system algorithm, allowing all owners of LYNX to participate in earning block rewards while securing the network with full node wallets, as well as to run Masternodes to create and vote on proposals.</source>
+        <translation>LYNX একটি প্রুফ অফ স্টেক (PoS) কনসেনসাস সিস্টেম অ্যালগরিদম ব্যবহার করে, LYNX-এর সমস্ত মালিককে সম্পূর্ণ নোড ওয়ালেট সহ নেটওয়ার্ক সুরক্ষিত করার সময় ব্লক পুরষ্কার উপার্জনে অংশগ্রহণ করার অনুমতি দেয়, সেইসাথে প্রস্তাবগুলি তৈরি করতে এবং ভোট দেওয়ার জন্য মাস্টারনোড চালানোর অনুমতি দেয়৷</translation>
     </message>
     <message>
-        <source>Newly received PIVX requires 6 confirmations on the network to become eligible for spending which can take ~6 minutes.</source>
-        <translation>সদ্য প্রাপ্ত PIVX খরচের জন্য যোগ্য হওয়ার জন্য নেটওয়ার্কে ৬টি নিশ্চিতকরণের প্রয়োজন যা ~৬ মিনিট সময় নিতে পারে।</translation>
+        <source>Newly received LYNX requires 6 confirmations on the network to become eligible for spending which can take ~6 minutes.</source>
+        <translation>সদ্য প্রাপ্ত LYNX খরচের জন্য যোগ্য হওয়ার জন্য নেটওয়ার্কে ৬টি নিশ্চিতকরণের প্রয়োজন যা ~৬ মিনিট সময় নিতে পারে।</translation>
     </message>
     <message>
-        <source>Your PIVX wallet also needs to be completely synchronized to see and spend balances on the network.</source>
-        <translation>নেটওয়ার্কে ব্যালেন্স দেখতে এবং খরচ করতে আপনার PIVX ওয়ালেটকেও সম্পূর্ণ সিঙ্ক্রোনাইজ করতে হবে।</translation>
+        <source>Your LYNX wallet also needs to be completely synchronized to see and spend balances on the network.</source>
+        <translation>নেটওয়ার্কে ব্যালেন্স দেখতে এবং খরচ করতে আপনার LYNX ওয়ালেটকেও সম্পূর্ণ সিঙ্ক্রোনাইজ করতে হবে।</translation>
     </message>
     <message>
         <source>Make sure your wallet is completely synchronized and you are using the latest release.</source>
         <translation>আপনার ওয়ালেট সম্পূর্ণরূপে সিঙ্ক্রোনাইজ করা হয়েছে এবং আপনি সর্বশেষ রিলিজ ব্যবহার করছেন তা নিশ্চিত করুন৷</translation>
     </message>
     <message>
-        <source>You must have a balance of PIVX with a minimum of 600 confirmations.</source>
-        <translation>আপনার ন্যূনতম 600টি নিশ্চিতকরণ সহ PIVX এর ব্যালেন্স থাকতে হবে।</translation>
+        <source>You must have a balance of LYNX with a minimum of 600 confirmations.</source>
+        <translation>আপনার ন্যূনতম 600টি নিশ্চিতকরণ সহ LYNX এর ব্যালেন্স থাকতে হবে।</translation>
     </message>
     <message>
         <source>Your wallet must stay online and be unlocked for staking purposes.</source>
@@ -3694,8 +3694,8 @@ There was an error trying to save the address list to %1. Please try again.</sou
         <translation>মাস্টারনোড সুবিধা:</translation>
     </message>
     <message>
-        <source>Participate in PIVX Governance</source>
-        <translation>PIVX গভর্নেন্সে অংশগ্রহণ করুন</translation>
+        <source>Participate in LYNX Governance</source>
+        <translation>LYNX গভর্নেন্সে অংশগ্রহণ করুন</translation>
     </message>
     <message>
         <source>Earn Masternode Rewards</source>
@@ -3706,8 +3706,8 @@ There was an error trying to save the address list to %1. Please try again.</sou
         <translation>ভবিষ্যতে বিক্রয়ের জন্য পণ্য</translation>
     </message>
     <message>
-        <source>Help secure the PIVX network</source>
-        <translation>PIVX নেটওয়ার্ক সুরক্ষিত করতে সাহায্য করুন</translation>
+        <source>Help secure the LYNX network</source>
+        <translation>LYNX নেটওয়ার্ক সুরক্ষিত করতে সাহায্য করুন</translation>
     </message>
     <message>
         <source>Requirements:</source>
@@ -3933,8 +3933,8 @@ Are you sure?
         <translation>বার্তা</translation>
     </message>
     <message>
-        <source>PIVX address or contact label</source>
-        <translation>PIVX ঠিকানা বা যোগাযোগের লেবেল</translation>
+        <source>LYNX address or contact label</source>
+        <translation>LYNX ঠিকানা বা যোগাযোগের লেবেল</translation>
     </message>
     <message>
         <source>Enter address</source>
@@ -4048,8 +4048,8 @@ Are you sure?
         <translation>নোড নেটওয়ার্ক বিকল্পগুলি কাস্টমাইজ করুন</translation>
     </message>
     <message>
-        <source>Automatically open the PIVX client port on the router. This only works when your router supports NAT-PMP and it is enabled. The external port could be random.</source>
-        <translation>রাউটারে স্বয়ংক্রিয়ভাবে PIVX ক্লায়েন্ট পোর্ট খুলুন। এটি তখনই কাজ করে যখন আপনার রাউটার NAT-PMP সমর্থন করে এবং এটি সক্রিয় থাকে। বহিরাগত পোর্ট এলোমেলো হতে পারে.</translation>
+        <source>Automatically open the LYNX client port on the router. This only works when your router supports NAT-PMP and it is enabled. The external port could be random.</source>
+        <translation>রাউটারে স্বয়ংক্রিয়ভাবে LYNX ক্লায়েন্ট পোর্ট খুলুন। এটি তখনই কাজ করে যখন আপনার রাউটার NAT-PMP সমর্থন করে এবং এটি সক্রিয় থাকে। বহিরাগত পোর্ট এলোমেলো হতে পারে.</translation>
     </message>
     <message>
         <source>Map port using NAT-PMP</source>
@@ -4246,8 +4246,8 @@ Are you sure?
         <translation>প্রায়শই জিজ্ঞাসিত প্রশ্নাবলী</translation>
     </message>
     <message>
-        <source>About PIVX</source>
-        <translation>PIVX সম্পর্কে</translation>
+        <source>About LYNX</source>
+        <translation>LYNX সম্পর্কে</translation>
     </message>
     <message>
         <source>Settings</source>
@@ -4978,20 +4978,20 @@ Select fewer inputs with coin control.</source>
         <translation>আপনার ভাষা নির্বাচন করুন</translation>
     </message>
     <message>
-        <source>PIVX is the world’s most innovative Proof of Stake blockchain based technology. Developed by a team of highly experienced developers and cryptographers.</source>
-        <translation>PIVX হল বিশ্বের সবচেয়ে উদ্ভাবনী প্রুফ অফ স্টেক ব্লকচেইন ভিত্তিক প্রযুক্তি। অত্যন্ত অভিজ্ঞ ডেভেলপার এবং ক্রিপ্টোগ্রাফারদের একটি দল দ্বারা বিকশিত।</translation>
+        <source>LYNX is the world’s most innovative Proof of Stake blockchain based technology. Developed by a team of highly experienced developers and cryptographers.</source>
+        <translation>LYNX হল বিশ্বের সবচেয়ে উদ্ভাবনী প্রুফ অফ স্টেক ব্লকচেইন ভিত্তিক প্রযুক্তি। অত্যন্ত অভিজ্ঞ ডেভেলপার এবং ক্রিপ্টোগ্রাফারদের একটি দল দ্বারা বিকশিত।</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;As our manifesto says: Privacy is a non-negotiable basic human right; it grants users the freedom to share their data whenever and with whomever they want - PIVX believes in self sovereignty.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;/body&gt;&lt;p&gt;যেমন আমাদের ইশতেহারে বলা হয়েছে: গোপনীয়তা একটি অ-আলোচনাযোগ্য মৌলিক মানবাধিকার; এটি ব্যবহারকারীদের যখনই এবং যার সাথে ইচ্ছা, তাদের ডেটা ভাগ করার স্বাধীনতা দেয় - PIVX স্ব-সার্বভৌমত্বে বিশ্বাস করে।&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;As our manifesto says: Privacy is a non-negotiable basic human right; it grants users the freedom to share their data whenever and with whomever they want - LYNX believes in self sovereignty.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;/body&gt;&lt;p&gt;যেমন আমাদের ইশতেহারে বলা হয়েছে: গোপনীয়তা একটি অ-আলোচনাযোগ্য মৌলিক মানবাধিকার; এটি ব্যবহারকারীদের যখনই এবং যার সাথে ইচ্ছা, তাদের ডেটা ভাগ করার স্বাধীনতা দেয় - LYNX স্ব-সার্বভৌমত্বে বিশ্বাস করে।&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <source>The masternode network is PIVX's second layer network on top of the blockchain that enables our DAO to provide decentralized governance and a treasury.</source>
-        <translation>মাস্টারনোড নেটওয়ার্ক হল ব্লকচেইনের উপরে PIVX-এর দ্বিতীয় স্তরের নেটওয়ার্ক যা আমাদের DAO কে বিকেন্দ্রীভূত শাসন এবং একটি কোষাগার প্রদান করতে সক্ষম করে।</translation>
+        <source>The masternode network is LYNX's second layer network on top of the blockchain that enables our DAO to provide decentralized governance and a treasury.</source>
+        <translation>মাস্টারনোড নেটওয়ার্ক হল ব্লকচেইনের উপরে LYNX-এর দ্বিতীয় স্তরের নেটওয়ার্ক যা আমাদের DAO কে বিকেন্দ্রীভূত শাসন এবং একটি কোষাগার প্রদান করতে সক্ষম করে।</translation>
     </message>
     <message>
-        <source>How PIVX respects your privacy?</source>
-        <translation>PIVX কিভাবে আপনার গোপনীয়তাকে সম্মান করে?</translation>
+        <source>How LYNX respects your privacy?</source>
+        <translation>LYNX কিভাবে আপনার গোপনীয়তাকে সম্মান করে?</translation>
     </message>
     <message>
         <source>Welcome to

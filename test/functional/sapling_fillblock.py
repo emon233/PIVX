@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-# Copyright (c) 2020-2021 The PIVX Core developers
+# Copyright (c) 2020-2021 The LYNX Core developers
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or https://www.opensource.org/licenses/mit-license.php .
 
 import time
 
-from test_framework.test_framework import PivxTestFramework
+from test_framework.test_framework import LynxTestFramework
 from test_framework.util import (
     assert_greater_than,
     assert_greater_than_or_equal,
@@ -23,7 +23,7 @@ def timed(f):
 
 MAX_SHIELDED_BLOCKSIZE = 750000
 
-class SaplingFillBlockTest(PivxTestFramework):
+class SaplingFillBlockTest(LynxTestFramework):
 
     def set_test_params(self):
         self.num_nodes = 2

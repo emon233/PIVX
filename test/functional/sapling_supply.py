@@ -1,16 +1,16 @@
 #!/usr/bin/env python3
-# Copyright (c) 2020-2021 The PIVX Core developers
+# Copyright (c) 2020-2021 The LYNX Core developers
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or https://www.opensource.org/licenses/mit-license.php .
 
 from decimal import Decimal
 
-from test_framework.test_framework import PivxTestFramework
+from test_framework.test_framework import LynxTestFramework
 from test_framework.util import (
     assert_equal,
 )
 
-class SaplingSupplyTest(PivxTestFramework):
+class SaplingSupplyTest(LynxTestFramework):
 
     def set_test_params(self):
         self.num_nodes = 1

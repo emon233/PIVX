@@ -74,7 +74,7 @@ TEST_EXIT_SKIPPED = 77
 TMPDIR_PREFIX = "lynx_func_test_"
 
 
-class PivxTestFramework():
+class LynxTestFramework():
     """Base class for a lynx test script.
 
     Individual lynx test scripts should subclass this class and override the set_test_params() and run_test() methods.
@@ -617,7 +617,7 @@ class PivxTestFramework():
         for i in range(self.num_nodes):
             initialize_datadir(self.options.tmpdir, i)
 
-    # PIVX Specific TestFramework
+    # LYNX Specific TestFramework
     def init_dummy_key(self):
         self.DUMMY_KEY = ECKey()
         self.DUMMY_KEY.generate()
@@ -1364,7 +1364,7 @@ class SkipTest(Exception):
 
 
 '''
-PivxTestFramework extensions
+LynxTestFramework extensions
 '''
 
 class ExpectedDKGMessages:
@@ -1380,7 +1380,7 @@ class ExpectedDKGMessages:
         self.recv_justif = r_justif
         self.recv_commit = r_commit
 
-class PivxDMNTestFramework(PivxTestFramework):
+class LynxDMNTestFramework(LynxTestFramework):
 
     def set_base_test_params(self):
         # 1 miner, 1 controller, 6 remote mns
@@ -1642,7 +1642,7 @@ class PivxDMNTestFramework(PivxTestFramework):
         return qfc, bad_member
 
 # !TODO: remove after obsoleting legacy system
-class PivxTier2TestFramework(PivxTestFramework):
+class LynxTier2TestFramework(LynxTestFramework):
 
     def set_test_params(self):
         self.setup_clean_chain = True
@@ -1656,7 +1656,7 @@ class PivxTier2TestFramework(PivxTestFramework):
         self.minerPos = 4
         self.remoteDMN1Pos = 5
 
-        self.extra_args = [["-nuparams=v5_shield:249", "-nuparams=PIVX_v5.5:250", "-nuparams=v6_evo:250", "-whitelist=127.0.0.1"]] * self.num_nodes
+        self.extra_args = [["-nuparams=v5_shield:249", "-nuparams=LYNX_v5.5:250", "-nuparams=v6_evo:250", "-whitelist=127.0.0.1"]] * self.num_nodes
         for i in [self.remoteOnePos, self.remoteTwoPos, self.remoteDMN1Pos]:
             self.extra_args[i] += ["-listen", "-externalip=127.0.0.1"]
         self.extra_args[self.minerPos].append("-sporkkey=932HEevBSujW2ud7RfB1YF91AFygbBRQj3de3LyaCRqNzKKgWXi")

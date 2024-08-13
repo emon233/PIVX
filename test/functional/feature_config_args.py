@@ -6,11 +6,11 @@
 
 import os
 
-from test_framework.test_framework import PivxTestFramework
+from test_framework.test_framework import LynxTestFramework
 from test_framework.util import get_datadir_path
 
 
-class ConfArgsTest(PivxTestFramework):
+class ConfArgsTest(LynxTestFramework):
     def set_test_params(self):
         self.setup_clean_chain = True
         self.num_nodes = 1

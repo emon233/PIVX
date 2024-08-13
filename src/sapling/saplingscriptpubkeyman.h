@@ -1,9 +1,9 @@
-// Copyright (c) 2020-2021 The PIVX Core developers
+// Copyright (c) 2020-2021 The LYNX Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef PIVX_SAPLINGSCRIPTPUBKEYMAN_H
-#define PIVX_SAPLINGSCRIPTPUBKEYMAN_H
+#ifndef LYNX_SAPLINGSCRIPTPUBKEYMAN_H
+#define LYNX_SAPLINGSCRIPTPUBKEYMAN_H
 
 #include "consensus/consensus.h"
 #include "sapling/incrementalmerkletree.h"
@@ -436,4 +436,4 @@ private:
     TxNullifiers mapTxSaplingNullifiers;
 };
 
-#endif //PIVX_SAPLINGSCRIPTPUBKEYMAN_H
+#endif //LYNX_SAPLINGSCRIPTPUBKEYMAN_H

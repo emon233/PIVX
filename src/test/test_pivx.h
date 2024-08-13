@@ -1,9 +1,9 @@
-// Copyright (c) 2015-2022 The PIVX Core developers
+// Copyright (c) 2015-2022 The LYNX Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef PIVX_TEST_TEST_PIVX_H
-#define PIVX_TEST_TEST_PIVX_H
+#ifndef LYNX_TEST_TEST_LYNX_H
+#define LYNX_TEST_TEST_LYNX_H
 
 #include "fs.h"
 #include "scheduler.h"

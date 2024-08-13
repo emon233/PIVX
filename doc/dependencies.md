@@ -1,12 +1,12 @@
 Dependencies
 ============
 
-These are the dependencies currently used by PIVX Core. You can find instructions for installing them in the `build-*.md` file for your platform.
+These are the dependencies currently used by LYNX Core. You can find instructions for installing them in the `build-*.md` file for your platform.
 
 | Dependency | Version used | Minimum required | CVEs | Shared | [Bundled Qt library](https://doc.qt.io/qt-5/configure-options.html#third-party-libraries) |
 | --- | --- | --- | --- | --- | --- |
 | Berkeley DB | [4.8.30](https://www.oracle.com/technetwork/database/database-technologies/berkeleydb/downloads/index.html) | 4.8.x | No |  |  |
-| Boost | [1.71.0](https://www.boost.org/users/download/) | [1.57.0](https://github.com/PIVX-Project/PIVX/pull/1703) | No |  |  |
+| Boost | [1.71.0](https://www.boost.org/users/download/) | [1.57.0](https://github.com/LYNX-Project/LYNX/pull/1703) | No |  |  |
 | Clang |  | [3.3+](https://llvm.org/releases/download.html) (C++11 support) |  |  |  |
 | D-Bus | [1.10.18](https://cgit.freedesktop.org/dbus/dbus/tree/NEWS?h=dbus-1.10) |  | No | Yes |  |
 | Expat | [2.2.6](https://libexpat.github.io/) |  | No | Yes |  |

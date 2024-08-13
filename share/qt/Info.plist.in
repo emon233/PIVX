@@ -29,16 +29,16 @@
   <string>????</string>
 
   <key>CFBundleExecutable</key>
-  <string>PIVX-Qt</string>
+  <string>LYNX-Qt</string>
 
   <key>CFBundleName</key>
-  <string>PIVX-Qt</string>
+  <string>LYNX-Qt</string>
 
   <key>LSHasLocalizedDisplayName</key>
   <true/>
 
   <key>CFBundleIdentifier</key>
-  <string>io.lynx.Pivx-Qt</string>
+  <string>io.lynx.Lynx-Qt</string>
 
   <key>CFBundleURLTypes</key>
   <array>
@@ -46,7 +46,7 @@
       <key>CFBundleTypeRole</key>
       <string>Editor</string>
       <key>CFBundleURLName</key>
-      <string>io.lynx.PivxPayment</string>
+      <string>io.lynx.LynxPayment</string>
       <key>CFBundleURLSchemes</key>
       <array>
         <string>lynx</string>

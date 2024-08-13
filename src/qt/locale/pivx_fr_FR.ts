@@ -91,12 +91,12 @@
         <translation>Adresses de réception</translation>
     </message>
     <message>
-        <source>These are your PIVX addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Voici vos adresses PIVX pour envoyer des paiements.  Assurez-vous de toujours vérifier le montant et l'adresse de réception avant d'envoyer les jetons</translation>
+        <source>These are your LYNX addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Voici vos adresses LYNX pour envoyer des paiements.  Assurez-vous de toujours vérifier le montant et l'adresse de réception avant d'envoyer les jetons</translation>
     </message>
     <message>
-        <source>These are your PIVX addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Voici vos adresses PIVX pour les réceptions de vos paiments. Il est recommandé d'utiliser une nouvelle adresse de réception pour chaque transaction.</translation>
+        <source>These are your LYNX addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Voici vos adresses LYNX pour les réceptions de vos paiments. Il est recommandé d'utiliser une nouvelle adresse de réception pour chaque transaction.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -174,7 +174,7 @@
     </message>
     <message>
         <source>Invalid Contact Address</source>
-        <translation>Adresse Pivx incorrecte</translation>
+        <translation>Adresse Lynx incorrecte</translation>
     </message>
     <message>
         <source>Cannot store your own address as contact</source>
@@ -991,8 +991,8 @@ Il commencera automatiquement dès que le portefeuille aura assez de confirmatio
         <translation>Modifier l'adresse d'envoi</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid PIVX address.</source>
-        <translation>L'adresse entrée "%1" n'est pas une adresse PIVX valide</translation>
+        <source>The entered address "%1" is not a valid LYNX address.</source>
+        <translation>L'adresse entrée "%1" n'est pas une adresse LYNX valide</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1180,8 +1180,8 @@ Faites partie du DAO.</translation>
         <translation>Comme c'est la première fois que le programme est lancé, vous pouvez choisir où %1 va stocker ses données.</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the PIVX block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>%1 téléchargera et stockera une copie de la blockchain PIVX. Au moins %2 Go de données seront stockées dans ce répertoire, qui va augmenter au fil du temps. Le portefeuille sera également stocké dans ce répertoire.</translation>
+        <source>%1 will download and store a copy of the LYNX block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>%1 téléchargera et stockera une copie de la blockchain LYNX. Au moins %2 Go de données seront stockées dans ce répertoire, qui va augmenter au fil du temps. Le portefeuille sera également stocké dans ce répertoire.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1308,8 +1308,8 @@ Faites partie du DAO.</translation>
         <translation>Adresse IP invalide</translation>
     </message>
     <message>
-        <source>To create a PIVX Masternode you must dedicate %1 (the unit of PIVX) to the network (however, these coins are still yours and will never leave your possession).</source>
-        <translation>Pour créer un Masternode, vous devez bloquer %1 (l'unité de PIVX) sur le réseau (ces PIVs restent en votre possession et ne quitteront jamais votre portefeuille).</translation>
+        <source>To create a LYNX Masternode you must dedicate %1 (the unit of LYNX) to the network (however, these coins are still yours and will never leave your possession).</source>
+        <translation>Pour créer un Masternode, vous devez bloquer %1 (l'unité de LYNX) sur le réseau (ces PIVs restent en votre possession et ne quitteront jamais votre portefeuille).</translation>
     </message>
     <message>
         <source>You can deactivate the node and unlock the coins at any time.</source>
@@ -1626,8 +1626,8 @@ STAKING</source>
         <translation>Ouvrir URI</translation>
     </message>
     <message>
-        <source>Open PIVX URI</source>
-        <translation>Ouvrir URI PIVX</translation>
+        <source>Open LYNX URI</source>
+        <translation>Ouvrir URI LYNX</translation>
     </message>
     <message>
         <source>CANCEL</source>
@@ -1635,7 +1635,7 @@ STAKING</source>
     </message>
     </context>
 <context>
-    <name>PIVXGUI</name>
+    <name>LYNXGUI</name>
     <message>
         <source>Wallet</source>
         <translation>Portefeuille</translation>
@@ -1716,8 +1716,8 @@ Adresse : %4
         <translation>Impossible de démarrer lynx: gestionnaire click-to-pay</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid PIVX address or malformed URI parameters.</source>
-        <translation>L'URI ne peut pas être analysée! Cela peut être dû à une adresse PIVX invalide ou à des paramètres URI incorrectes.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid LYNX address or malformed URI parameters.</source>
+        <translation>L'URI ne peut pas être analysée! Cela peut être dû à une adresse LYNX invalide ou à des paramètres URI incorrectes.</translation>
     </message>
 </context>
 <context>
@@ -1820,8 +1820,8 @@ Adresse : %4
         <translation>Montant</translation>
     </message>
     <message>
-        <source>Enter PIVX address (e.g. %1)</source>
-        <translation>Entrez une adresse PIVX (par ex. %1)</translation>
+        <source>Enter LYNX address (e.g. %1)</source>
+        <translation>Entrez une adresse LYNX (par ex. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1844,8 +1844,8 @@ Adresse : %4
         <translation>Aucun</translation>
     </message>
     <message>
-        <source>A fatal error occurred. PIVX can no longer continue safely and will quit.</source>
-        <translation>Une erreur fatale s'est produite. PIVX Core ne peut plus poursuivre en toute sécurité et va quitter.</translation>
+        <source>A fatal error occurred. LYNX can no longer continue safely and will quit.</source>
+        <translation>Une erreur fatale s'est produite. LYNX Core ne peut plus poursuivre en toute sécurité et va quitter.</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" does not exist.</source>
@@ -2075,7 +2075,7 @@ Adresse : %4
         <translation>Chaîne de bloc</translation>
     </message>
     <message>
-        <source>Open the PIVX debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the LYNX debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>Ouvrir le fichier journal de déboguage depuis le répertoire de données courant. Cela peut prendre quelques minutes pour les fichier journaux volumineux.</translation>
     </message>
     <message>
@@ -2267,8 +2267,8 @@ Adresse : %4
         <translation>Sortie:</translation>
     </message>
     <message>
-        <source>Welcome to the PIVX RPC console.</source>
-        <translation>Bienvenue sur la console PIVX RPC.</translation>
+        <source>Welcome to the LYNX RPC console.</source>
+        <translation>Bienvenue sur la console LYNX RPC.</translation>
     </message>
     <message>
         <source>&amp;Disconnect Node</source>
@@ -2486,8 +2486,8 @@ essayez de dévérouiller le portefeuille</translation>
         <translation>Montant</translation>
     </message>
     <message>
-        <source>Instead of sharing only a PIVX address, you can create a payment request, bundling up more information</source>
-        <translation>Plutôt que de ne partager qu'une adresse PIVX, vous pouvez créer une demande de paiement, et  y ajouter des informations complémentaires</translation>
+        <source>Instead of sharing only a LYNX address, you can create a payment request, bundling up more information</source>
+        <translation>Plutôt que de ne partager qu'une adresse LYNX, vous pouvez créer une demande de paiement, et  y ajouter des informations complémentaires</translation>
     </message>
     <message>
         <source>COPY ADDRESS</source>
@@ -2569,8 +2569,8 @@ essayez de dévérouiller le portefeuille</translation>
         <translation>Adresse personnalisée pour el change</translation>
     </message>
     <message>
-        <source>The remainder of the value resultant from the inputs minus the outputs value goes to the "change" PIVX address</source>
-        <translation>Le reste de la valeur résultant des entrées moins les sorties sera envoyé à l'adresse "change" de PIVX </translation>
+        <source>The remainder of the value resultant from the inputs minus the outputs value goes to the "change" LYNX address</source>
+        <translation>Le reste de la valeur résultant des entrées moins les sorties sera envoyé à l'adresse "change" de LYNX </translation>
     </message>
     <message>
         <source>SAVE</source>
@@ -2717,8 +2717,8 @@ Voulez-vous continuer ?</translation>
         <translation>Quantité maximale de données de sortie atteinte</translation>
     </message>
     <message>
-        <source>Parse a PIVX URI</source>
-        <translation>Ouvrir URI PIVX</translation>
+        <source>Parse a LYNX URI</source>
+        <translation>Ouvrir URI LYNX</translation>
     </message>
     <message>
         <source>Invalid entry, previous entries must be valid before add a new one</source>
@@ -2971,9 +2971,9 @@ Souvenez vous de l'écrire et de la stocker en sécurité, afin d'éviter de per
         <translation>Outil BIP38</translation>
     </message>
     <message>
-        <source>Encrypt your PIVX addresses (key pair actually) using BIP38 encryption.
+        <source>Encrypt your LYNX addresses (key pair actually) using BIP38 encryption.
 Using this mechanism you can share your keys without middle-man risk, only need to store your passphrase safely</source>
-        <translation>Chiffrez vos adresses PIVX (paire de clés) en utilisant le chiffrement BIP38.
+        <translation>Chiffrez vos adresses LYNX (paire de clés) en utilisant le chiffrement BIP38.
 En utilisant ce mécanisme, vous pouvez partager vos clés sans risque d'interception par un tiers, il vous est seulement nécessaire de stocker votre phrase secrète en toute sécurité</translation>
     </message>
     <message>
@@ -3009,8 +3009,8 @@ En utilisant ce mécanisme, vous pouvez partager vos clés sans risque d'interce
         <translation>CLÉ DÉCHIFFRÉE</translation>
     </message>
     <message>
-        <source>PIVX address</source>
-        <translation>Adresse PIVX</translation>
+        <source>LYNX address</source>
+        <translation>Adresse LYNX</translation>
     </message>
     <message>
         <source>Enter address</source>
@@ -3138,8 +3138,8 @@ Verify that you have installed a predetermined text editor.</source>
 Vérifiez que vous avez installé un logiciel éditeur de texte.</translation>
     </message>
     <message>
-        <source>Welcome to the PIVX RPC console.</source>
-        <translation>Bienvenue sur la console PIVX RPC.</translation>
+        <source>Welcome to the LYNX RPC console.</source>
+        <translation>Bienvenue sur la console LYNX RPC.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and %1 to clear screen.</source>
@@ -3291,16 +3291,16 @@ Il y a eu une erreur de sauvegarde de la liste d'adresses vers %1. SVP rééssay
 <context>
     <name>SettingsFaqWidget</name>
     <message>
-        <source>1) What is PIVX?</source>
-        <translation>1) Qu'est ce que PIVX?</translation>
+        <source>1) What is LYNX?</source>
+        <translation>1) Qu'est ce que LYNX?</translation>
     </message>
     <message>
         <source>2) Why are my PIV unspendable?</source>
         <translation>2) Pourquoi mes PIV ne peuvent pas être dépensés?</translation>
     </message>
     <message>
-        <source>What is PIVX?</source>
-        <translation>Qu'est ce que PIVX ?</translation>
+        <source>What is LYNX?</source>
+        <translation>Qu'est ce que LYNX ?</translation>
     </message>
     <message>
         <source>Why are my PIV unspendable?</source>
@@ -3351,27 +3351,27 @@ Il y a eu une erreur de sauvegarde de la liste d'adresses vers %1. SVP rééssay
         <translation>Vous pouvez en lire plus ici</translation>
     </message>
     <message>
-        <source>PIVX is a form of digital online money using blockchain technology that can be easily transferred globally, instantly, and with near zero fees. PIVX incorporates market leading security &amp; privacy and is also the first PoS (Proof of Stake) Cryptocurrency to implement Sapling(SHIELD), a zk-SNARKs based privacy protocol.</source>
-        <translation>PIVX est une forme de monnaie numérique basée sur la technologie blockchain qui peut être transférée mondialement, instantanément, avec des frais quasi-nuls. PIVX est à la pointe de la sécurité et de la protection de la vie privée, et est la première cryptodevise Pos (Proof of Stake) à implémenter Sapling (SHIELD), un protocole basé sur les zk-SNARKs.</translation>
+        <source>LYNX is a form of digital online money using blockchain technology that can be easily transferred globally, instantly, and with near zero fees. LYNX incorporates market leading security &amp; privacy and is also the first PoS (Proof of Stake) Cryptocurrency to implement Sapling(SHIELD), a zk-SNARKs based privacy protocol.</source>
+        <translation>LYNX est une forme de monnaie numérique basée sur la technologie blockchain qui peut être transférée mondialement, instantanément, avec des frais quasi-nuls. LYNX est à la pointe de la sécurité et de la protection de la vie privée, et est la première cryptodevise Pos (Proof of Stake) à implémenter Sapling (SHIELD), un protocole basé sur les zk-SNARKs.</translation>
     </message>
     <message>
-        <source>PIVX utilizes a Proof of Stake (PoS) consensus system algorithm, allowing all owners of PIVX to participate in earning block rewards while securing the network with full node wallets, as well as to run Masternodes to create and vote on proposals.</source>
-        <translation>PIVX utilise un algorithme de consensus Proof of Staks (PoS) qui permet a tous ses porteurs de sécuriser le réseau en opérant des noeuds réseaux ou des Masternodes tout en gagnant des récompenses à chaque bloc.</translation>
+        <source>LYNX utilizes a Proof of Stake (PoS) consensus system algorithm, allowing all owners of LYNX to participate in earning block rewards while securing the network with full node wallets, as well as to run Masternodes to create and vote on proposals.</source>
+        <translation>LYNX utilise un algorithme de consensus Proof of Staks (PoS) qui permet a tous ses porteurs de sécuriser le réseau en opérant des noeuds réseaux ou des Masternodes tout en gagnant des récompenses à chaque bloc.</translation>
     </message>
     <message>
-        <source>Newly received PIVX requires 6 confirmations on the network to become eligible for spending which can take ~6 minutes.</source>
-        <translation>Les PIVX nouvellement reçus nécessitent 6 confirmations avant de pouvoir être dépensés. Cela peut prendre ~6 minutes.</translation>
+        <source>Newly received LYNX requires 6 confirmations on the network to become eligible for spending which can take ~6 minutes.</source>
+        <translation>Les LYNX nouvellement reçus nécessitent 6 confirmations avant de pouvoir être dépensés. Cela peut prendre ~6 minutes.</translation>
     </message>
     <message>
-        <source>Your PIVX wallet also needs to be completely synchronized to see and spend balances on the network.</source>
-        <translation>Votre portefeuille PIVX doit être complètement synchronisé pour voir votre solde et dépenser vos PIVs.</translation>
+        <source>Your LYNX wallet also needs to be completely synchronized to see and spend balances on the network.</source>
+        <translation>Votre portefeuille LYNX doit être complètement synchronisé pour voir votre solde et dépenser vos PIVs.</translation>
     </message>
     <message>
         <source>Make sure your wallet is completely synchronized and you are using the latest release.</source>
         <translation>Assurez vous que votre portefeuille soit complètement synchronisé et que vous utilisez la dernière version.</translation>
     </message>
     <message>
-        <source>You must have a balance of PIVX with a minimum of 600 confirmations.</source>
+        <source>You must have a balance of LYNX with a minimum of 600 confirmations.</source>
         <translation>Vous devez avoir un solde de PIVs avec un minimum de 600 confirmations.</translation>
     </message>
     <message>
@@ -3431,8 +3431,8 @@ Il y a eu une erreur de sauvegarde de la liste d'adresses vers %1. SVP rééssay
         <translation>Récompense Masternode</translation>
     </message>
     <message>
-        <source>Participate in PIVX Governance</source>
-        <translation>Participer à la Gouvernance de PIVX</translation>
+        <source>Participate in LYNX Governance</source>
+        <translation>Participer à la Gouvernance de LYNX</translation>
     </message>
     <message>
         <source>Earn Masternode Rewards</source>
@@ -3443,8 +3443,8 @@ Il y a eu une erreur de sauvegarde de la liste d'adresses vers %1. SVP rééssay
         <translation>Commodity Option pour vente future</translation>
     </message>
     <message>
-        <source>Help secure the PIVX network</source>
-        <translation>Aidez à sécuriser le réseau PIVX</translation>
+        <source>Help secure the LYNX network</source>
+        <translation>Aidez à sécuriser le réseau LYNX</translation>
     </message>
     <message>
         <source>Requirements:</source>
@@ -3642,8 +3642,8 @@ Confirmez-vous?
         <translation>Sélectionnez le mode</translation>
     </message>
     <message>
-        <source>PIVX address or contact label</source>
-        <translation>Adresse PIVX ou nom du contact</translation>
+        <source>LYNX address or contact label</source>
+        <translation>Adresse LYNX ou nom du contact</translation>
     </message>
     <message>
         <source>Enter address</source>
@@ -3753,8 +3753,8 @@ Confirmez-vous?
         <translation>Personnaliser les options réseau du nœud</translation>
     </message>
     <message>
-        <source>Automatically open the PIVX client port on the router. This only works when your router supports NAT-PMP and it is enabled. The external port could be random.</source>
-        <translation>Ouvrir automatiquement le port du client PIVX sur le routeur. Ceci fonctionne uniquement si votre routeur prend en charge NAT-PMP et que celui-ci est activé. Le port externe peut être aléatoire.</translation>
+        <source>Automatically open the LYNX client port on the router. This only works when your router supports NAT-PMP and it is enabled. The external port could be random.</source>
+        <translation>Ouvrir automatiquement le port du client LYNX sur le routeur. Ceci fonctionne uniquement si votre routeur prend en charge NAT-PMP et que celui-ci est activé. Le port externe peut être aléatoire.</translation>
     </message>
     <message>
         <source>Map port using NAT-PMP</source>
@@ -3923,8 +3923,8 @@ Confirmez-vous?
         <translation>Aide</translation>
     </message>
     <message>
-        <source>About PIVX</source>
-        <translation>A propos de PIVX</translation>
+        <source>About LYNX</source>
+        <translation>A propos de LYNX</translation>
     </message>
     <message>
         <source>Settings</source>
@@ -4578,20 +4578,20 @@ Select fewer inputs with coin control.</source>
         <translation>Choisissez votre langue</translation>
     </message>
     <message>
-        <source>PIVX is the world’s most innovative Proof of Stake blockchain based technology. Developed by a team of highly experienced developers and cryptographers.</source>
-        <translation>PIVX est la technologie Blockchain à preuve d'enjeu ('Proof of Stake') la plus innovante au monde, développée et supportée par une équipe de développeurs et cryptographes expérimentés.</translation>
+        <source>LYNX is the world’s most innovative Proof of Stake blockchain based technology. Developed by a team of highly experienced developers and cryptographers.</source>
+        <translation>LYNX est la technologie Blockchain à preuve d'enjeu ('Proof of Stake') la plus innovante au monde, développée et supportée par une équipe de développeurs et cryptographes expérimentés.</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;As our manifesto says: Privacy is a non-negotiable basic human right; it grants users the freedom to share their data whenever and with whomever they want - PIVX believes in self sovereignty.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt; Comme notre manifeste l'indique: le respect de la vie privée est un droit fondamental de l'être humain; il donne aux utilisateurs la liberté de partager leurs données quand et avec qui ils le souhaitent - PIVX croit en l'auto gestion. &lt;/p&gt;&lt;/body&gt;&lt;/html&gt; </translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;As our manifesto says: Privacy is a non-negotiable basic human right; it grants users the freedom to share their data whenever and with whomever they want - LYNX believes in self sovereignty.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt; Comme notre manifeste l'indique: le respect de la vie privée est un droit fondamental de l'être humain; il donne aux utilisateurs la liberté de partager leurs données quand et avec qui ils le souhaitent - LYNX croit en l'auto gestion. &lt;/p&gt;&lt;/body&gt;&lt;/html&gt; </translation>
     </message>
     <message>
-        <source>The masternode network is PIVX's second layer network on top of the blockchain that enables our DAO to provide decentralized governance and a treasury.</source>
-        <translation>Le réseau Masternode est une seconde couche réseau de PIVX au dessus de la blockchain qui garantit à notre organisation une gouvernance et une gestion de la trésorerie décentralisées.</translation>
+        <source>The masternode network is LYNX's second layer network on top of the blockchain that enables our DAO to provide decentralized governance and a treasury.</source>
+        <translation>Le réseau Masternode est une seconde couche réseau de LYNX au dessus de la blockchain qui garantit à notre organisation une gouvernance et une gestion de la trésorerie décentralisées.</translation>
     </message>
     <message>
-        <source>How PIVX respects your privacy?</source>
-        <translation>Comment PIVX respecte votre vie privée?</translation>
+        <source>How LYNX respects your privacy?</source>
+        <translation>Comment LYNX respecte votre vie privée?</translation>
     </message>
     <message>
         <source>Welcome to
@@ -4655,7 +4655,7 @@ Portefeuille %1</translation>
     </message>
     <message>
         <source>Warning: We do not appear to fully agree with our peers! You may need to upgrade, or other nodes may need to upgrade.</source>
-        <translation>Attention: Il semble que nous soyons en désaccord avec nos pairs sur le réseau! Cela signifie que vous pourriez avoir besoin de mettre à jour votre PIVX Core, ou que les autres noeuds aient besoin de se mettre à jour de leur côté.</translation>
+        <translation>Attention: Il semble que nous soyons en désaccord avec nos pairs sur le réseau! Cela signifie que vous pourriez avoir besoin de mettre à jour votre LYNX Core, ou que les autres noeuds aient besoin de se mettre à jour de leur côté.</translation>
     </message>
     <message>
         <source>"local" vote is no longer available with DMNs. Use "alias" from the wallet with the voting key.</source>

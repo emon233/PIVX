@@ -1,9 +1,9 @@
-// Copyright (c) 2021 The PIVX Core developers
+// Copyright (c) 2021 The LYNX Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or https://www.opensource.org/licenses/mit-license.php.
 
-#ifndef PIVX_POS_TEST_FIXTURE_H
-#define PIVX_POS_TEST_FIXTURE_H
+#ifndef LYNX_POS_TEST_FIXTURE_H
+#define LYNX_POS_TEST_FIXTURE_H
 
 #include "test/test_lynx.h"
 
@@ -21,4 +21,4 @@ struct TestPoSChainSetup: public TestChainSetup
     ~TestPoSChainSetup();
 };
 
-#endif // PIVX_POS_TEST_FIXTURE_H
+#endif // LYNX_POS_TEST_FIXTURE_H

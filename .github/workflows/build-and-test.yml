@@ -1,4 +1,4 @@
-name: CI Actions for PIVX
+name: CI Actions for LYNX
 
 on: [push, pull_request]
 jobs:

@@ -1,4 +1,4 @@
-PIVX Core version *v5.6.0* is now available from:  <https://github.com/lynx-project/lynx/releases>
+LYNX Core version *v5.6.0* is now available from:  <https://github.com/lynx-project/lynx/releases>
 
 This is a new major version release, including various bug fixes and performance improvements, as well as updated translations.
 
@@ -8,7 +8,7 @@ Please report bugs using the issue tracker at github: <https://github.com/lynx-p
 How to Upgrade
 ==============
 
-If you are running an older version, shut it down. Wait until it has completely shut down (which might take a few minutes for older versions), then run the installer (on Windows) or just copy over /Applications/PIVX-Qt (on Mac) or lynxd/lynx-qt (on Linux).
+If you are running an older version, shut it down. Wait until it has completely shut down (which might take a few minutes for older versions), then run the installer (on Windows) or just copy over /Applications/LYNX-Qt (on Mac) or lynxd/lynx-qt (on Linux).
 
 Notable Changes
 ==============
@@ -18,7 +18,7 @@ Notable Changes
 
 ### Deprecated autocombinerewards RPC Command
 
-The `autocombinerewards` RPC command was soft-deprecated in v5.3.0 and replaced with explicit setter/getter commands `setautocombinethreshold`/`getautocombinethreshold`. PIVX Core, by default, will no longer accept the `autocombinerewards` command, returning a deprecation error, unless the `lynxd`/`lynx-qt` is started with the `-deprecatedrpc=autocombinerewards` option.
+The `autocombinerewards` RPC command was soft-deprecated in v5.3.0 and replaced with explicit setter/getter commands `setautocombinethreshold`/`getautocombinethreshold`. LYNX Core, by default, will no longer accept the `autocombinerewards` command, returning a deprecation error, unless the `lynxd`/`lynx-qt` is started with the `-deprecatedrpc=autocombinerewards` option.
 
 This command will be fully removed in v6.0.0.
 

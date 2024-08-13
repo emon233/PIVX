@@ -1,4 +1,4 @@
-// Copyright (c) 2019-2022 The PIVX Core developers
+// Copyright (c) 2019-2022 The LYNX Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -8,7 +8,7 @@
 #include <QDialog>
 
 class MNModel;
-class PIVXGUI;
+class LYNXGUI;
 
 namespace Ui {
 class SettingsFaqWidget;
@@ -27,7 +27,7 @@ public:
         MNCONTROLLER
     };
 
-    explicit SettingsFaqWidget(PIVXGUI* parent, MNModel* _model);
+    explicit SettingsFaqWidget(LYNXGUI* parent, MNModel* _model);
     ~SettingsFaqWidget();
 
     void showEvent(QShowEvent *event) override;

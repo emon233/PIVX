@@ -22,13 +22,13 @@ from test_framework.script import (
     OP_TRUE,
     OP_DROP
 )
-from test_framework.test_framework import PivxTestFramework
+from test_framework.test_framework import LynxTestFramework
 from test_framework.util import (
     assert_equal,
 )
 
 
-class InvalidTxRequestTest(PivxTestFramework):
+class InvalidTxRequestTest(LynxTestFramework):
     def set_test_params(self):
         self.num_nodes = 1
         self.setup_clean_chain = True

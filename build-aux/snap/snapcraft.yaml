@@ -1,17 +1,17 @@
 # Copyright (c) 2018-2019 The Ion developers
-# Copyright (c) 2019 The PIVX developers
+# Copyright (c) 2019 The LYNX developers
 name: pivx-core
 base: core18
 version: 5.5.99
-summary:   PIVX (Private – Instant – Verified – Transaction)
+summary:   LYNX (Private – Instant – Verified – Transaction)
 description: |
-  PIVX is an MIT licensed,
+  LYNX is an MIT licensed,
   open source, blockchain-based cryptocurrency with
   ultra fast transactions, low fees, high network decentralization, and
   Zero Knowledge cryptography proofs for industry-leading
   transaction anonymity.
 
-  - [Download](https://pivx.org/wp-content/uploads/2018/10/PIVX-White.pdf) PIVX White Paper PDF
+  - [Download](https://pivx.org/wp-content/uploads/2018/10/LYNX-White.pdf) LYNX White Paper PDF
 grade: devel
 confinement: strict
 
@@ -106,7 +106,7 @@ parts:
       - fcitx-frontend-qt5
 
   pivx-core:
-    source: https://github.com/PIVX-Project/PIVX
+    source: https://github.com/LYNX-Project/LYNX
     source-type: git
     source-tag: master
     plugin: nil

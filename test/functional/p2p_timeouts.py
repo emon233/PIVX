@@ -25,14 +25,14 @@ from time import sleep
 
 from test_framework.messages import msg_ping
 from test_framework.mininode import P2PInterface
-from test_framework.test_framework import PivxTestFramework
+from test_framework.test_framework import LynxTestFramework
 
 class TestP2PConn(P2PInterface):
     def on_version(self, message):
         # Don't send a verack in response
         pass
 
-class TimeoutsTest(PivxTestFramework):
+class TimeoutsTest(LynxTestFramework):
     def set_test_params(self):
         self.setup_clean_chain = True
         self.num_nodes = 1

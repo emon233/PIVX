@@ -16,8 +16,8 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "PIVX"
-            VALUE "FileDescription",    "lynxd (PIVX node with a JSON-RPC server)"
+            VALUE "CompanyName",        "LYNX"
+            VALUE "FileDescription",    "lynxd (LYNX node with a JSON-RPC server)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "lynxd"
             VALUE "LegalCopyright",     COPYRIGHT_STR

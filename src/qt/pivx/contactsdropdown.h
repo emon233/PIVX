@@ -1,4 +1,4 @@
-// Copyright (c) 2019-2021 The PIVX Core developers
+// Copyright (c) 2019-2021 The LYNX Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -29,7 +29,7 @@ class ContactsDropdown : public PWidget
     Q_OBJECT
 public:
     explicit ContactsDropdown(int minWidth, int minHeight, PWidget* parent = nullptr);
-    ContactsDropdown(int minWidth, int minHeight, PIVXGUI* _window = nullptr,
+    ContactsDropdown(int minWidth, int minHeight, LYNXGUI* _window = nullptr,
                      QWidget* parent = nullptr);
 
     void resizeList(int minWidth, int mintHeight);

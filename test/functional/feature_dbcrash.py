@@ -32,12 +32,12 @@ import random
 import time
 
 from test_framework.messages import COIN, COutPoint, CTransaction, CTxIn, CTxOut, ToHex
-from test_framework.test_framework import PivxTestFramework
+from test_framework.test_framework import LynxTestFramework
 from test_framework.util import assert_equal, create_confirmed_utxos, hex_str_to_bytes
 
 
 
-class ChainstateWriteCrashTest(PivxTestFramework):
+class ChainstateWriteCrashTest(LynxTestFramework):
 
     def set_test_params(self):
         self.num_nodes = 4
@@ -45,8 +45,8 @@ class ChainstateWriteCrashTest(PivxTestFramework):
         self.setup_clean_chain = False
         # Need a bit of extra time for the nodes to start up for this test
 
-        self.chain_params = ['-nuparams=v5_shield:90000', '-nuparams=PIVX_v4.0:90000',
-                             '-nuparams=PIVX_v3.4:90000', '-nuparams=Zerocoin_Public:90000',
+        self.chain_params = ['-nuparams=v5_shield:90000', '-nuparams=LYNX_v4.0:90000',
+                             '-nuparams=LYNX_v3.4:90000', '-nuparams=Zerocoin_Public:90000',
                              '-nuparams=Zerocoin_v2:90000', '-nuparams=Zerocoin:90000',
                              '-nuparams=PoS_v2:90000', '-nuparams=PoS:90000']
         # Set -maxmempool=0 to turn off mempool memory sharing with dbcache

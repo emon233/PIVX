@@ -5,10 +5,10 @@
 """Check that it's not possible to start a second lynxd instance using the same datadir or wallet."""
 import os
 
-from test_framework.test_framework import PivxTestFramework
+from test_framework.test_framework import LynxTestFramework
 from test_framework.test_node import ErrorMatch
 
-class FilelockTest(PivxTestFramework):
+class FilelockTest(LynxTestFramework):
     def set_test_params(self):
         self.setup_clean_chain = True
         self.num_nodes = 2
@@ -26,7 +26,7 @@ class FilelockTest(PivxTestFramework):
         self.log.info("Using datadir {}".format(datadir))
 
         self.log.info("Check that we can't start a second lynxd instance using the same datadir")
-        expected_msg = "Error: Cannot obtain a lock on data directory {}. PIVX Core is probably already running.".format(datadir)
+        expected_msg = "Error: Cannot obtain a lock on data directory {}. LYNX Core is probably already running.".format(datadir)
         self.nodes[1].assert_start_raises_init_error(extra_args=['-datadir={}'.format(self.nodes[0].datadir), '-noserver'], expected_msg=expected_msg)
 
         if self.is_wallet_compiled():

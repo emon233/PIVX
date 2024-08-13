@@ -91,12 +91,12 @@
         <translation>Mottagar adresser</translation>
     </message>
     <message>
-        <source>These are your PIVX addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Det här är dina PIVX adresser för att skicka betalningar. Kontrollera alltid summan och mottagaradressen innan du sänder mynt.</translation>
+        <source>These are your LYNX addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Det här är dina LYNX adresser för att skicka betalningar. Kontrollera alltid summan och mottagaradressen innan du sänder mynt.</translation>
     </message>
     <message>
-        <source>These are your PIVX addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Det här är dina PIVX adresser för att ta emot betalningar. Det är rekommenderat att använda en ny mottagaradress för varje transaktion.</translation>
+        <source>These are your LYNX addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Det här är dina LYNX adresser för att ta emot betalningar. Det är rekommenderat att använda en ny mottagaradress för varje transaktion.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -1050,8 +1050,8 @@ Den startar automatiskt så snart plånboken har tillräckligt många bekräftel
         <translation>Redigera skickande adress</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid PIVX address.</source>
-        <translation>Den inmatade adressen "%1" är ej en giltig PIVX adress.</translation>
+        <source>The entered address "%1" is not a valid LYNX address.</source>
+        <translation>Den inmatade adressen "%1" är ej en giltig LYNX adress.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1240,8 +1240,8 @@ Var en del av DAO.</translation>
         <translation>Eftersom detta är första gången programmet startas får du välja var %1 kommer att lagra sina data.</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the PIVX block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>%1 kommer att ladda ner och lagra en kopia av PIVX blockkedjan. Minst %2GB data kommer att lagras i denna mapp och den kommer att växa över tiden. Plånboken kommer också att lagras i denna mapp.</translation>
+        <source>%1 will download and store a copy of the LYNX block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>%1 kommer att ladda ner och lagra en kopia av LYNX blockkedjan. Minst %2GB data kommer att lagras i denna mapp och den kommer att växa över tiden. Plånboken kommer också att lagras i denna mapp.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1453,8 +1453,8 @@ Var en del av DAO.</translation>
         <translation>Felaktig IP adress</translation>
     </message>
     <message>
-        <source>To create a PIVX Masternode you must dedicate %1 (the unit of PIVX) to the network (however, these coins are still yours and will never leave your possession).</source>
-        <translation>För att skapa en PIVX masternode måste du avsätta %1 (enheten för PIVX) till nätverket (dessa mynt är dock fortfarande dina och kommer aldrig lämna din ägo).</translation>
+        <source>To create a LYNX Masternode you must dedicate %1 (the unit of LYNX) to the network (however, these coins are still yours and will never leave your possession).</source>
+        <translation>För att skapa en LYNX masternode måste du avsätta %1 (enheten för LYNX) till nätverket (dessa mynt är dock fortfarande dina och kommer aldrig lämna din ägo).</translation>
     </message>
     <message>
         <source>You can deactivate the node and unlock the coins at any time.</source>
@@ -1785,8 +1785,8 @@ NODER</translation>
         <translation>Öppna URI</translation>
     </message>
     <message>
-        <source>Open PIVX URI</source>
-        <translation>Öppna PIVX URI</translation>
+        <source>Open LYNX URI</source>
+        <translation>Öppna LYNX URI</translation>
     </message>
     <message>
         <source>CANCEL</source>
@@ -1798,7 +1798,7 @@ NODER</translation>
     </message>
 </context>
 <context>
-    <name>PIVXGUI</name>
+    <name>LYNXGUI</name>
     <message>
         <source>Wallet</source>
         <translation>Plånbok</translation>
@@ -1883,8 +1883,8 @@ Adress: %4
         <translation>Kan ej starta lynx: klicka-för-att-betala hanterare</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid PIVX address or malformed URI parameters.</source>
-        <translation>URI kunde ej analyseras! Detta kan orsakas av en ogiltig PIVX adress eller felproducerade URI parametrar.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid LYNX address or malformed URI parameters.</source>
+        <translation>URI kunde ej analyseras! Detta kan orsakas av en ogiltig LYNX adress eller felproducerade URI parametrar.</translation>
     </message>
 </context>
 <context>
@@ -2007,8 +2007,8 @@ Adress: %4
         <translation>Mängd</translation>
     </message>
     <message>
-        <source>Enter PIVX address (e.g. %1)</source>
-        <translation>Ange PIVX-adress (t.ex. %1)</translation>
+        <source>Enter LYNX address (e.g. %1)</source>
+        <translation>Ange LYNX-adress (t.ex. %1)</translation>
     </message>
     <message>
         <source>%1 h</source>
@@ -2031,8 +2031,8 @@ Adress: %4
         <translation>Inget</translation>
     </message>
     <message>
-        <source>A fatal error occurred. PIVX can no longer continue safely and will quit.</source>
-        <translation>Ett fel inträffade. PIVX kan inte längre köras säkert och kommer att stängas ned för tillfället.</translation>
+        <source>A fatal error occurred. LYNX can no longer continue safely and will quit.</source>
+        <translation>Ett fel inträffade. LYNX kan inte längre köras säkert och kommer att stängas ned för tillfället.</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" does not exist.</source>
@@ -2274,8 +2274,8 @@ Adress: %4
         <translation>Blockchain</translation>
     </message>
     <message>
-        <source>Open the PIVX debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Öppna PIVX felsökningslogg från den nuvarande data katalogen. Detta kan ta några sekunder för stora logg filer.</translation>
+        <source>Open the LYNX debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Öppna LYNX felsökningslogg från den nuvarande data katalogen. Detta kan ta några sekunder för stora logg filer.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -2470,8 +2470,8 @@ Adress: %4
         <translation>Ut:</translation>
     </message>
     <message>
-        <source>Welcome to the PIVX RPC console.</source>
-        <translation>Välkommen till PIVX RPC konsol.</translation>
+        <source>Welcome to the LYNX RPC console.</source>
+        <translation>Välkommen till LYNX RPC konsol.</translation>
     </message>
     <message>
         <source>&amp;Disconnect Node</source>
@@ -2689,8 +2689,8 @@ försök låsa upp plånboken</translation>
         <translation>Mängd</translation>
     </message>
     <message>
-        <source>Instead of sharing only a PIVX address, you can create a payment request, bundling up more information</source>
-        <translation>Istället för att bara dela en PIVX-adress kan du skapa en betalningsförfrågan och samla mer information.</translation>
+        <source>Instead of sharing only a LYNX address, you can create a payment request, bundling up more information</source>
+        <translation>Istället för att bara dela en LYNX-adress kan du skapa en betalningsförfrågan och samla mer information.</translation>
     </message>
     <message>
         <source>COPY ADDRESS</source>
@@ -2772,8 +2772,8 @@ försök låsa upp plånboken</translation>
         <translation>Anpassad växelmynt adress</translation>
     </message>
     <message>
-        <source>The remainder of the value resultant from the inputs minus the outputs value goes to the "change" PIVX address</source>
-        <translation>Resten av värdet som resulterar från inputs minus outputs går till "växel" PIVX-adressen.</translation>
+        <source>The remainder of the value resultant from the inputs minus the outputs value goes to the "change" LYNX address</source>
+        <translation>Resten av värdet som resulterar från inputs minus outputs går till "växel" LYNX-adressen.</translation>
     </message>
     <message>
         <source>SAVE</source>
@@ -2920,8 +2920,8 @@ Vill du fortsätta?</translation>
         <translation>Maximalt antal outputs nådd</translation>
     </message>
     <message>
-        <source>Parse a PIVX URI</source>
-        <translation>Bearbeta en PIVX URI</translation>
+        <source>Parse a LYNX URI</source>
+        <translation>Bearbeta en LYNX URI</translation>
     </message>
     <message>
         <source>Invalid entry, previous entries must be valid before add a new one</source>
@@ -3174,9 +3174,9 @@ Kom ihåg att skriva ner det och förvara det säkert, annars kan du förlora å
         <translation>BIP38 verktyg</translation>
     </message>
     <message>
-        <source>Encrypt your PIVX addresses (key pair actually) using BIP38 encryption.
+        <source>Encrypt your LYNX addresses (key pair actually) using BIP38 encryption.
 Using this mechanism you can share your keys without middle-man risk, only need to store your passphrase safely</source>
-        <translation>Kryptera dina PIVX-adresser (nyckelpar faktiskt) med BIP38-kryptering. Med hjälp av denna mekanism kan du dela dina nycklar utan risk för mellanhand, du behöver bara lagra ditt lösenord på ett säkert sätt.</translation>
+        <translation>Kryptera dina LYNX-adresser (nyckelpar faktiskt) med BIP38-kryptering. Med hjälp av denna mekanism kan du dela dina nycklar utan risk för mellanhand, du behöver bara lagra ditt lösenord på ett säkert sätt.</translation>
     </message>
     <message>
         <source>Encrypt</source>
@@ -3211,8 +3211,8 @@ Using this mechanism you can share your keys without middle-man risk, only need 
         <translation>AVKRYPTERA NYCKEL</translation>
     </message>
     <message>
-        <source>PIVX address</source>
-        <translation>PIVX-adress</translation>
+        <source>LYNX address</source>
+        <translation>LYNX-adress</translation>
     </message>
     <message>
         <source>Enter address</source>
@@ -3344,8 +3344,8 @@ Verify that you have installed a predetermined text editor.</source>
 Verifiera att du har installerat en fördefinierad textredigerare.</translation>
     </message>
     <message>
-        <source>Welcome to the PIVX RPC console.</source>
-        <translation>Välkommen till PIVX RPC konsol.</translation>
+        <source>Welcome to the LYNX RPC console.</source>
+        <translation>Välkommen till LYNX RPC konsol.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and %1 to clear screen.</source>
@@ -3505,16 +3505,16 @@ Det uppstod ett fel när adresslistan skulle sparas till %1. Försök igen.</tra
 <context>
     <name>SettingsFaqWidget</name>
     <message>
-        <source>1) What is PIVX?</source>
-        <translation>1) Vad är PIVX?</translation>
+        <source>1) What is LYNX?</source>
+        <translation>1) Vad är LYNX?</translation>
     </message>
     <message>
         <source>2) Why are my PIV unspendable?</source>
         <translation>2) Varför är mina PIV oanvändbara?</translation>
     </message>
     <message>
-        <source>What is PIVX?</source>
-        <translation>Vad är PIVX?</translation>
+        <source>What is LYNX?</source>
+        <translation>Vad är LYNX?</translation>
     </message>
     <message>
         <source>Why are my PIV unspendable?</source>
@@ -3565,28 +3565,28 @@ Det uppstod ett fel när adresslistan skulle sparas till %1. Försök igen.</tra
         <translation>Du kan läsa mer här</translation>
     </message>
     <message>
-        <source>PIVX is a form of digital online money using blockchain technology that can be easily transferred globally, instantly, and with near zero fees. PIVX incorporates market leading security &amp; privacy and is also the first PoS (Proof of Stake) Cryptocurrency to implement Sapling(SHIELD), a zk-SNARKs based privacy protocol.</source>
-        <translation>PIVX är en form av digitalt onlinepengar som använder blockkedjeteknik och kan enkelt överföras globalt, omedelbart och med nästan inga avgifter. PIVX integrerar marknadsledande säkerhet och integritet och är också den första PoS (Proof of Stake) kryptovalutan som implementerar Sapling (SHIELD), en sekretessprotokoll baserad på zk-SNARKs.</translation>
+        <source>LYNX is a form of digital online money using blockchain technology that can be easily transferred globally, instantly, and with near zero fees. LYNX incorporates market leading security &amp; privacy and is also the first PoS (Proof of Stake) Cryptocurrency to implement Sapling(SHIELD), a zk-SNARKs based privacy protocol.</source>
+        <translation>LYNX är en form av digitalt onlinepengar som använder blockkedjeteknik och kan enkelt överföras globalt, omedelbart och med nästan inga avgifter. LYNX integrerar marknadsledande säkerhet och integritet och är också den första PoS (Proof of Stake) kryptovalutan som implementerar Sapling (SHIELD), en sekretessprotokoll baserad på zk-SNARKs.</translation>
     </message>
     <message>
-        <source>PIVX utilizes a Proof of Stake (PoS) consensus system algorithm, allowing all owners of PIVX to participate in earning block rewards while securing the network with full node wallets, as well as to run Masternodes to create and vote on proposals.</source>
-        <translation>PIVX använder en Proof of Stake (PoS) konsensus systemalgoritm, vilket gör det möjligt för alla ägare av PIVX att delta i att tjäna blockbelöningar samtidigt som de säkrar nätverket med fulla nodplånböcker, samt att köra masternoder för att skapa och rösta om förslag.</translation>
+        <source>LYNX utilizes a Proof of Stake (PoS) consensus system algorithm, allowing all owners of LYNX to participate in earning block rewards while securing the network with full node wallets, as well as to run Masternodes to create and vote on proposals.</source>
+        <translation>LYNX använder en Proof of Stake (PoS) konsensus systemalgoritm, vilket gör det möjligt för alla ägare av LYNX att delta i att tjäna blockbelöningar samtidigt som de säkrar nätverket med fulla nodplånböcker, samt att köra masternoder för att skapa och rösta om förslag.</translation>
     </message>
     <message>
-        <source>Newly received PIVX requires 6 confirmations on the network to become eligible for spending which can take ~6 minutes.</source>
-        <translation>Nyligen mottagen PIVX kräver 6 bekräftelser på nätverket för att bli berättigad till att spenderas, vilket kan ta ~6 minuter.</translation>
+        <source>Newly received LYNX requires 6 confirmations on the network to become eligible for spending which can take ~6 minutes.</source>
+        <translation>Nyligen mottagen LYNX kräver 6 bekräftelser på nätverket för att bli berättigad till att spenderas, vilket kan ta ~6 minuter.</translation>
     </message>
     <message>
-        <source>Your PIVX wallet also needs to be completely synchronized to see and spend balances on the network.</source>
-        <translation>Din PIVX-plånbok måste också vara helt synkroniserad för att kunna se och spendera saldon på nätverket.</translation>
+        <source>Your LYNX wallet also needs to be completely synchronized to see and spend balances on the network.</source>
+        <translation>Din LYNX-plånbok måste också vara helt synkroniserad för att kunna se och spendera saldon på nätverket.</translation>
     </message>
     <message>
         <source>Make sure your wallet is completely synchronized and you are using the latest release.</source>
         <translation>Se till att din plånbok är helt synkroniserad och att du använder den senaste versionen.</translation>
     </message>
     <message>
-        <source>You must have a balance of PIVX with a minimum of 600 confirmations.</source>
-        <translation>Du måste ha en balans av PIVX med minst 600 bekräftelser.</translation>
+        <source>You must have a balance of LYNX with a minimum of 600 confirmations.</source>
+        <translation>Du måste ha en balans av LYNX med minst 600 bekräftelser.</translation>
     </message>
     <message>
         <source>Your wallet must stay online and be unlocked for staking purposes.</source>
@@ -3645,8 +3645,8 @@ Det uppstod ett fel när adresslistan skulle sparas till %1. Försök igen.</tra
         <translation>Masternode förmåner:</translation>
     </message>
     <message>
-        <source>Participate in PIVX Governance</source>
-        <translation>Delta i PIVX-styrning</translation>
+        <source>Participate in LYNX Governance</source>
+        <translation>Delta i LYNX-styrning</translation>
     </message>
     <message>
         <source>Earn Masternode Rewards</source>
@@ -3657,8 +3657,8 @@ Det uppstod ett fel när adresslistan skulle sparas till %1. Försök igen.</tra
         <translation>Commodity option för framtida försäljning</translation>
     </message>
     <message>
-        <source>Help secure the PIVX network</source>
-        <translation>Hjälp till att säkra PIVX-nätverket</translation>
+        <source>Help secure the LYNX network</source>
+        <translation>Hjälp till att säkra LYNX-nätverket</translation>
     </message>
     <message>
         <source>Requirements:</source>
@@ -3864,8 +3864,8 @@ Are you sure?
         <translation>Meddelande</translation>
     </message>
     <message>
-        <source>PIVX address or contact label</source>
-        <translation>PIVX adress eller kontakttagg</translation>
+        <source>LYNX address or contact label</source>
+        <translation>LYNX adress eller kontakttagg</translation>
     </message>
     <message>
         <source>Enter address</source>
@@ -3987,8 +3987,8 @@ Are you sure?
         <translation>Aktivera eller inaktivera nätverksaktivitet</translation>
     </message>
     <message>
-        <source>Automatically open the PIVX client port on the router. This only works when your router supports NAT-PMP and it is enabled. The external port could be random.</source>
-        <translation>Automatiskt öppna PIVX-klientporten på routern. Detta fungerar endast om din router stöder NAT-PMP och det är aktiverat. Den externa porten kan vara slumpmässig.</translation>
+        <source>Automatically open the LYNX client port on the router. This only works when your router supports NAT-PMP and it is enabled. The external port could be random.</source>
+        <translation>Automatiskt öppna LYNX-klientporten på routern. Detta fungerar endast om din router stöder NAT-PMP och det är aktiverat. Den externa porten kan vara slumpmässig.</translation>
     </message>
     <message>
         <source>Map port using NAT-PMP</source>
@@ -4173,8 +4173,8 @@ Are you sure?
         <translation>Hjälp</translation>
     </message>
     <message>
-        <source>About PIVX</source>
-        <translation>Om PIVX</translation>
+        <source>About LYNX</source>
+        <translation>Om LYNX</translation>
     </message>
     <message>
         <source>Settings</source>
@@ -4831,20 +4831,20 @@ Välj färre inmatningar med myntkontroll.</translation>
         <translation>Välj ditt språk</translation>
     </message>
     <message>
-        <source>PIVX is the world’s most innovative Proof of Stake blockchain based technology. Developed by a team of highly experienced developers and cryptographers.</source>
-        <translation>PIVX är världens mest innovativa Proof of Stake blockkedjebaserad teknologi. Utvecklad av ett team av välerfarna utvecklare och kryptografer</translation>
+        <source>LYNX is the world’s most innovative Proof of Stake blockchain based technology. Developed by a team of highly experienced developers and cryptographers.</source>
+        <translation>LYNX är världens mest innovativa Proof of Stake blockkedjebaserad teknologi. Utvecklad av ett team av välerfarna utvecklare och kryptografer</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;As our manifesto says: Privacy is a non-negotiable basic human right; it grants users the freedom to share their data whenever and with whomever they want - PIVX believes in self sovereignty.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>Som vår manifest säger: Integritet är en icke-förhandlingsbar grundläggande mänsklig rättighet; den ger användarna friheten att dela sina data när som helst och med vem som helst de vill - PIVX tror på självbestämmande.</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;As our manifesto says: Privacy is a non-negotiable basic human right; it grants users the freedom to share their data whenever and with whomever they want - LYNX believes in self sovereignty.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>Som vår manifest säger: Integritet är en icke-förhandlingsbar grundläggande mänsklig rättighet; den ger användarna friheten att dela sina data när som helst och med vem som helst de vill - LYNX tror på självbestämmande.</translation>
     </message>
     <message>
-        <source>The masternode network is PIVX's second layer network on top of the blockchain that enables our DAO to provide decentralized governance and a treasury.</source>
-        <translation>Masternodenätverket är PIVX: s andra lagnätverk ovanpå blockkedjan som gör det möjligt för vår DAO att erbjuda decentraliserad styrning och en kassa.</translation>
+        <source>The masternode network is LYNX's second layer network on top of the blockchain that enables our DAO to provide decentralized governance and a treasury.</source>
+        <translation>Masternodenätverket är LYNX: s andra lagnätverk ovanpå blockkedjan som gör det möjligt för vår DAO att erbjuda decentraliserad styrning och en kassa.</translation>
     </message>
     <message>
-        <source>How PIVX respects your privacy?</source>
-        <translation>Hur respekterar PIVX din integritet?</translation>
+        <source>How LYNX respects your privacy?</source>
+        <translation>Hur respekterar LYNX din integritet?</translation>
     </message>
     <message>
         <source>Welcome to

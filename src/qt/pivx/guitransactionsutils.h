@@ -1,9 +1,9 @@
-// Copyright (c) 2019-2022 The PIVX Core developers
+// Copyright (c) 2019-2022 The LYNX Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef FURSZY_PIVX_GUITRANSACTIONSUTILS_H
-#define FURSZY_PIVX_GUITRANSACTIONSUTILS_H
+#ifndef FURSZY_LYNX_GUITRANSACTIONSUTILS_H
+#define FURSZY_LYNX_GUITRANSACTIONSUTILS_H
 
 #include "walletmodel.h"
 #include "qt/lynx/pwidget.h"
@@ -33,4 +33,4 @@ namespace GuiTransactionsUtils {
 }
 
 
-#endif //FURSZY_PIVX_GUITRANSACTIONSUTILS_H
+#endif //FURSZY_LYNX_GUITRANSACTIONSUTILS_H

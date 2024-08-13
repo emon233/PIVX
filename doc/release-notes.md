@@ -1,4 +1,4 @@
-PIVX Core version *5.6.0* is now available from:  <https://github.com/lynx-project/lynx/releases>
+LYNX Core version *5.6.0* is now available from:  <https://github.com/lynx-project/lynx/releases>
 
 This is a new major version release, including various bug fixes and performance improvements, as well as updated translations.
 
@@ -7,7 +7,7 @@ Please report bugs using the issue tracker at github: <https://github.com/lynx-p
 Mandatory Update
 ==============
 
-PIVX Core v5.6.0 is a mandatory update for all users. This release contains new consensus rules and improvements that are not backwards compatible with older versions. Users will need to update their clients before enforcement of this update goes into effect.
+LYNX Core v5.6.0 is a mandatory update for all users. This release contains new consensus rules and improvements that are not backwards compatible with older versions. Users will need to update their clients before enforcement of this update goes into effect.
 
 Exchange address activation is scheduled to go into effect at the following time:
 
@@ -21,14 +21,14 @@ Note: In preparation for the new address type activation, upgraded peers will st
 How to Upgrade
 ==============
 
-If you are running an older version, shut it down. Wait until it has completely shut down (which might take a few minutes for older versions), then run the installer (on Windows) or just copy over /Applications/PIVX-Qt (on Mac) or lynxd/lynx-qt (on Linux).
+If you are running an older version, shut it down. Wait until it has completely shut down (which might take a few minutes for older versions), then run the installer (on Windows) or just copy over /Applications/LYNX-Qt (on Mac) or lynxd/lynx-qt (on Linux).
 
 Notable Changes
 ==============
 
 ### New Exchange Address Type
 
-A new address type has been added for use by exchanges that require additional regulatory compliance. This new "exchange address" functions similarly to a regular PIVX address, but with one distinct difference; transactions originating from a SHIELD address are not allowed to be sent to said exchange addresses.
+A new address type has been added for use by exchanges that require additional regulatory compliance. This new "exchange address" functions similarly to a regular LYNX address, but with one distinct difference; transactions originating from a SHIELD address are not allowed to be sent to said exchange addresses.
 
 Creation of these new exchange addresses is available via the new `getnewexchangeaddress` RPC command. It takes an optional `label (string)` to set a label for the address if necessary. Functionality is the same comparatively to `getnewaddress`, `getnewstakingaddress` and `getnewshieldaddress`
 
@@ -51,7 +51,7 @@ It is now possible to use the GUI's Coin Control feature to manually select whic
 
 ### Generate a proposal payout address on-the-fly
 
-Proposal creators can now choose to generate a new PIVX address to be used as a proposal's payout address directly within the proposal creation wizard.
+Proposal creators can now choose to generate a new LYNX address to be used as a proposal's payout address directly within the proposal creation wizard.
 
 ### Lockable sapling notes (SHIELD UTXOs)
 
