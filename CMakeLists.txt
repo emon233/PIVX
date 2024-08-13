@@ -56,7 +56,7 @@ elseif(${CMAKE_SYSTEM_NAME} MATCHES "Linux")
         message(STATUS "Compiling on WSL")
         set(ENV{DISPLAY} ":0")
         set(ENV{LIBGL_ALWAYS_INDIRECT} 1)
-        set(CMAKE_RUNTIME_OUTPUT_DIRECTORY /home/$ENV{USER}/pivx-run)
+        set(CMAKE_RUNTIME_OUTPUT_DIRECTORY /home/$ENV{USER}/lynx-run)
         message(WARNING "WSL Runtime support requires VcXsrv to be installed and running")
     else()
         message(STATUS "Compiling on Linux")
@@ -111,8 +111,8 @@ else()
     )
 endif()
 
-# run configure if pivx_config.h doesn't exist
-if(EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/src/config/pivx-config.h")
+# run configure if lynx_config.h doesn't exist
+if(EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/src/config/lynx-config.h")
 else()
     execute_process(
         COMMAND ${CMAKE_CURRENT_SOURCE_DIR}/configure ${BDB_CONFIGURE_FLAGS} ${BOOST_R}
@@ -121,7 +121,7 @@ else()
 endif()
 
 # error out if configure fails
-if(EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/src/config/pivx-config.h")
+if(EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/src/config/lynx-config.h")
 else()
     execute_process(COMMAND cat config.log WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
     message(FATAL_ERROR "configure script didn't finish properly see config.log output above")
@@ -567,13 +567,13 @@ link_directories(
 
 link_directories(${CMAKE_BINARY_DIR})
 
-set(pivx-cli_SOURCES ${CMAKE_CURRENT_SOURCE_DIR}/src/pivx-cli.cpp)
+set(lynx-cli_SOURCES ${CMAKE_CURRENT_SOURCE_DIR}/src/lynx-cli.cpp)
 if($ENV{target} MATCHES "Windows")
-    list(APPEND pivx-cli_SOURCES ${CMAKE_CURRENT_SOURCE_DIR}/src/pivx-cli-res.rc)
+    list(APPEND lynx-cli_SOURCES ${CMAKE_CURRENT_SOURCE_DIR}/src/lynx-cli-res.rc)
 endif()
-add_executable(pivx-cli ${pivx-cli_SOURCES})
-add_dependencies(pivx-cli libunivalue libzcashrust bls)
-target_link_libraries(pivx-cli
+add_executable(lynx-cli ${lynx-cli_SOURCES})
+add_dependencies(lynx-cli libunivalue libzcashrust bls)
+target_link_libraries(lynx-cli
         CLI_A
         univalue
         UTIL_A
@@ -584,19 +584,19 @@ target_link_libraries(pivx-cli
         ${Boost_LIBRARIES} ${LIBEVENT_LIB} ${sodium_LIBRARY_RELEASE} -ldl pthread
         )
 if($ENV{target} MATCHES "Windows")
-    target_link_libraries(pivx-cli ${WINDOWS_LDADD})
+    target_link_libraries(lynx-cli ${WINDOWS_LDADD})
 endif()
 if(${CMAKE_SYSTEM_NAME} MATCHES "Darwin")
-    target_link_libraries(pivx-cli "-framework Cocoa")
+    target_link_libraries(lynx-cli "-framework Cocoa")
 endif()
 
-set(pivx-tx_SOURCES ${CMAKE_CURRENT_SOURCE_DIR}/src/pivx-tx.cpp)
+set(lynx-tx_SOURCES ${CMAKE_CURRENT_SOURCE_DIR}/src/lynx-tx.cpp)
 if($ENV{target} MATCHES "Windows")
-    list(APPEND pivx-tx_SOURCES ${CMAKE_CURRENT_SOURCE_DIR}/src/pivx-tx-res.rc)
+    list(APPEND lynx-tx_SOURCES ${CMAKE_CURRENT_SOURCE_DIR}/src/lynx-tx-res.rc)
 endif()
-add_executable(pivx-tx ${pivx-tx_SOURCES})
-add_dependencies(pivx-tx libunivalue libsecp256k1 libzcashrust bls)
-target_link_libraries(pivx-tx
+add_executable(lynx-tx ${lynx-tx_SOURCES})
+add_dependencies(lynx-tx libunivalue libsecp256k1 libzcashrust bls)
+target_link_libraries(lynx-tx
         univalue
         COMMON_A
         ZEROCOIN_A
@@ -609,25 +609,25 @@ target_link_libraries(pivx-tx
         ${Boost_LIBRARIES} ${LIBEVENT_LIB} ${sodium_LIBRARY_RELEASE} ${GMP_LIBRARY} -ldl pthread
         )
 if($ENV{target} MATCHES "Windows")
-    target_link_libraries(pivx-tx ${WINDOWS_LDADD})
+    target_link_libraries(lynx-tx ${WINDOWS_LDADD})
 endif()
 if(${CMAKE_SYSTEM_NAME} MATCHES "Darwin")
-    target_link_libraries(pivx-tx "-framework Cocoa")
+    target_link_libraries(lynx-tx "-framework Cocoa")
 endif()
 
-set(pivxd_SOURCES ${CMAKE_CURRENT_SOURCE_DIR}/src/pivxd.cpp)
+set(lynxd_SOURCES ${CMAKE_CURRENT_SOURCE_DIR}/src/lynxd.cpp)
 if($ENV{target} MATCHES "Windows")
-    list(APPEND pivxd_SOURCES ${CMAKE_CURRENT_SOURCE_DIR}/src/pivxd-res.rc)
+    list(APPEND lynxd_SOURCES ${CMAKE_CURRENT_SOURCE_DIR}/src/lynxd-res.rc)
 endif()
-add_executable(pivxd ${pivxd_SOURCES} ${BitcoinHeaders})
-add_dependencies(pivxd libunivalue libsecp256k1 libzcashrust leveldb crc32c bls)
-target_include_directories(pivxd PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/src
+add_executable(lynxd ${lynxd_SOURCES} ${BitcoinHeaders})
+add_dependencies(lynxd libunivalue libsecp256k1 libzcashrust leveldb crc32c bls)
+target_include_directories(lynxd PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/src
         ${CMAKE_CURRENT_SOURCE_DIR}/src/leveldb
         ${CMAKE_CURRENT_SOURCE_DIR}/src/leveldb/include
         ${CMAKE_CURRENT_SOURCE_DIR}/src/leveldb/helpers/memenv
         ${LIBEVENT_INCLUDE_DIR}
         ${GMP_INCLUDE_DIR})
-target_link_libraries(pivxd
+target_link_libraries(lynxd
         pthread
         SERVER_A
         WALLET_A
@@ -646,27 +646,27 @@ target_link_libraries(pivxd
         )
 if($ENV{target} MATCHES "Windows")
     set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -Wstack-protector -fstack-protector-all -fPIE -pipe -O2 -pthread -Wl,--dynamicbase -Wl,--nxcompat -Wl,--high-entropy-va -pie --static")
-    target_link_libraries(pivxd ${WINDOWS_LDADD})
+    target_link_libraries(lynxd ${WINDOWS_LDADD})
 endif()
 if(ZMQ_FOUND)
-    target_link_libraries(pivxd ZMQ_A ${ZMQ_LIB})
-    target_include_directories(pivxd PUBLIC ${ZMQ_INCLUDE_DIR})
+    target_link_libraries(lynxd ZMQ_A ${ZMQ_LIB})
+    target_include_directories(lynxd PUBLIC ${ZMQ_INCLUDE_DIR})
 endif()
 if(MINIUPNP_FOUND)
-    target_compile_definitions(pivxd PUBLIC "-DSTATICLIB -DMINIUPNP_STATICLIB")
-    target_link_libraries(pivxd ${MINIUPNP_LIBRARY})
-    target_include_directories(pivxd PUBLIC ${MINIUPNP_INCLUDE_DIR})
+    target_compile_definitions(lynxd PUBLIC "-DSTATICLIB -DMINIUPNP_STATICLIB")
+    target_link_libraries(lynxd ${MINIUPNP_LIBRARY})
+    target_include_directories(lynxd PUBLIC ${MINIUPNP_INCLUDE_DIR})
 endif()
 if(NAT-PMP_FOUND)
-    target_link_libraries(pivxd ${NAT-PMP_LIBRARY})
-    target_include_directories(pivxd PUBLIC ${NAT-PMP_INCLUDE_DIR})
+    target_link_libraries(lynxd ${NAT-PMP_LIBRARY})
+    target_include_directories(lynxd PUBLIC ${NAT-PMP_INCLUDE_DIR})
 endif()
 
 if(${CMAKE_SYSTEM_NAME} MATCHES "Darwin")
-    target_link_libraries(pivxd "-framework Cocoa")
+    target_link_libraries(lynxd "-framework Cocoa")
 endif()
 
-target_link_libraries(pivxd ${sodium_LIBRARY_RELEASE} -ldl -lpthread)
+target_link_libraries(lynxd ${sodium_LIBRARY_RELEASE} -ldl -lpthread)
 
 if(NOT DEFINED ENV{NO_QT})
   add_subdirectory(src/qt)

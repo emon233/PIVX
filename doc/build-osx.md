@@ -48,8 +48,8 @@ Build LYNX Core
 
 1. Clone the LYNX Core source code:
 
-        git clone https://github.com/pivx-project/pivx
-        cd pivx
+        git clone https://github.com/lynx-project/lynx
+        cd lynx
 
 2.  Build LYNX Core:
 
@@ -80,17 +80,17 @@ In this case there is no dependency on Berkeley DB 4.8.
 Running
 -------
 
-LYNX Core is now available at `./src/pivxd`
+LYNX Core is now available at `./src/lynxd`
 
 Before running, you may create an empty configuration file:
 
     mkdir -p "/Users/${USER}/Library/Application Support/LYNX"
 
-    touch "/Users/${USER}/Library/Application Support/LYNX/pivx.conf"
+    touch "/Users/${USER}/Library/Application Support/LYNX/lynx.conf"
 
-    chmod 600 "/Users/${USER}/Library/Application Support/LYNX/pivx.conf"
+    chmod 600 "/Users/${USER}/Library/Application Support/LYNX/lynx.conf"
 
-The first time you run pivxd, it will start downloading the blockchain. This process could take many hours, or even days on slower than average systems.
+The first time you run lynxd, it will start downloading the blockchain. This process could take many hours, or even days on slower than average systems.
 
 You can monitor the download process by looking at the debug.log file:
 
@@ -99,9 +99,9 @@ You can monitor the download process by looking at the debug.log file:
 Other commands:
 -------
 
-    ./src/pivxd -daemon # Starts the pivx daemon.
-    ./src/pivx-cli --help # Outputs a list of command-line options.
-    ./src/pivx-cli help # Outputs a list of RPC commands when the daemon is running.
+    ./src/lynxd -daemon # Starts the lynx daemon.
+    ./src/lynx-cli --help # Outputs a list of command-line options.
+    ./src/lynx-cli help # Outputs a list of RPC commands when the daemon is running.
 
 Notes
 -----

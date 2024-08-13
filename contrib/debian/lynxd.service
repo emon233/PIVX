@@ -1,23 +1,23 @@
 # It is not recommended to modify this file in-place, because it will
 # be overwritten during package upgrades. If you want to add further
 # options or overwrite existing ones then use
-# $ systemctl edit pivxd.service
+# $ systemctl edit lynxd.service
 # See "man systemd.service" for details.
 
 # Note that almost all daemon options could be specified in
-# /etc/pivx/pivx.conf
+# /etc/lynx/lynx.conf
 
 [Unit]
 Description=LYNX daemon
 After=network.target
 
 [Service]
-ExecStart=/usr/bin/pivxd -daemon -datadir=/var/lib/pivx -conf=/etc/pivx/pivx.conf -pid=/run/pivxd/pivxd.pid
-# Creates /run/pivxd owned by pivx
-RuntimeDirectory=pivxd
-User=pivx
+ExecStart=/usr/bin/lynxd -daemon -datadir=/var/lib/lynx -conf=/etc/lynx/lynx.conf -pid=/run/lynxd/lynxd.pid
+# Creates /run/lynxd owned by lynx
+RuntimeDirectory=lynxd
+User=lynx
 Type=forking
-PIDFile=/run/pivxd/pivxd.pid
+PIDFile=/run/lynxd/lynxd.pid
 Restart=on-failure
 
 # Hardening measures
