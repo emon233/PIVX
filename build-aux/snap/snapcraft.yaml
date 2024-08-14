@@ -106,7 +106,7 @@ parts:
       - fcitx-frontend-qt5
 
   lynx-core:
-    source: https://github.com/LYNX-Project/LYNX
+    source: https://github.com/PIVX-Project/PIVX
     source-type: git
     source-tag: master
     plugin: nil

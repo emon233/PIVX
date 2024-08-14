@@ -1,9 +1,9 @@
-LYNX Core version v5.3.1 is now available from: https://github.com/lynx-project/lynx/releases
+LYNX Core version v5.3.1 is now available from: https://github.com/pivx-project/pivx/releases
 
 This is an important release for stakers and Masternodes: including several tier two synchronization, GUI and build system bug fixes.
 We recommend everyone to update your node/wallet.
 
-Please report bugs using the issue tracker at github: https://github.com/lynx-project/lynx/issues
+Please report bugs using the issue tracker at github: https://github.com/pivx-project/pivx/issues
 
 How to Upgrade
 ==============

@@ -1,13 +1,13 @@
 LYNX Core version 3.0.0 is now available from:
 
-  <https://github.com/lynx-project/lynx/releases>
+  <https://github.com/pivx-project/pivx/releases>
 
 This is a new major version release, including various bug fixes and
 performance improvements, as well as updated translations.
 
 Please report bugs using the issue tracker at github:
 
-  <https://github.com/lynx-project/lynx/issues>
+  <https://github.com/pivx-project/pivx/issues>
 
 Mandatory Update
 ==============

@@ -29,8 +29,8 @@ Build-Depends: debhelper,
  dh-systemd
 Standards-Version: 3.9.2
 Homepage: http://www.lynx.org
-Vcs-Git: git://github.com/LYNX-Project/LYNX.git
-Vcs-Browser: http://github.com/LYNX-Project/LYNX
+Vcs-Git: git://github.com/PIVX-Project/PIVX.git
+Vcs-Browser: http://github.com/PIVX-Project/PIVX
 
 Package: lynxd
 Architecture: any

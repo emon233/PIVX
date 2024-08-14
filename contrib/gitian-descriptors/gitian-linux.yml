@@ -33,7 +33,7 @@ packages:
 - "ca-certificates"
 - "python3"
 remotes:
-- "url": "https://github.com/lynx-project/lynx.git"
+- "url": "https://github.com/pivx-project/pivx.git"
   "dir": "lynx"
 files: []
 script: |

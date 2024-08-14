@@ -48,7 +48,7 @@ Build LYNX Core
 
 1. Clone the LYNX Core source code:
 
-        git clone https://github.com/lynx-project/lynx
+        git clone https://github.com/pivx-project/pivx
         cd lynx
 
 2.  Build LYNX Core:

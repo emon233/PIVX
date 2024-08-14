@@ -28,7 +28,7 @@ Drag LYNX-Qt to your applications folder, and then run LYNX-Qt.
 
 ### Need Help?
 
-* See the documentation at the [LYNX Wiki](https://github.com/LYNX-Project/LYNX/wiki)
+* See the documentation at the [LYNX Wiki](https://github.com/PIVX-Project/PIVX/wiki)
 for help and more information.
 * Ask for help on the [LYNX Forum](http://forum.lynx.org/).
 * Join our Discord server [Discord Server](https://discord.lynx.org)

@@ -1,8 +1,8 @@
-LYNX Core version v5.2.0 is now available from:  <https://github.com/lynx-project/lynx/releases>
+LYNX Core version v5.2.0 is now available from:  <https://github.com/pivx-project/pivx/releases>
 
 This is a new major version release, including various bug fixes and visual improvements.
 
-Please report bugs using the issue tracker at github: <https://github.com/lynx-project/lynx/issues>
+Please report bugs using the issue tracker at github: <https://github.com/pivx-project/pivx/issues>
 
 Mandatory Update
 ==============

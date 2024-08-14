@@ -1,8 +1,8 @@
-LYNX Core version v5.4.0 is now available from: <https://github.com/lynx-project/lynx/releases>
+LYNX Core version v5.4.0 is now available from: <https://github.com/pivx-project/pivx/releases>
 
 This is a new major version release, including a brand-new visual graphical interface for the Governance system, tier two network stability improvements, various bug fixes and performance enhancements, as well as updated translations.
 
-Please report bugs using the issue tracker at github: <https://github.com/lynx-project/lynx/issues>
+Please report bugs using the issue tracker at github: <https://github.com/pivx-project/pivx/issues>
 
 How to Upgrade
 ==============
