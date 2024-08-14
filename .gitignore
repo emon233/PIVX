@@ -172,3 +172,4 @@ build*
 lynxd.*
 lynxd-new-gui.*
 /cov-int/
+.vscode
