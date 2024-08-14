@@ -54,8 +54,8 @@ void CChainParams::UpdateNetworkUpgradeParameters(Consensus::UpgradeIndex idx, i
  */
 static CBlock CreateGenesisBlock(uint32_t nTime, uint32_t nNonce, uint32_t nBits, int32_t nVersion, const CAmount& genesisReward)
 {
-    const char* pszTimestamp = "U.S. News & World Report Jan 28 2016 With His Absence, Trump Dominates Another Debate";
-    const CScript genesisOutputScript = CScript() << ParseHex("04c10e83b2703ccf322f7dbd62dd5855ac7c10bd055814ce121ba32607d573b8810c02c0582aed05b4deb9c4b77b26d92428c61256cd42774babea0a073b2ed0c9") << OP_CHECKSIG;
+    const char* pszTimestamp = "BD Prothom Alo Report August 14, 2024 Consequence of bank grabbing Tk 500b of Islami Bank in S Alam’s pocket";
+    const CScript genesisOutputScript = CScript() << ParseHex("048f3004c152178b939f34ac31a5ef8c81108413f083f18a5a89eab0b9b3f3d8487c46bd2c1cae1e551438594a016f80a69710f7679c2bd0809f2d9796b30fd892") << OP_CHECKSIG;
     return CreateGenesisBlock(pszTimestamp, genesisOutputScript, nTime, nNonce, nBits, nVersion, genesisReward);
 }
 
@@ -156,40 +156,15 @@ static Consensus::LLMQParams llmq400_85 = {
  * + Contains no strange transactions
  */
 static MapCheckpoints mapCheckpoints = {
-    { 259201, uint256S("1c9121bf9329a6234bfd1ea2d91515f19cd96990725265253f4b164283ade5dd")},
-    { 424998, uint256S("f31e381eedb0ed3ed65fcc98cc71f36012bee32e8efd017c4f9fb0620fd35f6b")},
-    { 616764, uint256S("29dd0bd1c59484f290896687b4ffb6a49afa5c498caf61967c69a541f8191557")}, //!< First block to use new modifierV1
-    { 623933, uint256S("c7aafa648a0f1450157dc93bd4d7448913a85b7448f803b4ab970d91fc2a7da7")},
-    { 791150, uint256S("8e76f462e4e82d1bd21cb72e1ce1567d4ddda2390f26074ffd1f5d9c270e5e50")},
-    { 795000, uint256S("4423cceeb9fd574137a18733416275a70fdf95283cc79ad976ca399aa424a443")},
-    { 863787, uint256S("5b2482eca24caf2a46bb22e0545db7b7037282733faa3a42ec20542509999a64")},
-    { 863795, uint256S("2ad866818c4866e0d555181daccc628056216c0db431f88a825e84ed4f469067")},
-    { 863805, uint256S("a755bd9a22b63c70d3db474f4b2b61a1f86c835b290a081bb3ec1ba2103eb4cb")},
-    { 867733, uint256S("03b26296bf693de5782c76843d2fb649cb66d4b05550c6a79c047ff7e1c3ae15")},
-    { 879650, uint256S("227e1d2b738b6cd83c46d1d64617934ec899d77cee34336a56e61b71acd10bb2")},
-    { 895400, uint256S("7796a0274a608fac12d400198174e50beda992c1d522e52e5b95b884bc1beac6")}, //!< Block that serial# range is enforced
-    { 895991, uint256S("d53013ed7ea5c325b9696c95e07667d6858f8ff7ee13fecfa90827bf3c9ae316")}, //!< Network split here
-    { 908000, uint256S("202708f8c289b676fceb832a079ff6b308a28608339acbf7584de533619d014d")},
-    {1142400, uint256S("98aff9d605bf123247f98b1e3a02567eb5799d208d78ec30fb89737b1c1f79c5")},
-    {1679090, uint256S("f747ce055ba1b12e1f2e842bd480bc647210799359cb2e553ab292065e3419d6")}, //!< First block with a "wrapped" serial spend
-    {1686229, uint256S("bb42bf1e886a7c23474634c90893dd3d68a6ccbfea4ac92a98da5cad0c6a6cb7")}, //!< Last block in the "wrapped" serial attack range
-    {1778954, uint256S("0d3241268264a2908d6babf00d9cd1ffb83d93d7bb4e428820127fe227c2029c")}, //!< Network split here
-    {1788528, uint256S("ea9243ff8fc079fdd7a04f11fac415de4d98e1bb0dc38db6f79f8f8bbfdbe496")}, //!< Network split here
-    {2153200, uint256S("14e477e597d24549cac5e59d97d32155e6ec2861c1003b42d0566f9bf39b65d5")}, //!< First v7 block
-    {2356049, uint256S("62e80d8e193bca84655fb78893b20f54a79f2d71124c4ea37b7ef51a0d5451c4")}, //!< Network split here
-    {2365700, uint256S("b5d0beead57735539abc2db2b0b08cd65db3e5928efd3c3bf3182d5bf013f36c")}, //!< LYNX v4.1.1 enforced
-    {2678402, uint256S("580a26ff0a45177a7a6f387f009c5b26140ea48b4790a857d9a796f8b3c25899")}, //!< Network split here
-    {3014000, uint256S("78ad99b7225f73c42238bd7ca841ff700542b92bba75a0ef2ed351caa560f87f")}, //!< LYNX v5.3.0 enforced
-    {3024000, uint256S("be4bc75afcfb9136924810f7483b2695089a366cc4ee27fd6dc3ecd5396e1f0f")}, //!< Superblock
-    {3715200, uint256S("a676b9a598c393c82b949c37dd35013aeda55f5d18ab062349db6a8235972aaa")}, //!< Superblock for 5.5.0 mainnet rewards changeover
+    {}
 };
 
 static const CCheckpointData data = {
     &mapCheckpoints,
-    1591401645, // * UNIX timestamp of last checkpoint block
-    5607713,    // * total number of transactions between genesis and last checkpoint
+    0, // * UNIX timestamp of last checkpoint block
+    0,    // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the UpdateTip debug.log lines)
-    3000        // * estimated number of transactions per day after checkpoint
+    0        // * estimated number of transactions per day after checkpoint
 };
 
 static MapCheckpoints mapCheckpointsTestnet = {
@@ -199,14 +174,14 @@ static MapCheckpoints mapCheckpointsTestnet = {
 
 static const CCheckpointData dataTestnet = {
     &mapCheckpointsTestnet,
-    1454124731,
+    1723613280,
     0,
     3000};
 
 static MapCheckpoints mapCheckpointsRegtest = {{0, uint256S("0x001")}};
 static const CCheckpointData dataRegtest = {
     &mapCheckpointsRegtest,
-    1454124731,
+    1723613280,
     0,
     100};
 
@@ -217,10 +192,10 @@ public:
     {
         strNetworkID = "main";
 
-        genesis = CreateGenesisBlock(1454124731, 2402015, 0x1e0ffff0, 1, 250 * COIN);
+        genesis = CreateGenesisBlock(1723613280, 0x00000000, 545259519, 1, 10000000 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x0000041e482b9b9691d98eefb48473405c0b8ec31b76df3797c74a78680ef818"));
-        assert(genesis.hashMerkleRoot == uint256S("0x1b2ef6e2f28be914103a277377ae7729dcd125dfeb8bf97bd5964ba72b6dc39b"));
+        assert(consensus.hashGenesisBlock == uint256S("0x5cb402ea54052692eb9c4cddce9b09de3f40d83f932f75277dc51dc16b982549"));
+        assert(genesis.hashMerkleRoot == uint256S("0x7c702e006c0a9ecf5cfc34a787b71b41093f1f0455a82149b033517266feddbc"));
 
         consensus.fPowAllowMinDifficultyBlocks = false;
         consensus.fPowNoRetargeting = false;
@@ -322,9 +297,9 @@ public:
         nDefaultPort = 51472;
 
         // Note that of those with the service bits flag, most only support a subset of possible options
-        vSeeds.emplace_back("lynx.seed.fuzzbawls.pw", true);     // Primary DNS Seeder from Fuzzbawls
-        vSeeds.emplace_back("lynx.seed2.fuzzbawls.pw", true);    // Secondary DNS Seeder from Fuzzbawls
-        vSeeds.emplace_back("dnsseed.liquid369.wtf", true);     // Primary DNS Seeder from Liquid369
+        vSeeds.emplace_back("104.251.210.142", true);     // Primary DNS Seeder from Fuzzbawls
+        // vSeeds.emplace_back("104.251.210.142", true);    // Secondary DNS Seeder from Fuzzbawls
+        // vSeeds.emplace_back("104.251.210.142", true);     // Primary DNS Seeder from Liquid369
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 30);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 13);
@@ -381,10 +356,10 @@ public:
     {
         strNetworkID = "test";
 
-        genesis = CreateGenesisBlock(1454124731, 2402015, 0x1e0ffff0, 1, 250 * COIN);
+        genesis = CreateGenesisBlock(1723613280, 0x00000000, 545259519, 1, 10000000 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x0000041e482b9b9691d98eefb48473405c0b8ec31b76df3797c74a78680ef818"));
-        assert(genesis.hashMerkleRoot == uint256S("0x1b2ef6e2f28be914103a277377ae7729dcd125dfeb8bf97bd5964ba72b6dc39b"));
+        assert(consensus.hashGenesisBlock == uint256S("0x5cb402ea54052692eb9c4cddce9b09de3f40d83f932f75277dc51dc16b982549"));
+        assert(genesis.hashMerkleRoot == uint256S("0x7c702e006c0a9ecf5cfc34a787b71b41093f1f0455a82149b033517266feddbc"));
 
         consensus.fPowAllowMinDifficultyBlocks = true;
         consensus.fPowNoRetargeting = false;
@@ -469,8 +444,8 @@ public:
         nDefaultPort = 51474;
 
         // nodes with support for servicebits filtering should be at the top
-        vSeeds.emplace_back("lynx-testnet.seed.fuzzbawls.pw", true);
-        vSeeds.emplace_back("lynx-testnet.seed2.fuzzbawls.pw", true);
+        vSeeds.emplace_back("104.251.210.142", true);
+        // vSeeds.emplace_back("lynx-testnet.seed2.fuzzbawls.pw", true);
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 139); // Testnet lynx addresses start with 'x' or 'y'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 19);  // Testnet lynx script addresses start with '8' or '9'
@@ -527,10 +502,10 @@ public:
     {
         strNetworkID = "regtest";
 
-        genesis = CreateGenesisBlock(1454124731, 1, 0x207fffff, 1, 250 * COIN);
+        genesis = CreateGenesisBlock(1723613280, 0x00000000, 545259519, 1, 10000000 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x7445589c4c8e52b105247b13373e5ee325856aa05d53f429e59ea46b7149ae3f"));
-        assert(genesis.hashMerkleRoot == uint256S("0x1b2ef6e2f28be914103a277377ae7729dcd125dfeb8bf97bd5964ba72b6dc39b"));
+        assert(consensus.hashGenesisBlock == uint256S("0x5cb402ea54052692eb9c4cddce9b09de3f40d83f932f75277dc51dc16b982549"));
+        assert(genesis.hashMerkleRoot == uint256S("0x7c702e006c0a9ecf5cfc34a787b71b41093f1f0455a82149b033517266feddbc"));
 
         consensus.fPowAllowMinDifficultyBlocks = true;
         consensus.fPowNoRetargeting = true;
@@ -690,3 +665,22 @@ void UpdateNetworkUpgradeParameters(Consensus::UpgradeIndex idx, int nActivation
 {
     globalChainParams->UpdateNetworkUpgradeParameters(idx, nActivationHeight);
 }
+
+
+// $ sha256 "Welcome to LYNX coin builder"
+// => c2fccc9e96476c069e79156ebaa5f2a5025ca6e4277cc18e90244d40a62b6632
+// $ pubkey -u c2fccc9e96476c069e79156ebaa5f2a5025ca6e4277cc18e90244d40a62b6632
+// => 048f3004c152178b939f34ac31a5ef8c81108413f083f18a5a89eab0b9b3f3d8487c46bd2c1cae1e551438594a016f80a69710f7679c2bd0809f2d9796b30fd892
+// $ cpp_miner genesisgen 048f3004c152178b939f34ac31a5ef8c81108413f083f18a5a89eab0b9b3f3d8487c46bd2c1cae1e551438594a016f80a69710f7679c2bd0809f2d9796b30fd892 "BD Report Aug 14, 2024 Tk 500b of Islami Bank in S Alam's pocket" 10000000 1723613280 545259519 0
+
+
+// Timestamp Message: "BD Prothom Alo Report August 14, 2024 Consequence of bank grabbing Tk 500b of Islami Bank in S Alam’s pocket"
+// Current Timestamp: 1723613280
+// nBits: 545259519 (in decimal)
+// Premine: 10000000
+// Nonce: 0 
+
+// block header: 010000000000000000000000000000000000000000000000000000000000000000000000bcddfe66725133b04921a855041f3f09411bb787a734fc5ccf9e0a6c002e707c6040bc66ffff7f2000000000
+// nonce: 0x00000000
+// block hash: 5cb402ea54052692eb9c4cddce9b09de3f40d83f932f75277dc51dc16b982549
+// merkle root: 7c702e006c0a9ecf5cfc34a787b71b41093f1f0455a82149b033517266feddbc
